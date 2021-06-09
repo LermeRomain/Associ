@@ -6,8 +6,7 @@
           <li><a href="/#about">À propos</a></li>
           <li><a href="/#services">Services</a></li>
           <li><a href="/#video">Video</a></li>
-          <li><a href="/#newsletter">Newsletter</a></li>
-          <li><router-link :to="'/Legale'">Mentions legales</router-link></li>
+          <li><router-link :to="'/Legale'">Connexion</router-link></li>
         </ul>
       </div>
     </div>

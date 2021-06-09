@@ -1,103 +1,85 @@
 <template>
+  <div class="container" @submit.prevent="sendEmail">
+    <form>
+      <label>Name</label>
+      <input
+          type="text"
+          name="from_name"
+          placeholder="Your Name"
+      >
+      <label>Email</label>
+      <input
+          type="email"
+          name="from_email"
+          placeholder="Your Email"
+      >
+      <label>Message</label>
+      <textarea
+          name="message"
+          cols="30" rows="5"
+          placeholder="Message">
+          </textarea>
 
-  <div class="newsletter container-fluid" id="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Inscription</h1>
-            <form>
-            <div class="emailBox">
-              <div class="champ">
-              <label class="align-self-star" for="name">Votre prénom</label>
-              <input class="form-control" type="text" id="name" name="name" minlength="4" placeholder="prenom ici" required>
-              </div>
-              <div class="champ">
-              <label for="emailAddress">Votre adresse mail</label><br>
-              <input class="form-control" id="emailAddress" type="email" size="30" maxLength="30" required
-                     placeholder="adresse mail là" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"
-                     title="Merci de fournir uniquement une adresse mail">
-              </div>
-
-            </div>
-            <div class="champ">
-            <input class="btn btn-dark" type="submit" id="valide" value="S'inscrire">
-            </div>
-          </form>
-
-        </div>
-
-        <div class="col-md-6 text-center">
-          <img v-bind:src="require('../assets/dance2.jpg')" alt="service-image" />
-        </div>
-
-      </div>
-    </div>
+      <input type="submit" value="Send">
+    </form>
   </div>
 </template>
-
 <script>
+import emailjs from 'emailjs-com';
 export default {
- name: 'Login',
- data() {
-   return {
-     input: {
-       emailAddress: "",
-       password: ""
-     },
-   }
-
- }
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('default_service', 'template_a3dcm1w', e.target,
+          'user_ktMAhXA7PImUgySAh1SCN')
+          .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+            alert("c bon");
+          }, (error) => {
+            console.log('FAILED...', error);
+          });
+    }
+  }
 }
 </script>
 
-
 <style scoped>
+* {box-sizing: border-box;}
 
-.champ{
-  padding-top: 20px;
-}
-
-.newsletter{
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-img {
-  width: 100%;
+.container {
+  display: block;
+  margin:auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
 }
 
 label {
-  font-size: 15px;
-  text-align: left!important;
-
+  float: left;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: bold;
-  text-transform: uppercase;
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-h4 {
-  font-weight: bold;
-  color: #FECF98;
-  text-transform: uppercase;
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-
-
-#login {
- width: 400px;
- border: 2px solid #CCCCCC;
- background-color: white;
- margin: auto;
- margin-top: 20px;
- padding: 20px;
-
+input[type=submit]:hover {
+  background-color: #45a049;
 }
-#map{
- margin-left: 470px;
- margin-top: 20px;
-}
-
 </style>

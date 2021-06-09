@@ -6,17 +6,13 @@
 
             <h1>À propos de <span>NOUS ?</span></h1>
             <p> coucou c'est nous les chats</p>
-            <audio controls preload="auto" autoplay="autoplay">
-              <source src=""
-                      type="audio/mpeg">
-            </audio>
 
             <button class="btn btn-dark" type="button" >Btn découvrir</button>
 
           </div>
 
           <div class="col-md-6 text-center">
-            <img v-bind:src="require('../assets/dance.jpg')" width="450" alt="service-image" />
+            <img v-bind:src="require('../assets/chatmeme.jpg')" width="450" alt="service-image" />
           </div>
 
         </div>
