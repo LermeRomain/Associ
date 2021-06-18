@@ -86,8 +86,8 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 19px;
   padding: 24px 32px;
+  line-height: 100.8%;
   /* identical to box height */
 
   text-align: center;

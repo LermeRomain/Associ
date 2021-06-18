@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6">
-        <video src="../assets/videoCible.mp4" width=100%  height=100% controls title="vidéo explainer du concept Associ"></video>
+        <video src="../assets/videoCible.mp4" width=100%  height=85% controls title="vidéo explainer du concept Associ"></video>
       </div>
       <div class="col-12 col-md-6">
         <h1>Notre expertise</h1>
@@ -49,9 +49,6 @@ p{
   opacity: 0.7;
 }
 
-#col{
-  padding: 55px;
-}
 .col-12{
   margin-bottom: 30px;
 }
