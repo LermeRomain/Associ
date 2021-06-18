@@ -1,15 +1,15 @@
 <template>
   <div class="background container-fluid">
-    <div class="banner_content container">
+    <div class="container">
       <div class="row">
-        <div class="col-md-6">
-
-          <h1>Compet<br>DC campus</h1>
-          <p> LP des chats</p>
-          <button class="btn btn-primary" type="button" >Découvrir</button>
-          <button class="btn btn-dark" type="button" >Nous contacter</button>
-        </div>
-          <div class="col-md-6 text-center">
+        <div class="col-12 col-md-6">
+            <p>Nous découvrir</p>
+              <h2><span> Créez votre</span> association</h2>
+              <p id="txt1">Associ vous aidera dans la création de votre association. À partir de 16 ans, vous aurez la possibilité avec un associé de la créer sans personne majeure à vos côtés. De l’administratif à la gestion de la trésorerie, nous vous accompagnerons tout au long de votre vie associative.</p>
+            <button class="btn" type="button" >Créer mon association</button>
+          </div>
+        <div class="d-none d-sm-block d-none d-md-block col-md-6">
+          <img src="../assets/teams.svg">
         </div>
       </div>
     </div>
@@ -25,43 +25,78 @@ export default {
 
 <style scoped>
 
-
-h1, p {
-  color: white;
-  padding-bottom: 15px;
-}
-
-h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
 p{
-  font-size: 15px;
-  font-weight: lighter;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #219EBC;
+}
+#txt1{
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1A1D32;
+  opacity: 0.7;
+  text-align: justify-all;
 }
 
-.col-md-6 {
-  padding: 15px;
-  padding-top: 50px;
+h2{
+  height: 59px;
+  width: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  color: #1A1D32;
+  margin-bottom: 90px;
 }
+
+span{
+  background-image: url("../assets/backSpan.png");
+  padding-bottom: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  color: #1A1D32;
+}
+
 
 .background{
   padding-top: 100px;
-  background-color: #FECF98;
-  padding-bottom: 70px;
+  background-color: white;
+  padding-bottom: 100px;
 }
-.btn-primary {
-  background-color: #E3A964;
-  border-color: #E3A964 ;
-  margin-right: 15px;
+
+img {
+  width: 100%;
+  height: 100%;
 }
+.btn {
+  display: flex;
+  margin-top: 20%;
+  background: #219EBC;
+  border-radius: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 19px;
+  padding: 24px 32px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
 
 .btn:hover {
-  transform: scale(1.1);
-}
-
-img{
-  width: 100%;
+  transform: scale(1.05);
 }
 </style>

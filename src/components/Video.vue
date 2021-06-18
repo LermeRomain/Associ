@@ -1,11 +1,27 @@
 <template>
-  <div class="background container-fluid" id="video">
-    <div class="banner_content container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Ici c'est le h1</h1>
-          <p>Zone de txt</p>
-          <button class="btn btn-dark" type="button" >Boutton</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <img src="../assets/Capture.svg" class="rounded d-block" alt="Responsive image">
+      </div>
+      <div class="col-12 col-md-6">
+        <h5>Un logiciel de gestion pour tout <span>types d'associations</span></h5>
+        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+          Découvrir
+        </button>
+      </div>
+      <div class="row" id="col">
+        <div class="col-12 col-md-4">
+          <h3>Simple</h3>
+          <p>Un e-mail, un mot de passe et c’est parti. Démarrez simplement la création de votre association</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3>Agréable</h3>
+          <p>Une interface de synthèse simple pour vous faciliter dans vos tâches quotidienne.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3>Gratuit</h3>
+          <p>Une solution pensée pour tous.</p>
         </div>
       </div>
     </div>
@@ -14,54 +30,102 @@
 
 <script>
 export default {
-  name:'Video'
+  name: 'Video'
 
 }
 </script>
 
 <style scoped>
 
-.facebook {
-
+.container{
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
-
-
-h1, p {
-  color: white;
-  padding-bottom: 5px;
-}
-
-h1 {
-  font-size: 40px;
+h5 {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
+  font-size: 45px;
+  line-height: 101.8%;
+  /* identical to box height, or 59px */
+  letter-spacing: -0.01em;
+  /* Text */
+  color: #1A1D32;
+}
+
+span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 101.8%;
+  /* identical to box height, or 59px */
+  letter-spacing: -0.01em;
+  /* Text */
+  color: #FB8500;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1A1D32;
+  opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+
+  background: #219EBC;
+  width: 50%;
+  height: 90px;
+  border-radius: 40px;
+
+}
+
+h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 101.8%;
+  /* identical to box height, or 59px */
+  letter-spacing: -0.01em;
+  /* Text */
+  color: #1A1D32;
+  text-align: center;
 }
 
 p{
-  font-size: 15px;
-  font-weight: lighter;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1A1D32;
+  opacity: 0.7;
+  text-align: center;
 }
 
-.col-md-6 {
-  padding: 15px;
+#col{
+  padding: 55px;
 }
-
-.background{
-  padding-top:70px;
-  background-color: #FECF98;
-  padding-bottom: 70px;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-}
-
-
-
-@media screen and (max-width: 1300px){
-  #video {
-    width: 400px;
-    height: 220px;
-  }
+.col-12{
+  margin-bottom: 30px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="arrow">
-<a href="#nav"><img src="http://i.stack.imgur.com/SBv4T.gif" alt="pokemon" ></a>
+<a href="#nav"><img src="../assets/discord.png" alt="Lien serveur discord Associ" ></a>
 
 	</div>
 </template>
@@ -26,8 +26,6 @@ export default {
 	line-height: 50px;
 	text-align: center;
 	cursor: pointer;
-	background: #FECF98;
-	border-radius: 50%;
 	transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 

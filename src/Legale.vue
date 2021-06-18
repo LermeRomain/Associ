@@ -1,16 +1,12 @@
 <template>
 
   <section id="content">
-    <Header />
-    <Banner />
     <Sign />
   </section>
 
 </template>
 
 <script>
-import Header from './components/Header'
-import Banner from "@/components/Banner";
 import Sign from "@/components/Sign";
 
 
@@ -19,8 +15,6 @@ export default {
   name: 'Legale',
   components:{
     Sign,
-    Banner,
-    Header
   }
 }
 

@@ -20,6 +20,7 @@
     "scss": "^0.2.4",
     "vue": "^2.6.12",
     "vue-router": "^3.4.8",
+    "vue-videobg": "^2.0.0",
     "vue2-leaflet": "^2.7.0",
     "vuejs-vr": "^1.2.2",
     "vuex": "^3.6.0"

@@ -1,28 +1,7 @@
 <template>
-  <div class="container" @submit.prevent="sendEmail">
-    <form>
-      <label>Name</label>
-      <input
-          type="text"
-          name="from_name"
-          placeholder="Your Name"
-      >
-      <label>Email</label>
-      <input
-          type="email"
-          name="from_email"
-          placeholder="Your Email"
-      >
-      <label>Message</label>
-      <textarea
-          name="message"
-          cols="30" rows="5"
-          placeholder="Message">
-          </textarea>
-
-      <input type="submit" value="Send">
-    </form>
-  </div>
+  <container>
+    <iframe width="100%" height="100%" src="https://b01bfbbf.sibforms.com/serve/MUIEAGKudq4vcHC-QJ_VBnTtF5Y-0UwrJE_G3sTlGGVUx1cbLeAALQ6afe7qxSuqkyTb94mjNxDsl1nOh-WPsSwfD7D828AZO6kx2QGv7oCHPmQ8CX-PuIeScnUx6Q30rc-KvH-HtzfVuXh9Dk4HeDsoFzZBBFL9WK7vKVUN8rql763LqUVFzKC6I8w4wdZYRUYfsh1kt0bLyqMn" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+  </container>
 </template>
 <script>
 import emailjs from 'emailjs-com';
@@ -33,7 +12,7 @@ export default {
           'user_ktMAhXA7PImUgySAh1SCN')
           .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
-            alert("c bon");
+            alert("Vous êtes bien inscrit sur la Newsletter");
           }, (error) => {
             console.log('FAILED...', error);
           });
@@ -41,18 +20,26 @@ export default {
   }
 }
 </script>
+<script>
+export default {
+  name:'Login'
+
+}
+</script>
 
 <style scoped>
 * {box-sizing: border-box;}
 
-.container {
+container {
   display: block;
   margin:auto;
   text-align: center;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  width: 50%;
+  width: 100%;
+  height: 650px;
+  margin-top: 40%;
 }
 
 label {

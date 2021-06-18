@@ -6,6 +6,9 @@
     <About />
     <Services />
     <Video />
+    <Lancement />
+    <Retour />
+    <Carrousel />
     <login />
     <Arrow />
   </section>
@@ -17,13 +20,19 @@ import Banner from './components/Banner'
 import About from './components/About'
 import Services from './components/Services'
 import Video from './components/Video'
+import Lancement from './components/Lancement'
+import Retour from "./components/Retour";
 import Arrow from './components/Arrow'
 import Login from "./components/login";
+import Carrousel from "./components/Carrousel";
 
 
 export default {
   name: 'App',
   components:{
+    Carrousel,
+    Retour,
+    Lancement,
     Video,
     Login,
     Banner,

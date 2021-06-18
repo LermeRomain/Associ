@@ -1,18 +1,16 @@
 <template>
  <div class="footer">
    <div class="container text-center">
-     <a href="#"><i class="fab fa-instagram"></i></a>
-     <a href="#"> <i class="fab fa-facebook-f"></i></a>
-     <a href="#"><i class="fab fa-linkedin-in"></i></a>
-     <a href="#"><i class="fab fa-youtube"></i></a>
-     <a href="#"><i class="fab fa-twitter"></i></a>
+     <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
+     <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
      <div class="row container">
        <div class="col-md-3 text-center block_2">
          <h5>Pages</h5>
          <div class="menub">
          <a href="#">Accueil</a>
-         <a href="#">À propos</a>
-         <a href="#">Contact</a>
+           <a href="#">Blog</a>
+         <a href="#">Qui sommes-nous ?</a>
+         <a href="#">Presse</a>
          </div>
        </div>
 
@@ -22,27 +20,22 @@
          <a href="#">Mentions légales</a>
          <a href="#">Politique de cookies</a>
          <a href="#">Confidentialité</a>
+           <a href="#">Newsletter</a>
          </div>
        </div>
 
        <div class="col-md-3 text-center">
          <h5>Contactez-nous</h5>
          <div class="menub block_2">
-           <p><i class="fas fa-phone"></i> 06 12 34 56 78</p>
-           <p><i class="fas fa-map-marker-alt"></i> route des chats,<br></p>
+           <input type="email" name="EMAIL" id="email" placeholder="Entrer votre email" >
+           <button type="submit" class="button">S'inscrire</button>
          </div>
        </div>
-
-       <div class="icon col-md-3 text-center block_2">
-     <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99180.6332193097!2d125.67207167718999!3d39.02911725842702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357e02dae64f4337%3A0xd40677e21771aa95!2sPyongyang%2C%20Cor%C3%A9e%20du%20Nord!5e0!3m2!1sfr!2sfr!4v1604565786486!5m2!1sfr!2sfr"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-       </div>
      </div>
-     <p>Tous droits réservés©</p>
 
-
+     <p>Tous droits réservés© Associ</p>
    </div>
-
-			</div>
+ </div>
 </template>
 
 
@@ -57,28 +50,46 @@ export default {
 <style>
 
 a {
-  color: white;
-  font-weight: lighter;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+
+  /* Text */
+
+  color: #093046;
+
+  text-align: left;
 }
 p{
   font-weight: lighter;
 }
 
 a:hover {
-  color: #FECF98;
+  transform: scale(1.1);
 }
 
 .block_2 {
   padding-bottom: 50px;
 }
 
-#map {
-  padding: 10px;
-  width: 300px;
-}
-
 h5 {
-  color: #FECF98;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  /* identical to box height */
+
+
+  /* Text */
+
+  color: #093046;
+
+  text-align: left;
 }
 
 .menub {
@@ -87,14 +98,10 @@ h5 {
 
 .fab {
   font-size: 20px;
-  color: white;
+  color: black;
   margin:10px;
   padding-bottom: 40px;
 
-}
-
-.fas {
-  margin-right:7px;
 }
 
 .fab:hover{
@@ -102,9 +109,32 @@ h5 {
 }
 
 .footer{
-  background-color: #343a40;
+  background-color: #EFF8F8;
   padding-top: 40px;
   padding-bottom: 30px;
+  color: black;
+}
+
+.button{
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
   color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.button {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
 }
 </style>

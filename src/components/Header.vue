@@ -1,64 +1,95 @@
 <template>
-  <div class="navbar container-fluid" id="nav">
-    <div class="container">
-      <div class="navbar_items">
-        <ul>
-          <li><a href="/#about">À propos</a></li>
-          <li><a href="/#services">Services</a></li>
-          <li><a href="/#video">Video</a></li>
-          <li><router-link :to="'/Legale'">Connexion</router-link></li>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <img src="../assets/logo.svg" alt="Logo de l'organisme Associ">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#nav">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Qui sommes nous?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://associ-blog.000webhostapp.com">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#login">Presse</a>
+          </li>
+        </ul>
+        <ul class="form-inline my-2 my-lg-0">
+          <a class="nav-link" href="/#login">Créer mon association</a>
+          <li class="active">
+            <router-link :to="'/Legale'"><a class="nav-link active" href="#">Se connecter</a></router-link>
+          </li>
         </ul>
       </div>
-    </div>
+    </nav>
   </div>
-</template>
 
+</template>
 
 
 <script>
 export default {
-    name:'Header'
+  name: 'Header'
 
 }
 
 </script>
 
 
-
 <style scoped>
 
-
-.navbar container-fluid{
-  background-color: #FECF98;
-}
-.navbar{
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+img {
+  height: 37px;
 }
 
-
-.navbar_items ul{
-  display: flex;
+.navbar-nav a {
+  text-decoration-line: none;
 }
 
-.navbar_items ul li{
-  margin: 0 10px;
-  padding-top: 10px;
-}
-
-.navbar_items ul li a{
+.nav-link {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  color: #fff;
-  padding: 5px;
+  color: #7D8790;
+  padding: 10px;
+  position: relative;
 }
 
-.navbar_items ul li a:hover {
-  text-decoration: none;
-  color: black;
+.nav-link:not(.active) hover {
+  color: #219EBC;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
+.nav-link:not(.active):hover:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 20px;
+  background-image: url("../assets/point.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+}
+
+.active {
+  background: #219EBC;
+  box-shadow: 0px 100px 161px rgba(245, 155, 90, 0.08), 0px 64.8148px 94.2894px rgba(245, 155, 90, 0.0607407), 0px 38.5185px 51.2815px rgba(245, 155, 90, 0.0485926), 0px 20px 26.1625px rgba(245, 155, 90, 0.04), 0px 8.14815px 13.1185px rgba(245, 155, 90, 0.0314074), 0px 1.85185px 6.33565px rgba(245, 155, 90, 0.0192593);
+  border-radius: 40px;
+  color: white;
+}
+
+.active:hover {
+  transform: scale(1.05);
+  text-decoration-line: none;
+  margin-left: 10px;
+}
+
 </style>
