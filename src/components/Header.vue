@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <img src="../assets/logo.svg" alt="Logo de l'organisme Associ">
+       <a href=""><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#nav">Accueil</a>
@@ -24,7 +24,7 @@
         <ul class="form-inline my-2 my-lg-0">
           <a class="nav-link" href="/#login">Créer mon association</a>
           <li class="active">
-            <router-link :to="'/Legale'"><a class="nav-link active" href="#">Se connecter</a></router-link>
+            <router-link :to="'/Legale'"><a class="nav-link active" href="#" title="Lien vers la page de connexion">Se connecter</a></router-link>
           </li>
         </ul>
       </div>
@@ -90,6 +90,12 @@ img {
   transform: scale(1.05);
   text-decoration-line: none;
   margin-left: 10px;
+}
+
+.fab{
+  font-size: 17px;
+  color: #7D8790;
+  position: relative;
 }
 
 </style>

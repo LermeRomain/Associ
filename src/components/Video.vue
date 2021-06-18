@@ -5,22 +5,22 @@
         <img src="../assets/Capture.svg" class="rounded d-block" alt="Responsive image">
       </div>
       <div class="col-12 col-md-6">
-        <h5>Un logiciel de gestion pour tout <span>types d'associations</span></h5>
+        <h1>Un logiciel de gestion pour tout <span>types d'associations</span></h1>
         <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
           Découvrir
         </button>
       </div>
       <div class="row" id="col">
         <div class="col-12 col-md-4">
-          <h3>Simple</h3>
+          <h2>Simple</h2>
           <p>Un e-mail, un mot de passe et c’est parti. Démarrez simplement la création de votre association</p>
         </div>
         <div class="col-12 col-md-4">
-          <h3>Agréable</h3>
+          <h2>Agréable</h2>
           <p>Une interface de synthèse simple pour vous faciliter dans vos tâches quotidienne.</p>
         </div>
         <div class="col-12 col-md-4">
-          <h3>Gratuit</h3>
+          <h2>Gratuit</h2>
           <p>Une solution pensée pour tous.</p>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default {
   margin-bottom: 150px;
 }
 
-h5 {
+h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -98,7 +98,7 @@ img {
 
 }
 
-h3{
+h2{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;

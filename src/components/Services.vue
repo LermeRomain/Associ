@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6">
-        <video src="../assets/videoCible.mp4" width=100%  height=100% controls ></video>
+        <video src="../assets/videoCible.mp4" width=100%  height=100% controls title="vidéo explainer du concept Associ"></video>
       </div>
       <div class="col-12 col-md-6">
-        <h3>Notre expertise</h3>
+        <h1>Notre expertise</h1>
         <p>Associ ambitionne de devenir le partenaire, local, digital de confiance des associatons d’adolescents pour accélérer leur croissance. Gérer votre profil comme vous le souhaitez.<br><br>
           Notre site web vous permettra de faciliter la création d’une association d’un point de vue administratif.
           Nous vous  offrons un service de suivi de gestion de votre association (trésorerie, réseaux sociaux, conseil et coaching, gérer les membres, trouver un lieu, gérer les donations).<br><br>
@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 
-h3{
+h1{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;

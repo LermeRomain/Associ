@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-12 col-sm-12">
-        <h2>Retour d'expérience</h2>
+        <h1>Retour d'expérience</h1>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@ name: "Retour"
 .container{
   margin-top: 150px;
 }
-h2{
+h1{
   height: 50px;
   width: 100%;
   font-family: Roboto;

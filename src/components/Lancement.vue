@@ -67,8 +67,8 @@ h2{
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  margin-top: 7px;
-  padding-top: 7px;
+  margin-top: 5px;
+  padding-top: 5px;
 
 }
 
