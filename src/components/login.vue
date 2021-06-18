@@ -28,14 +28,16 @@ export default {
 </script>
 
 <style scoped>
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 container {
   display: block;
   margin:auto;
   text-align: center;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: white;
   padding: 20px;
   width: 100%;
   height: 650px;
@@ -68,5 +70,9 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+iframe{
+  color: white;
 }
 </style>

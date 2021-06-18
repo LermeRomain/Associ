@@ -63,7 +63,7 @@ span {
   /* identical to box height, or 59px */
   letter-spacing: -0.01em;
   /* Text */
-  color: #FB8500;
+  color: #FD4C6F;
 }
 
 p {
@@ -91,7 +91,7 @@ img {
   text-align: center;
   color: #FFFFFF;
 
-  background: #219EBC;
+  background: #404DEF;
   width: 50%;
   height: 90px;
   border-radius: 40px;

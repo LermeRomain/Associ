@@ -1,8 +1,10 @@
 <template>
  <div class="footer">
    <div class="container text-center">
+     <img class="logo_Footer" src="../assets/logoFooter.svg">
      <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
      <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
+     <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
      <div class="row container">
        <div class="col-md-3 text-center block_2">
          <h1>Pages</h1>
@@ -24,10 +26,11 @@
          </div>
        </div>
 
-       <div class="col-md-3 text-center">
+       <div class="col-md-5 text-center block_2">
          <h1>Contactez-nous</h1>
-         <div class="menub block_2">
+         <div class="menub">
            <input type="email" name="EMAIL" id="email" placeholder="Entrer votre email" >
+           <p1>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour plus d’informations, nous vous invitons à vous rendre sur notre page de <span>Politique de confidentialité.</span></p1>
            <button type="submit" class="button">S'inscrire</button>
          </div>
        </div>
@@ -62,10 +65,19 @@ a {
 
   color: #093046;
 
-  text-align: left;
 }
 p{
   font-weight: lighter;
+}
+p1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  color: #093046;
+
 }
 
 a:hover {
@@ -89,7 +101,6 @@ h1 {
 
   color: #093046;
 
-  text-align: left;
 }
 
 .menub {
@@ -98,35 +109,48 @@ h1 {
 
 .fab {
   font-size: 20px;
-  color: black;
+  color: #404DEF;
   margin:10px;
   padding-bottom: 40px;
 
 }
 
 .fab:hover{
-  color: #FECF98;
+  transform: scale(1.05);
 }
 
 .footer{
-  background-color: #EFF8F8;
+  background-color: #F0F1FE;
   padding-top: 40px;
   padding-bottom: 30px;
   color: black;
 }
 
+
 .button{
-  margin: 10px;
-  padding: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 20px;
   text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  color: #FFFFFF;
+
+  background: #404DEF;
+  width: 50%;
+  height: 50px;
+  border-radius: 40px;
+  display: block;
+  margin: auto;
+}
+
+span{
+  color: #404DEF;
+}
+
+.logo_Footer{
+  height: 10%;
+  width: 10%;
 }
 
 </style>

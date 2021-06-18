@@ -3,7 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
-            <p>Nous découvrir</p>
               <h1><span> Créez votre</span> association</h1>
               <p id="txt1">Associ vous aidera dans la création de votre association. À partir de 16 ans, vous aurez la possibilité avec un associé de la créer sans personne majeure à vos côtés. De l’administratif à la gestion de la trésorerie, nous vous accompagnerons tout au long de votre vie associative.</p>
             <button class="btn" type="button" >Créer mon association</button>
@@ -31,7 +30,7 @@ p{
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  color: #219EBC;
+  color: #404DEF;
 }
 #txt1{
   display: flex;
@@ -54,6 +53,7 @@ h1{
   font-size: 58px;
   color: #1A1D32;
   margin-bottom: 90px;
+  line-height: 100.8%;
 }
 
 span{
@@ -80,7 +80,7 @@ img {
 .btn {
   display: flex;
   margin-top: 20%;
-  background: #219EBC;
+  background: #404DEF;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;

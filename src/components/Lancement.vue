@@ -63,7 +63,7 @@ h2{
 
   text-align: center;
   color: #F9F9F9;
-  background: #57B9B3;
+  background: #404DEF;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -112,7 +112,7 @@ img{
   text-align: center;
   color: #FFFFFF;
 
-  background: #219EBC;
+  background: #404DEF;
   width: auto;
   height: 90px;
   border-radius: 40px;
