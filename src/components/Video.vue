@@ -6,6 +6,9 @@
       </div>
       <div class="col-12 col-md-6">
         <h1>Un logiciel de gestion pour tout <span>types d'associations</span></h1>
+
+        <h3 @mouseover="setWord"> <span1>-</span1> {{ text }}</h3>
+
         <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
           Découvrir
         </button>
@@ -30,9 +33,28 @@
 
 <script>
 export default {
-  name: 'Video'
+  name: 'Video',
 
+  data() {
+    return {
+      text: "",
+      sport: ["Sport ...", "Cinéma ...", "Musique ...", "Jeux vidéo ...", "Voiture ...", "Livre ..."]
+    };
+  },
+  methods: {
+    setWord() {
+      const max = this.sport.length;
+      const min = 0;
+      const range = max - min + 1;
+      let num = Math.floor(Math.random() * range) + min;
+      this.text = this.sport[num];
+
+    }
+  }
 }
+
+
+
 </script>
 
 <style scoped>
@@ -74,6 +96,21 @@ p {
   line-height: 30px;
   color: #1A1D32;
   opacity: 0.7;
+}
+
+h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+
+  /* Color_primary */
+
+  color: #404DEF;
+
 }
 
 img {
