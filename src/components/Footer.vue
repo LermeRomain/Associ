@@ -1,12 +1,16 @@
 <template>
   <div class="footer">
     <div class="container text-center">
-      <img class="logo_Footer" src="../assets/logo.svg">
-      <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
-      <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
-      <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
-      <div class="row container">
-        <div class="col-md-3 text-center block_2">
+      <div class="row container-fluid">
+        <div class="col-md-2 text-center block_2">
+          <img class="logo_Footer" src="../assets/logo.svg">
+            <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok active"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp active"></i></a>
+        </div>
+
+
+        <div class="col-md-2 text-center block_2">
           <h1>Pages</h1>
           <div class="menub">
             <a href="#">Accueil</a>
@@ -16,7 +20,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 text-center block_2">
+        <div class="col-md-2 text-center block_2">
           <h1>Informations</h1>
           <div class="menub">
             <a href="#">Mentions légales</a>
@@ -26,14 +30,14 @@
           </div>
         </div>
 
-        <div class="col-md-5 text-left block_2">
+        <div class="col-md-6 text-left block_2">
           <h1>Contactez-nous</h1>
           <div class="menub">
             <input type="email" name="EMAIL" id="email" placeholder="Entrer votre email">
             <p1>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour
               plus d’informations, nous vous invitons à vous rendre sur notre page de <span>Politique de confidentialité.</span>
             </p1>
-            <button type="submit" class="button">Valider</button>
+            <input type="submit" class="button" value="Validé">
           </div>
         </div>
       </div>
@@ -60,6 +64,7 @@ a {
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
+  text-align: left;
   /* identical to box height, or 150% */
 
 
@@ -97,6 +102,7 @@ h1 {
   font-weight: 500;
   font-size: 25px;
   line-height: 37px;
+  text-align: left;
   /* identical to box height */
 
 
@@ -111,10 +117,9 @@ h1 {
 }
 
 .fab {
-  font-size: 20px;
+  font-size: 30px;
   color: #404DEF;
   margin: 10px;
-  padding-bottom: 40px;
 
 }
 
@@ -147,13 +152,12 @@ h1 {
   margin: auto;
 }
 
-span {
-  color: #404DEF;
+.button:hover{
+  transform: scale(1.05);
 }
 
-.logo_Footer {
-  height: 10%;
-  width: 10%;
+span {
+  color: #404DEF;
 }
 
 </style>
