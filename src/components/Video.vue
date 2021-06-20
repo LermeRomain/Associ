@@ -15,14 +15,17 @@
       </div>
       <div class="row" id="col">
         <div class="col-12 col-md-4">
+          <img src="../assets/click.svg">
           <h2>Simple</h2>
           <p>Un e-mail, un mot de passe et c’est parti. Démarrez simplement la création de votre association</p>
         </div>
         <div class="col-12 col-md-4">
+          <img src="../assets/coeur.svg">
           <h2>Agréable</h2>
           <p>Une interface de synthèse simple pour vous faciliter dans vos tâches quotidienne.</p>
         </div>
         <div class="col-12 col-md-4">
+          <img src="../assets/etiquette.svg">
           <h2>Gratuit</h2>
           <p>Une solution pensée pour tous.</p>
         </div>
@@ -116,7 +119,6 @@ h3{
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 25px;
 }
 
 .btn {
