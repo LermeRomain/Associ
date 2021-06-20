@@ -41,7 +41,6 @@ container {
   padding: 20px;
   width: 100%;
   height: 650px;
-  margin-top: 40%;
 }
 
 label {

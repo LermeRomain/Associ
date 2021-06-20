@@ -8,7 +8,7 @@
     <Video />
     <Lancement />
     <Retour />
-    <Carrousel />
+    <creationFooter />
     <login />
     <Arrow />
   </section>
@@ -24,13 +24,12 @@ import Lancement from './components/Lancement'
 import Retour from "./components/Retour";
 import Arrow from './components/Arrow'
 import Login from "./components/login";
-import Carrousel from "./components/Carrousel";
+import creationFooter from "./components/creationFooter";
 
 
 export default {
   name: 'App',
   components:{
-    Carrousel,
     Retour,
     Lancement,
     Video,
@@ -38,6 +37,7 @@ export default {
     Banner,
     About,
     Services,
+    creationFooter,
     Arrow
   }
 }
