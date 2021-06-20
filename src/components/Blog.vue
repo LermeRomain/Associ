@@ -38,6 +38,7 @@ export default {
 
 .container-fluid{
   margin-bottom: 10%;
+  width: 90%;
 }
 
 p{

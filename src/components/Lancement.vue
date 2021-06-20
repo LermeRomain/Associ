@@ -11,19 +11,19 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-5">
                 <h2>1</h2>
-              <p1>Créez votre compte gratuitement</p1>
+              <p1>Créez votre compte <span1>gratuitement</span1></p1>
             </div>
             <div class="col-12 col-sm-12 col-md-5 offset-md-2">
                 <h2>2</h2>
-              <p1>Renseignez quelques informations sur votre projet associatif</p1>
+              <p1>Renseignez quelques informations sur <span1>votre projet associatif</span1></p1>
             </div>
             <div class="col-12  col-sm-12 col-md-5">
                 <h2>3</h2>
-              <p1>Choisissez un modèle de suivi</p1>
+              <p1>Choisissez un <span1>modèle de suivi</span1></p1>
             </div>
             <div class="col-12 col-sm-12 col-md-5 offset-md-2">
                 <h2>4</h2>
-              <p1>Créer votre association</p1>
+              <p1>Créer votre <span1>association</span1></p1>
             </div>
         </div>
         <div class="col-10">
@@ -132,6 +132,10 @@ img{
 
 .container-fluid{
   width: 90%;
+}
+
+span1{
+  color: #FDC34A;
 }
 
 </style>
