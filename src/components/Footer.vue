@@ -31,7 +31,7 @@
          <div class="menub">
            <input type="email" name="EMAIL" id="email" placeholder="Entrer votre email" >
            <p1>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour plus d’informations, nous vous invitons à vous rendre sur notre page de <span>Politique de confidentialité.</span></p1>
-           <button type="submit" class="button">S'inscrire</button>
+           <button type="submit" class="button">Valider</button>
          </div>
        </div>
      </div>

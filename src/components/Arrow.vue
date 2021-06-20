@@ -1,6 +1,6 @@
 <template>
   <div class="arrow">
-    <a href="#nav"><img src="../assets/discord.png" alt="Lien serveur discord Associ"></a>
+    <a href="#navbarTogglerDemo01"><img src="../assets/discord.png" alt="Lien serveur discord Associ"></a>
   </div>
 </template>
 

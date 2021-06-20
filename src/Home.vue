@@ -6,6 +6,7 @@
     <About />
     <Services />
     <Video />
+    <Blog />
     <Lancement />
     <Retour />
     <creationFooter />
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+import Blog from "@/components/Blog";
 import Banner from './components/Banner'
 import About from './components/About'
 import Services from './components/Services'
@@ -31,6 +33,7 @@ export default {
   name: 'App',
   components:{
     Retour,
+    Blog,
     Lancement,
     Video,
     Login,

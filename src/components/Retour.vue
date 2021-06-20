@@ -16,13 +16,13 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../assets/la.jpg" alt="Los Angeles">
+            <img src="../assets/Avis1.png" alt="Avis des utilisateurs associ">
           </div>
           <div class="carousel-item">
-            <img src="../assets/chicago.jpg" alt="Chicago">
+            <img src="../assets/Avis1.png" alt="Avis des utilisateurs associ">
           </div>
           <div class="carousel-item">
-            <img src="../assets/ny.jpg" alt="New York">
+            <img src="../assets/Avis1.png" alt="Avis des utilisateurs associ">
           </div>
         </div>
 
@@ -83,7 +83,7 @@ span{
   font-weight: bold;
   font-size: 40px;
   color: #1A1D32;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 
