@@ -78,7 +78,6 @@ p1 {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 30px;
   /* identical to box height, or 150% */
   color: #093046;
 

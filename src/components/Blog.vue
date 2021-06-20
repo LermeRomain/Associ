@@ -2,7 +2,8 @@
   <div class="container-fluid">
     <div class="row justify-content-around">
       <div class="col-12 col-md-6">
-        <h1>Blog</h1>
+        <h1>Le blog</h1>
+        <br>
         <p>Découvrez notre blog où vous y trouverez toutes les informations nécessaires à l’élaboration en amont de votre association !</p>
       </div>
       <div class="col-12 col col-md-4 active">
@@ -53,6 +54,22 @@ p{
   /* Text */
 
   color: #093046;
+}
+
+h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 101.8%;
+  /* identical to box height, or 59px */
+
+  letter-spacing: -0.01em;
+
+  /* Text */
+
+  color: #093046;
+
 }
 
 h2{
