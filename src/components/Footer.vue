@@ -114,7 +114,7 @@ h1 {
 }
 
 .fab {
-  font-size: 30px;
+  font-size: 20px;
   color: #404DEF;
   margin: 10px;
 

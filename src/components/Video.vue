@@ -120,6 +120,7 @@ img {
   max-width: 100%;
   height: auto;
   float: left;
+  padding-right: 10px;
 }
 
 .btn {
