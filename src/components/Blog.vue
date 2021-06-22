@@ -6,14 +6,14 @@
         <br>
         <p>Découvrez notre blog où vous y trouverez toutes les informations nécessaires à l’élaboration en amont de votre association !</p>
       </div>
-      <div class="col-12 col col-md-4 active">
+      <div class="col-12 col col-md-5 active">
         <a href="https://associ-blog.000webhostapp.com/2021/06/bonjour-tout-le-monde">
         <img src="../assets/lecture.svg" class="float-left" alt="Responsive image" >
         <h2>Créer son association avant 18 ans</h2>
         <p>Vous avez un projet d’associations mais vous n’êtes pas encore majeur ?</p>
         </a>
       </div>
-      <div class="col-12 col-md-4 active">
+      <div class="col-12 col-md-5 active">
         <a href="https://associ-blog.000webhostapp.com/2021/06/bonjour-tout-le-monde-2">
         <img src="../assets/stat.svg" class="float-left" alt="Responsive image">
         <h2>Comment créer un business plan ?</h2>
@@ -92,10 +92,6 @@ p{
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
-
-
-  /* Text */
 
   color: #093046;
 }
@@ -107,6 +103,7 @@ p{
   border-radius: 12px;
   align-items: center;
   margin-top: 30px;
+  padding-top: 2%;
   text-align: center;
 }
 
@@ -121,12 +118,21 @@ button{
 
   background: #404DEF;
   width: 50%;
-  height: 90px;
+  height: 71px;
   border-radius: 40px;
-  margin-top: 10%;
+  margin-top: 30%;
   display: inline-block;
   margin-left: 50%;
 
+}
+
+button:hover{
+  text-decoration-line: none;
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 a{
   text-decoration: none;

@@ -13,10 +13,9 @@
         <div class="col-md-2 text-center block_2">
           <h1>Pages</h1>
           <div class="menub">
-            <a href="#">Accueil</a>
             <a href="#">Blog</a>
             <a href="#">Qui sommes-nous ?</a>
-            <a href="#">Presse</a>
+            <a href="#">Ressources</a>
           </div>
         </div>
 
@@ -25,8 +24,7 @@
           <div class="menub">
             <a href="#">Mentions légales</a>
             <a href="#">Politique de cookies</a>
-            <a href="#">Confidentialité</a>
-            <a href="#">Newsletter</a>
+            <a href="#">Presse</a>
           </div>
         </div>
 
@@ -34,14 +32,13 @@
           <h1>Contactez-nous</h1>
           <div class="menub">
             <input type="email" name="EMAIL" id="email" placeholder="Entrer votre email">
-            <p1>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour
+            <p1><input type="checkbox">  Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour
               plus d’informations, nous vous invitons à vous rendre sur notre page de <span>Politique de confidentialité.</span>
             </p1>
-            <input type="submit" class="button" value="Validé">
+            <input type="submit" class="button float-left" value="Validé">
           </div>
         </div>
       </div>
-
       <p>Tous droits réservés© Associ</p>
     </div>
   </div>
@@ -130,34 +127,41 @@ h1 {
 .footer {
   background-color: #F0F1FE;
   padding-top: 40px;
-  padding-bottom: 30px;
-  color: black;
+
 }
 
 
 .button {
+  background: #404DEF;
+  border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 20px;
-  text-align: center;
-  color: #FFFFFF;
-
-  background: #404DEF;
-  width: 50%;
+  font-size: 30px;
+  line-height: 100.8%;
+  width: 25%;
   height: 50px;
   border-radius: 40px;
-  display: block;
-  margin: auto;
+
+  color: #FFFFFF;
 }
 
 .button:hover{
-  transform: scale(1.05);
+  text-decoration-line: none;
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 
 span {
   color: #404DEF;
+  font-family: Roboto;
+}
+
+placeholder{
+  font-family: Roboto;
 }
 
 </style>

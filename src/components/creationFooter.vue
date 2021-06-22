@@ -97,6 +97,11 @@ img {
 
 
 .btn:hover {
-  transform: scale(1.05);
+  text-decoration-line: none;
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 </style>

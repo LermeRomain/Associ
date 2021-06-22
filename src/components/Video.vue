@@ -5,7 +5,7 @@
         <img src="../assets/Capture.svg" class="rounded d-block" alt="Responsive image">
       </div>
       <div class="col-12 col-md-6">
-        <h1>Un logiciel de gestion pour tout <span>types d'associations</span></h1>
+        <h1>Un logiciel de gestion pour tous <span>types d'associations</span></h1>
 
         <h3 @mouseover="setWord"> <span1>-</span1> {{ text }}</h3>
 
@@ -27,7 +27,7 @@
         <div class="col-12 col-md-4">
           <img src="../assets/etiquette.svg">
           <h2>Gratuit</h2>
-          <p>Une solution pensée pour tous.</p>
+          <p>Une solution pensée pour tous. Il est important que chacun d’entre vous puisse s’exprimer.</p>
         </div>
       </div>
     </div>
@@ -119,22 +119,32 @@ h3{
 img {
   max-width: 100%;
   height: auto;
+  float: left;
 }
 
 .btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 20px;
+  line-height: 32px;
   text-align: center;
   color: #FFFFFF;
 
   background: #404DEF;
-  width: 50%;
-  height: 90px;
+  width: 35%;
+  height: 71px;
   border-radius: 40px;
 
+}
+
+.btn:hover{
+  text-decoration-line: none;
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 
 h2{
@@ -147,7 +157,7 @@ h2{
   letter-spacing: -0.01em;
   /* Text */
   color: #1A1D32;
-  text-align: center;
+
 }
 
 p{
@@ -158,7 +168,6 @@ p{
   line-height: 30px;
   color: #1A1D32;
   opacity: 0.7;
-  text-align: center;
 }
 
 #col{

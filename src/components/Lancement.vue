@@ -50,7 +50,7 @@ h1{
   letter-spacing: -0.01em;
 
   color: #093046;
-  text-align: center;
+  text-align: left;
 }
 
 h2{
@@ -81,7 +81,7 @@ p{
   color: #1A1D32;
   opacity: 0.7;
   padding-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 p1{
   font-family: Roboto;
@@ -120,6 +120,15 @@ img{
   margin-top: 25px;
 }
 
+.btn:hover{
+  text-decoration-line: none;
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
 .col-md-5{
   background: #FFFFFF;
   /* Shadow_step */
@@ -136,6 +145,7 @@ img{
 
 span1{
   color: #FDC34A;
+  font-family: Roboto;
 }
 
 </style>

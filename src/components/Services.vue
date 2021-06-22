@@ -10,6 +10,7 @@
           Notre site web vous permettra de faciliter la création d’une association d’un point de vue administratif.
           Nous vous  offrons un service de suivi de gestion de votre association (trésorerie, réseaux sociaux, conseil et coaching, gérer les membres, trouver un lieu, gérer les donations).<br><br>
           Économisez votre temps (et votre énergie). Concentrez-vous sur l’essentiel, nous nous occupons du reste.</p>
+        <button class="btn" type="button" >Nous découvrir</button>
       </div>
     </div>
   </div>
@@ -53,5 +54,30 @@ p{
   margin-bottom: 30px;
 }
 
+.btn {
+  display: flex;
+  background: #404DEF;
+  border-radius: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 24px 32px;
+  line-height: 100.8%;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.btn:hover{
+  text-decoration-line: none;
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
 
 </style>

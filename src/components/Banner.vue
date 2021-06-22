@@ -79,13 +79,13 @@ img {
 }
 .btn {
   display: flex;
-  margin-top: 20%;
+  margin-top: 7%;
   background: #404DEF;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   padding: 24px 32px;
   line-height: 100.8%;
   /* identical to box height */
@@ -97,6 +97,10 @@ img {
 
 
 .btn:hover {
-  transform: scale(1.05);
+  background: #FFFFFF;
+  border: 2px solid #404DEF;
+  color: #404DEF;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 </style>
