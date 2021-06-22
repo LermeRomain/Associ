@@ -107,17 +107,18 @@ img{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 20px;
+  line-height: 23px;
   text-align: center;
   color: #FFFFFF;
 
   background: #404DEF;
   width: auto;
-  height: 90px;
-  border-radius: 40px;
+  height: 71px;
+  width: 222px;
+  border-radius: 50px;
 
-  margin-top: 25px;
+  margin: 25px 10px;
 }
 
 .btn:hover{
