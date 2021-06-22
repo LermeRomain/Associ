@@ -5,7 +5,7 @@
         <img src="../assets/Capture.svg" class="rounded d-block" alt="Responsive image">
       </div>
       <div class="col-12 col-md-6">
-        <h1>Un logiciel de gestion pour tous <span>types d'associations</span></h1>
+        <h1>Tableau de bord :<br>un logiciel de gestion pour tous <span>types d'associations</span></h1>
 
         <h3 @mouseover="setWord"> <span1>-</span1> {{ text }}</h3>
 
