@@ -22,7 +22,9 @@
       </div>
       <div class="col-12 col-md-6">
         <a href="https://associ-blog.000webhostapp.com/">
-        <button>Découvrir le blog</button>
+          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+            Découvrir le blog
+          </button>
         </a>
       </div>
     </div>
@@ -120,7 +122,7 @@ button{
   width: 50%;
   height: 71px;
   border-radius: 40px;
-  margin-top: 30%;
+  margin-top: 33%;
   display: inline-block;
   margin-left: 50%;
 
