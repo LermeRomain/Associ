@@ -8,25 +8,25 @@
       </div>
     </div>
       <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-5">
+        <div class="container-fluid row">
+            <div class="test">
                 <h2>1</h2>
               <p1>Créez votre compte <span1>gratuitement</span1></p1>
             </div>
-            <div class="col-12 col-sm-12 col-md-5 offset-md-2">
+            <div class="test">
                 <h2>2</h2>
               <p1>Renseignez quelques informations sur <span1>votre projet associatif</span1></p1>
             </div>
-            <div class="col-12  col-sm-12 col-md-5">
+            <div class="test">
                 <h2>3</h2>
               <p1>Choisissez un <span1>modèle de suivi</span1></p1>
             </div>
-            <div class="col-12 col-sm-12 col-md-5 offset-md-2">
+            <div class="test">
                 <h2>4</h2>
               <p1>Créer votre <span1>association</span1></p1>
             </div>
         </div>
-        <div class="col-10">
+        <div class="col-12 offset-md-4">
           <button class="btn" type="button" >Guide de création</button>
         </div>
       </div>
@@ -61,7 +61,6 @@ h2{
   font-size: 24px;
   /* or 24px */
 
-  text-align: center;
   color: #F9F9F9;
   background: #404DEF;
   width: 40px;
@@ -113,12 +112,13 @@ img{
   color: #FFFFFF;
 
   background: #404DEF;
-  width: auto;
   height: 71px;
   width: 222px;
   border-radius: 50px;
 
-  margin: 25px 10px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn:hover{
@@ -126,27 +126,40 @@ img{
   background: #FFFFFF;
   border: 2px solid #404DEF;
   color: #404DEF;
-  box-sizing: border-box;
   border-radius: 50px;
 }
 
-.col-md-5{
+.test{
+  margin-left: auto;
+  margin-right: auto;
   background: #FFFFFF;
   /* Shadow_step */
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
+  width: 250px;
+  height: 220px;
 }
 
-.container-fluid{
-  width: 90%;
+.test h2{
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+.container-fluid {
+  width: 92%;
 }
 
 span1{
   color: #FDC34A;
   font-family: Roboto;
+}
+
+.row{
+  width: 100%;
 }
 
 </style>

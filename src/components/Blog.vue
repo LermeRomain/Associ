@@ -113,7 +113,7 @@ button{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 42px;
   text-align: center;
   color: #FFFFFF;

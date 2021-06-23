@@ -3,7 +3,6 @@
   <section id="content">
     <router-view></router-view>
     <Banner />
-    <About />
     <Services />
     <Video />
     <Blog />
@@ -19,7 +18,6 @@
 <script>
 import Blog from "@/components/Blog";
 import Banner from './components/Banner'
-import About from './components/About'
 import Services from './components/Services'
 import Video from './components/Video'
 import Lancement from './components/Lancement'
@@ -38,7 +36,6 @@ export default {
     Video,
     Login,
     Banner,
-    About,
     Services,
     creationFooter,
     Arrow

@@ -4,9 +4,9 @@
       <div class="row container-fluid">
         <div class="col-md-2 text-center block_2">
           <img class="logo_Footer" src="../assets/logo.svg">
-            <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok active"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp active"></i></a>
+            <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
         </div>
 
 
@@ -35,7 +35,7 @@
             <p1><input type="checkbox">  Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour
               plus d’informations, nous vous invitons à vous rendre sur notre page de <span>Politique de confidentialité.</span>
             </p1>
-            <input type="submit" class="button float-left" value="Validé">
+            <input type="submit" class="btn2 btn-primary" value="Validé">
           </div>
         </div>
       </div>
@@ -117,6 +117,7 @@ h1 {
   font-size: 20px;
   color: #404DEF;
   margin: 10px;
+  text-align: left;
 
 }
 
@@ -131,22 +132,23 @@ h1 {
 }
 
 
-.button {
+.btn2 {
   background: #404DEF;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 100.8%;
   width: 25%;
   height: 50px;
   border-radius: 40px;
+  text-align: center;
 
   color: #FFFFFF;
 }
 
-.button:hover{
+.btn2:hover{
   text-decoration-line: none;
   background: #FFFFFF;
   border: 2px solid #404DEF;
@@ -160,8 +162,9 @@ span {
   font-family: Roboto;
 }
 
-placeholder{
-  font-family: Roboto;
+#email{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 6px;
 }
 
 </style>
