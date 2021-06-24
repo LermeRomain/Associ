@@ -1,20 +1,20 @@
 <template>
 
   <section id="content">
-    <Sign />
+    <Mention />
   </section>
 
 </template>
 
 <script>
-import Sign from "@/components/Sign";
+import Mention from "@/components/Mention";
 
 
 
 export default {
   name: 'Legale',
   components:{
-    Sign,
+    Mention,
   }
 }
 

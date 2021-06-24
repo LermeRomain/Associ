@@ -59,7 +59,7 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   color: #1A1D32;
-  text-align: center;
+  text-align: left;
   padding-bottom: 15px;
 
 }

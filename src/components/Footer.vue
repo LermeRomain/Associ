@@ -22,7 +22,7 @@
         <div class="col-md-2 text-center block_2">
           <h1>Informations</h1>
           <div class="menub">
-            <a href="#">Mentions légales</a>
+            <router-link :to="'/Legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a></router-link>
             <a href="#">Politique de cookies</a>
             <a href="#">Presse</a>
           </div>

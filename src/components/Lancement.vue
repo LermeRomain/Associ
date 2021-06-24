@@ -7,29 +7,35 @@
           <br>Moins d’efforts, moins de difficultés, plus de résultats.</p>
       </div>
     </div>
-      <div class="container-fluid">
-        <div class="container-fluid row">
-            <div class="test">
-                <h2>1</h2>
-              <p1>Créez votre compte <span1>gratuitement</span1></p1>
-            </div>
-            <div class="test">
-                <h2>2</h2>
-              <p1>Renseignez quelques informations sur <span1>votre projet associatif</span1></p1>
-            </div>
-            <div class="test">
-                <h2>3</h2>
-              <p1>Choisissez un <span1>modèle de suivi</span1></p1>
-            </div>
-            <div class="test">
-                <h2>4</h2>
-              <p1>Créer votre <span1>association</span1></p1>
-            </div>
-        </div>
-        <div class="col-12 offset-md-4">
-          <button class="btn" type="button" >Guide de création</button>
-        </div>
+    <div class="container-fluid row">
+      <div class="test text-center">
+        <h2>1</h2>
+        <p1>Créez votre compte
+          <span1>gratuitement</span1>
+        </p1>
       </div>
+      <div class="test text-center">
+        <h2>2</h2>
+        <p1>Renseignez quelques informations sur
+          <span1>votre projet associatif</span1>
+        </p1>
+      </div>
+      <div class="test text-center">
+        <h2>3</h2>
+        <p1>Choisissez un
+          <span1>modèle de suivi</span1>
+        </p1>
+      </div>
+      <div class="test text-center">
+        <h2>4</h2>
+        <p1>Créer votre
+          <span1>association</span1>
+        </p1>
+      </div>
+    </div>
+    <div class="col-12 text-center">
+      <button class="btn" type="button">Guide de création</button>
+    </div>
   </div>
 </template>
 
@@ -40,7 +46,7 @@ export default {
 </script>
 
 <style scoped>
-h1{
+h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -53,7 +59,7 @@ h1{
   text-align: left;
 }
 
-h2{
+h2 {
 
   font-family: Roboto;
   font-style: normal;
@@ -71,7 +77,7 @@ h2{
 
 }
 
-p{
+p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -82,7 +88,8 @@ p{
   padding-bottom: 30px;
   text-align: left;
 }
-p1{
+
+p1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -97,12 +104,12 @@ p1{
   color: #093046;
 }
 
-img{
+img {
   width: 100%;
 }
 
 
-.btn{
+.btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -117,11 +124,10 @@ img{
   border-radius: 50px;
 
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 3%;
 }
 
-.btn:hover{
+.btn:hover {
   text-decoration-line: none;
   background: #FFFFFF;
   border: 2px solid #404DEF;
@@ -129,7 +135,7 @@ img{
   border-radius: 50px;
 }
 
-.test{
+.test {
   margin-left: auto;
   margin-right: auto;
   background: #FFFFFF;
@@ -143,22 +149,22 @@ img{
   height: 220px;
 }
 
-.test h2{
+.test h2 {
   text-align: center;
   margin-left: 40%;
   margin-top: 15%;
 }
 
 .container-fluid {
-  width: 92%;
+  width: 90%;
 }
 
-span1{
+span1 {
   color: #FDC34A;
   font-family: Roboto;
 }
 
-.row{
+.row {
   width: 100%;
 }
 
