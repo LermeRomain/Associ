@@ -119,7 +119,7 @@ button{
   color: #FFFFFF;
 
   background: #404DEF;
-  width: 50%;
+  width: 52%;
   height: 71px;
   border-radius: 40px;
   margin-top: 33%;
