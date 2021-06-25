@@ -1,30 +1,32 @@
 <template>
   <div class="test2">
-  <div class="arrow">
-    <button class="btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/Call.svg">
-    </button>
-  </div>
+    <div class="arrow">
+      <button class="btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/Call.svg">
+      </button>
+    </div>
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Démarrez une conversation</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span class="fermer" aria-hidden="true">Fermer</span>
             </button>
-          </div>
+            <h5 class="modal-title" id="exampleModalLongTitle">Démarrez une conversation</h5>
           <p>Quel moyen de contact préférez-vous ?</p>
           <div class="content">
             <div class="test text-center">
+              <img src="../assets/Whatsapp.svg">
               <h2>WhatsApp</h2>
               <p1>Rejoingnez la team</p1>
             </div>
             <div class="test text-center">
+              <img src="../assets/Tel.svg">
               <h2>Etre rappelé</h2>
               <p1>Réservez un créneau horaire</p1>
             </div>
             <div class="test text-center">
+              <img src="../assets/Email.svg">
               <h2>Email</h2>
               <p1>Envoyez-nous un email et nous vous répondrons dans les meilleurs délais</p1>
             </div>
@@ -70,9 +72,11 @@ export default {
   filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
 }
 
+.modal-dialog{
+  border-radius: 30px;
+}
 
-
-.modal-title{
+.modal-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -88,18 +92,23 @@ export default {
   color: black;
 }
 
-.fermer{
+.close {
   color: grey;
   font-family: Roboto;
   font-size: 20px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-h5{
+h5 {
   font-family: Roboto;
   font-size: 30px;
+  margin-right: auto;
+  margin-left: 20px;
 }
 
-.test{
+.test {
   margin-left: auto;
   margin-right: auto;
   background: #FFFFFF;
@@ -113,11 +122,10 @@ h5{
   height: 220px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 33px;
 }
 
-.test h2{
+.test h2 {
   text-align: center;
   font-family: Roboto;
   font-style: normal;
@@ -125,7 +133,7 @@ h5{
   font-size: 24px;
 }
 
-.content{
+.content {
   display: flex;
   column-gap: 20px;
   padding-top: 20px;
@@ -136,7 +144,7 @@ h5{
   max-width: 55em;
 }
 
-p{
+p {
   font-family: Roboto;
   font-size: 14px;
   color: #404DEF;
