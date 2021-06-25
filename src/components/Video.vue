@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6">
         <img src="../assets/Capture.svg" class="rounded d-block" alt="Responsive image">
@@ -62,9 +62,10 @@ export default {
 
 <style scoped>
 
-.container{
+.container-fluid{
   margin-top: 150px;
   margin-bottom: 150px;
+  width: 85%;
 }
 
 h1 {
