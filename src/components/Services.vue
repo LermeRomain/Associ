@@ -67,6 +67,7 @@ p{
   /* identical to box height */
 
   text-align: center;
+  border: 2px solid #404DEF;
 
   color: #FFFFFF;
 }
@@ -74,7 +75,6 @@ p{
 .btn:hover{
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #404DEF;
   color: #404DEF;
   box-sizing: border-box;
   border-radius: 50px;

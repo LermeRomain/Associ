@@ -92,6 +92,7 @@ img {
 
   text-align: center;
   width: 275px;
+  border: 2px solid #404DEF;
 
   color: #FFFFFF;
 }
@@ -100,7 +101,6 @@ img {
 .btn:hover {
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #404DEF;
   color: #404DEF;
   box-sizing: border-box;
   border-radius: 50px;

@@ -97,6 +97,7 @@
                               font-size: 20px;
                               line-height: 100.8%;
                               border-radius: 40px;
+                              border: 2px solid #404DEF;
                               text-align: center;
                               color: #FFFFFF;"
                             form="sib-form" type="submit">
@@ -132,7 +133,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 
 a {
   font-family: Roboto;
@@ -250,6 +251,13 @@ span1 {
   text-align: left;
   font-family: "Roboto";
   color: #c0ccda;
+}
+
+.sib-form-block__button-with-loader{
+  text-decoration-line: none;
+  background: #FFFFFF;
+  color: #404DEF;
+  box-sizing: border-box;
 }
 
 </style>

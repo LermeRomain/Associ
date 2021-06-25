@@ -60,8 +60,7 @@ img {
 
 .nav-link:not(.active) hover {
   color: #404DEF;
-  margin-left: 5px;
-  margin-right: 5px;
+
 }
 
 .nav-link:not(.active):hover:after {
@@ -80,15 +79,14 @@ img {
   background: #404DEF;
   border-radius: 40px;
   color: white;
+  border: 1px solid #404DEF;
 }
 
-.active:hover {
+.nav-link.active:hover{
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #404DEF;
   color: #404DEF;
   box-sizing: border-box;
-  border-radius: 50px;
 }
 
 </style>

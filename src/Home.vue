@@ -9,7 +9,6 @@
     <Lancement />
     <Retour />
     <creationFooter />
-    <login />
     <Arrow />
   </section>
 
@@ -23,7 +22,6 @@ import Video from './components/Video'
 import Lancement from './components/Lancement'
 import Retour from "./components/Retour";
 import Arrow from './components/Arrow'
-import Login from "./components/login";
 import creationFooter from "./components/creationFooter";
 
 
@@ -34,7 +32,6 @@ export default {
     Blog,
     Lancement,
     Video,
-    Login,
     Banner,
     Services,
     creationFooter,
