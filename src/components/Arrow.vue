@@ -14,6 +14,7 @@
               <span class="fermer" aria-hidden="true">Fermer</span>
             </button>
           </div>
+          <p>Quel moyen de contact préférez-vous ?</p>
           <div class="content">
             <div class="test text-center">
               <h2>WhatsApp</h2>
@@ -84,7 +85,7 @@ export default {
 
   /* Color_primary */
 
-  color: #404DEF;
+  color: black;
 }
 
 .fermer{
@@ -106,7 +107,7 @@ h5{
   box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 15px;
   text-align: center;
   width: 250px;
   height: 220px;
@@ -127,15 +128,20 @@ h5{
 .content{
   display: flex;
   column-gap: 20px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .modal-dialog {
-  max-width: 60%;
+  max-width: 55em;
 }
 
-.btn{
-
+p{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #404DEF;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 </style>
