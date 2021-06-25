@@ -119,12 +119,11 @@ button{
   color: #FFFFFF;
 
   background: #404DEF;
-  width: 52%;
+  width: 10em;
   height: 71px;
   border-radius: 40px;
   margin-top: 33%;
-  display: inline-block;
-  margin-left: 50%;
+  float: right;
 
 }
 

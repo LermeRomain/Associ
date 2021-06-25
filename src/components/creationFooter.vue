@@ -85,12 +85,13 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   padding: 24px 32px;
   line-height: 100.8%;
   /* identical to box height */
 
   text-align: center;
+  width: 275px;
 
   color: #FFFFFF;
 }

@@ -4,9 +4,9 @@
       <div class="row container-fluid">
         <div class="col-md-2 text-center block_2">
           <img class="logo_Footer" src="../assets/logo.svg">
-            <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
+          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
+          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
         </div>
 
 
@@ -22,7 +22,8 @@
         <div class="col-md-2 text-center block_2">
           <h1>Informations</h1>
           <div class="menub">
-            <router-link :to="'/Legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a></router-link>
+            <router-link :to="'/Legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a>
+            </router-link>
             <a href="#">Politique de cookies</a>
             <a href="#">Presse</a>
           </div>
@@ -43,9 +44,16 @@
                   <div class="sib-input sib-form-block">
                     <div class="form__entry entry_block">
                       <div class="form__label-row ">
-                        <div class="entry__field" style="  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); padding: 6px;">
-                          <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL"
-                                 data-required="true" required/>
+                        <div class="entry__field"
+                             style="  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); padding: 6px;">
+                          <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off"
+                                 placeholder="EMAIL"
+                                 data-required="true" required style="
+                                  border: 1px solid #DFDFDF;
+                                  box-sizing: border-box;
+                                  padding: 2%;
+                                  box-shadow: 3px 6px 29px 3px rgba(0, 0, 0, 0.1);
+                                  border-radius: 10px;"/>
                         </div>
                       </div>
 
@@ -67,7 +75,7 @@
                           <label>
                             <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" required/>
                             <span class="checkbox checkbox_tick_positive"></span><span
-                              style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour plus d’informations, nous vous invitons à vous rendre sur notre page de Politique de confidentialité.</p><span
+                              style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p2>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour plus d’informations, nous vous invitons à vous rendre sur notre page de <span1>Politique de confidentialité.</span1></p2><span
                               data-required="*" style="display: inline;"
                               class="entry__label entry__label_optin"></span></span>
                           </label>
@@ -92,12 +100,13 @@
                               text-align: center;
                               color: #FFFFFF;"
                             form="sib-form" type="submit">
-                      <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                      <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
+                           viewBox="0 0 512 512">
                         <path
                             d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"
                         />
                       </svg>
-                      S'inscrire
+                      Validé
                     </button>
                   </div>
                 </div>
@@ -143,6 +152,7 @@ a {
 
 p {
   font-weight: lighter;
+  margin-top: 50px;
 }
 
 p1 {
@@ -153,6 +163,10 @@ p1 {
   /* identical to box height, or 150% */
   color: #093046;
 
+}
+
+p2{
+  margin-left: 5px;
 }
 
 h1 {
@@ -190,7 +204,7 @@ h1 {
 .footer {
   background-color: #F0F1FE;
   padding-top: 40px;
-
+  padding-bottom: 20px;
 }
 
 
@@ -199,13 +213,14 @@ span {
   font-family: Roboto;
 }
 
+span1 {
+  color: #404DEF;
+  font-family: Roboto;
+}
 
 
+/*----------- mail*/
 
-
-
-
------------
 @font-face {
   font-display: block;
   font-family: Roboto;
@@ -235,15 +250,6 @@ span {
   text-align: left;
   font-family: "Roboto";
   color: #c0ccda;
-}
-
-.sib-form-block__button-with-loader:hover{
-  text-decoration-line: none;
-  background: #FFFFFF;
-  border: 2px solid #404DEF;
-  color: #404DEF;
-  box-sizing: border-box;
-  border-radius: 50px;
 }
 
 </style>

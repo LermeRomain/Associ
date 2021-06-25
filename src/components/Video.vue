@@ -133,7 +133,7 @@ img {
   color: #FFFFFF;
 
   background: #404DEF;
-  width: 35%;
+  width: 205px;
   height: 71px;
   border-radius: 40px;
 

@@ -12,9 +12,8 @@
             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-P8NWHQW');</script>
+            'https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TS8LZTT');</script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,7 +28,7 @@
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SD0JYJGLD"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3NNWCNP85%22%3E"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -39,7 +38,7 @@
 
         gtag('js', new Date());
 
-        gtag('config', 'G-5SD0JYJGLD');
+        gtag('config', 'G-P3NNWCNP85');
     </script>
 
 
@@ -65,7 +64,7 @@
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8NWHQW"
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS8LZTT"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -80,17 +79,18 @@
     var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "104001121939470");
     chatbox.setAttribute("attribution", "biz_inbox");
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
         FB.init({
-            xfbml            : true,
-            version          : 'v11.0'
+            xfbml: true,
+            version: 'v11.0'
         });
     };
 
-    (function(d, s, id) {
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
