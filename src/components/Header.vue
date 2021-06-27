@@ -60,7 +60,7 @@ img {
   display: block;
   width: 100%;
   height: 20px;
-  background-image: url("../assets/Point.svg");
+  background-image: url("../assets/point.svg");
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
