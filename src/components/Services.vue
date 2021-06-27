@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-6">
-        <video src="../assets/videoCible.mp4" width=100%  height=85% controls title="vidéo explainer du concept Associ"></video>
+      <div class="col-12 col-md-5 offset-md-1">
+        <video src="../assets/videoCible.mp4" width=100%  height=100% controls title="vidéo explainer du concept Associ"></video>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-5">
         <h1>Notre expertise</h1>
         <p>Associ ambitionne de devenir le partenaire, local, digital de confiance des associatons d’adolescents pour accélérer leur croissance. Gérer votre profil comme vous le souhaitez.<br><br>
           Notre site web vous permettra de faciliter la création d’une association d’un point de vue administratif.
@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 
-.container{
+.container-fluid{
   margin-top: 300px;
 }
 

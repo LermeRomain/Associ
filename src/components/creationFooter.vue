@@ -1,14 +1,14 @@
 <template>
   <div class="background container-fluid">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5 offset-md-1">
           <h1><span> Créez votre</span> association</h1>
           <p id="txt1">Démarrez gratuitement la création de votre association.
             Aucun moyen de paiement requis, pas de limite de temps.</p>
           <button class="btn" type="button" >Créer mon association</button>
         </div>
-        <div class="d-none d-sm-block d-none d-md-block col-md-6">
+        <div class="d-none d-sm-block d-none d-md-block col-md-5">
           <img src="../assets/community.svg" alt="Illustrations de la communauté de Associ">
         </div>
       </div>

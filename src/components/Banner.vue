@@ -1,7 +1,7 @@
 <template>
   <div class="background container-fluid">
     <div class="row">
-      <div class="col-12 col-md-5 offset-1">
+      <div class="col-12 col-md-5 offset-md-1">
         <h1><span> Créez votre</span> association</h1>
         <p id="txt1">Associ vous aidera dans la création de votre association.
           Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.
