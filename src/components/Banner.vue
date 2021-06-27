@@ -45,7 +45,7 @@ p{
 }
 
 h1{
-  height: 59px;
+  height: 58px;
   width: 100%;
   font-family: Roboto;
   font-style: normal;
