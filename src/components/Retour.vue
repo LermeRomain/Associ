@@ -50,6 +50,7 @@ export default {
 
 .container {
   margin-top: 150px;
+  width: 50%;
 }
 
 h1 {

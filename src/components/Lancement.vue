@@ -32,9 +32,9 @@
           <span1>association</span1>
         </p1>
       </div>
-    </div>
-    <div class="col-12">
-      <button class="btn" type="button">Guide de création</button>
+      <div class="col-12 text-left">
+        <button class="btn" type="button">Guide de création</button>
+      </div>
     </div>
   </div>
 </template>
@@ -123,7 +123,6 @@ img {
   border-radius: 50px;
 
   margin-top: 30px;
-  margin-left: 20px;
 }
 
 .btn:hover {

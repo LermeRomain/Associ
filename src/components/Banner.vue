@@ -1,15 +1,15 @@
 <template>
   <div class="background container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6">
-              <h1><span> Créez votre</span> association</h1>
-              <p id="txt1">Associ vous aidera dans la création de votre association. À partir de 16 ans, vous aurez la possibilité avec un associé de la créer sans personne majeure à vos côtés. De l’administratif à la gestion de la trésorerie, nous vous accompagnerons tout au long de votre vie associative.</p>
-            <button class="btn" type="button" >Créer mon association</button>
-          </div>
-        <div class="d-none d-sm-block d-none d-md-block col-md-6">
-          <img src="../assets/teams.svg" alt="Illustrations d'un groupe d'adolescent">
-        </div>
+    <div class="row">
+      <div class="col-12 col-md-5 offset-1">
+        <h1><span> Créez votre</span> association</h1>
+        <p id="txt1">Associ vous aidera dans la création de votre association.
+          Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.
+          De l’administratif à sa gestion, nous vous accompagnerons tout au long de votre vie associative.</p>
+        <button class="btn" type="button">Créer mon association</button>
+      </div>
+      <div class="d-none d-sm-block d-none d-md-block col-md-5">
+        <img src="../assets/teams.svg" alt="Illustrations d'un groupe d'adolescent">
       </div>
     </div>
   </div>
@@ -17,14 +17,14 @@
 
 <script>
 export default {
-    name:'Banner'
+  name: 'Banner'
 
 }
 </script>
 
 <style scoped>
 
-p{
+p {
 
   font-family: Roboto;
   font-style: normal;
@@ -32,7 +32,8 @@ p{
   font-size: 14px;
   color: #404DEF;
 }
-#txt1{
+
+#txt1 {
   display: flex;
   font-family: Roboto;
   font-style: normal;
@@ -44,7 +45,7 @@ p{
   text-align: justify-all;
 }
 
-h1{
+h1 {
   height: 58px;
   width: 100%;
   font-family: Roboto;
@@ -56,7 +57,7 @@ h1{
   line-height: 100.8%;
 }
 
-span{
+span {
   background-image: url("../assets/backSpan.png");
   padding-bottom: 15px;
   font-family: Roboto;
@@ -67,7 +68,7 @@ span{
 }
 
 
-.background{
+.background {
   padding-top: 100px;
   background-color: white;
   padding-bottom: 100px;
@@ -77,6 +78,7 @@ img {
   width: 100%;
   height: 100%;
 }
+
 .btn {
   display: flex;
   margin-top: 7%;
@@ -91,14 +93,16 @@ img {
   /* identical to box height */
 
   text-align: center;
+  border-color: #400186;
+  border: 2px solid #400186;
 
   color: #FFFFFF;
 }
 
 
 .btn:hover {
+  text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #400186;
   color: #400186;
   box-sizing: border-box;
   border-radius: 50px;

@@ -1,21 +1,18 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-       <a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a>
+      <div class="collapse navbar-collapse col-md-10 offset-1" id="navbarTogglerDemo01">
+        <a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="https://associ-blog.000webhostapp.com">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">Qui sommes nous?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/#login">Ressources</a>
           </li>
         </ul>
         <ul class="form-inline my-2 my-lg-0">
@@ -52,15 +49,10 @@ img {
 
 .nav-link {
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   color: #7D8790;
   padding: 10px;
   position: relative;
-}
-
-.nav-link:not(.active) hover {
-  color: #404DEF;
-
 }
 
 .nav-link:not(.active):hover:after {
@@ -68,7 +60,7 @@ img {
   display: block;
   width: 100%;
   height: 20px;
-  background-image: url("../assets/point.svg");
+  background-image: url("../assets/Point.svg");
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -82,11 +74,15 @@ img {
   border: 1px solid #400186;
 }
 
-.nav-link.active:hover{
+.nav-link.active:hover {
   text-decoration-line: none;
   background: #FFFFFF;
   color: #400186;
   box-sizing: border-box;
+}
+
+a:hover {
+  color: #400186;
 }
 
 </style>

@@ -26,7 +26,7 @@
         </div>
         <div class="col-12 col-md-4">
           <img src="../assets/etiquette.svg">
-          <h2>Gratuit</h2>
+          <h2>Personnalisé</h2>
           <p>Une solution pensée pour tous. Il est important que chacun d’entre vous puisse s’exprimer.</p>
         </div>
       </div>

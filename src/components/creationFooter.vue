@@ -91,7 +91,6 @@ img {
   /* identical to box height */
 
   text-align: center;
-  width: 275px;
   border: 2px solid #400186;
 
   color: #FFFFFF;

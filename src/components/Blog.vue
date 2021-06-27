@@ -22,7 +22,7 @@
       </div>
       <div class="col-12 col-md-6">
         <a href="https://associ-blog.000webhostapp.com/">
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+          <button type="button" class="btn">
             Découvrir le blog
           </button>
         </a>
@@ -109,29 +109,29 @@ p{
   text-align: center;
 }
 
-button{
+.btn{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 42px;
   text-align: center;
   color: #FFFFFF;
+  line-height: 100.8%;
 
   background: #400186;
   border-color: #400186;
-  width: 10em;
+  border: 2px solid #400186;
   height: 71px;
   border-radius: 40px;
   margin-top: 33%;
   float: right;
+  padding: 24px 32px;
 
 }
 
 button:hover{
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #400186;
   color: #400186;
   box-sizing: border-box;
   border-radius: 50px;

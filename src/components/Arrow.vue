@@ -3,6 +3,7 @@
   <div class="arrow">
     <button class="btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/Call.svg">
     </button>
+    <a href="#" class="arrow2"><img src="../assets/Frame.svg"></a>
   </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -58,6 +59,7 @@ export default {
   outline: none;
 }
 
+
 .arrow img {
   z-index: 1;
   width: 60px;
@@ -67,7 +69,7 @@ export default {
   background: white;
 
 
-  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 6px 16px #A6A9D3);
 }
 
 

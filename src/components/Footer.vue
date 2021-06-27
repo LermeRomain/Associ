@@ -1,25 +1,24 @@
 <template>
   <div class="footer">
-    <div class="container text-center">
-      <div class="row container-fluid">
-        <div class="col-md-2 text-center block_2">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-2 text-left offset-1">
           <img class="logo_Footer" src="../assets/logo.svg">
-          <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>
           <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
           <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
         </div>
 
 
-        <div class="col-md-2 text-center block_2">
+        <div class="col-md-2 text-center">
           <h1>Pages</h1>
           <div class="menub">
             <a href="#">Blog</a>
             <a href="#">Qui sommes-nous ?</a>
-            <a href="#">Ressources</a>
           </div>
         </div>
 
-        <div class="col-md-2 text-center block_2">
+        <div class="col-md-2 text-center">
           <h1>Informations</h1>
           <div class="menub">
             <router-link :to="'/Legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a>
@@ -29,7 +28,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 text-center block_2">
+        <div class="col-md-4 text-center">
           <div id="sib-form-container" class="sib-form-container">
             <div id="sib-container" class="sib-container--large sib-container--vertical"
                  style="text-align:center; background-color:#F0F1FE; max-width:540px; padding: 0px">
@@ -45,7 +44,8 @@
                     <div class="form__entry entry_block">
                       <div class="form__label-row ">
                         <div class="entry__field"
-                             style="  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); padding: 6px;">
+                             style="  filter: drop-shadow(0px 6px 16px #A6A9D3);
+border-radius: 10px; padding: 6px;">
                           <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off"
                                  placeholder="EMAIL"
                                  data-required="true" required style="
@@ -135,6 +135,10 @@ export default {
 
 <style scoped>
 
+.container-fluid{
+  width: 90%;
+}
+
 a {
   font-family: Roboto;
   font-style: normal;
@@ -154,6 +158,7 @@ a {
 p {
   font-weight: lighter;
   margin-top: 50px;
+  font-family: 'Roboto';
 }
 
 p1 {
@@ -191,12 +196,14 @@ h1 {
 }
 
 .fab {
-  font-size: 20px;
+  font-size: 30px;
   color: #400186;
-  margin: 10px;
+  margin-right: 20px;
+  margin-top: 30px;
   text-align: left;
 
 }
+
 
 .fab:hover {
   transform: scale(1.05);

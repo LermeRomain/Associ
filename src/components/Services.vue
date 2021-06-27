@@ -28,6 +28,10 @@ export default {
 
 <style scoped>
 
+.container{
+  margin-top: 300px;
+}
+
 h1{
   font-family: Roboto;
   font-style: normal;
