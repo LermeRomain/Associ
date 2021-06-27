@@ -89,7 +89,7 @@
                 <div>
                   <div class="sib-form-block" style="text-align: left">
                     <button class="sib-form-block__button sib-form-block__button-with-loader"
-                            style=" background: #404DEF;
+                            style=" background: #400186;
                               border-radius: 40px;
                               font-family: Roboto;
                               font-style: normal;
@@ -97,7 +97,7 @@
                               font-size: 20px;
                               line-height: 100.8%;
                               border-radius: 40px;
-                              border: 2px solid #404DEF;
+                              border: 2px solid #400186;
                               text-align: center;
                               color: #FFFFFF;"
                             form="sib-form" type="submit">
@@ -192,7 +192,7 @@ h1 {
 
 .fab {
   font-size: 20px;
-  color: #404DEF;
+  color: #400186;
   margin: 10px;
   text-align: left;
 
@@ -210,12 +210,12 @@ h1 {
 
 
 span {
-  color: #404DEF;
+  color: #400186;
   font-family: Roboto;
 }
 
 span1 {
-  color: #404DEF;
+  color: #400186;
   font-family: Roboto;
 }
 
@@ -256,7 +256,7 @@ span1 {
 .sib-form-block__button-with-loader{
   text-decoration-line: none;
   background: #FFFFFF;
-  color: #404DEF;
+  color: #400186;
   box-sizing: border-box;
 }
 

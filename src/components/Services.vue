@@ -56,7 +56,7 @@ p{
 
 .btn {
   display: flex;
-  background: #404DEF;
+  background: #400186;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
@@ -67,7 +67,7 @@ p{
   /* identical to box height */
 
   text-align: center;
-  border: 2px solid #404DEF;
+  border: 2px solid #400186;
 
   color: #FFFFFF;
 }
@@ -75,7 +75,7 @@ p{
 .btn:hover{
   text-decoration-line: none;
   background: #FFFFFF;
-  color: #404DEF;
+  color: #400186;
   box-sizing: border-box;
   border-radius: 50px;
 }

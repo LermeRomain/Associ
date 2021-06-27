@@ -113,7 +113,7 @@ h3{
 
   /* Color_primary */
 
-  color: #404DEF;
+  color: #400186;
 
 }
 
@@ -133,18 +133,19 @@ img {
   text-align: center;
   color: #FFFFFF;
 
-  background: #404DEF;
+  background: #400186;
   width: 205px;
   height: 71px;
   border-radius: 40px;
+  border-color: #400186;
 
 }
 
 .btn:hover{
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #404DEF;
-  color: #404DEF;
+  border: 2px solid #400186;
+  color: #400186;
   box-sizing: border-box;
   border-radius: 50px;
 }

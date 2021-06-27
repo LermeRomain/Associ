@@ -80,7 +80,7 @@ img {
 .btn {
   display: flex;
   margin-top: 20%;
-  background: #404DEF;
+  background: #400186;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
@@ -92,7 +92,7 @@ img {
 
   text-align: center;
   width: 275px;
-  border: 2px solid #404DEF;
+  border: 2px solid #400186;
 
   color: #FFFFFF;
 }
@@ -101,7 +101,7 @@ img {
 .btn:hover {
   text-decoration-line: none;
   background: #FFFFFF;
-  color: #404DEF;
+  color: #400186;
   box-sizing: border-box;
   border-radius: 50px;
 }

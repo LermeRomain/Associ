@@ -101,12 +101,12 @@ span{
 {
   content: '>';
   font-size: 55px;
-  color: #404DEF;
+  color: #400186;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: #404DEF;
+  color: #400186;
 }
 </style>

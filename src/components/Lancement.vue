@@ -33,7 +33,7 @@
         </p1>
       </div>
     </div>
-    <div class="col-12 text-center">
+    <div class="col-12">
       <button class="btn" type="button">Guide de création</button>
     </div>
   </div>
@@ -68,7 +68,7 @@ h2 {
   /* or 24px */
 
   color: #F9F9F9;
-  background: #404DEF;
+  background: #400186;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -115,23 +115,22 @@ img {
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
-  text-align: center;
   color: #FFFFFF;
 
-  background: #404DEF;
+  background: #400186;
   height: 71px;
   width: 222px;
   border-radius: 50px;
 
   margin-top: 30px;
-  margin-right: 3%;
+  margin-left: 20px;
 }
 
 .btn:hover {
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #404DEF;
-  color: #404DEF;
+  border: 2px solid #400186;
+  color: #400186;
   border-radius: 50px;
 }
 

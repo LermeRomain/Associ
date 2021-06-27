@@ -76,16 +76,16 @@ img {
 }
 
 .active {
-  background: #404DEF;
+  background: #400186;
   border-radius: 40px;
   color: white;
-  border: 1px solid #404DEF;
+  border: 1px solid #400186;
 }
 
 .nav-link.active:hover{
   text-decoration-line: none;
   background: #FFFFFF;
-  color: #404DEF;
+  color: #400186;
   box-sizing: border-box;
 }
 

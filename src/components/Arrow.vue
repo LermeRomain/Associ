@@ -9,7 +9,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Démarrez une conversation</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle"><span1>Démarrez une conversa</span1>tion</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span class="fermer" aria-hidden="true">Fermer</span>
             </button>
@@ -142,6 +142,15 @@ p{
   color: #404DEF;
   margin-top: 15px;
   margin-left: 20px;
+}
+
+span1{
+  background-image: url("../assets/backSpan.png");
+  padding-bottom: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: #1A1D32;
 }
 
 </style>
