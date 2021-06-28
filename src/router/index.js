@@ -22,6 +22,14 @@ const routes = [
         },
     },
 
+    {
+        path:'/Create',
+        name: 'Creation asso',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Create.vue'),
+        },
+    },
+
 ]
 
 const router = new VueRouter({

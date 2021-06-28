@@ -9,9 +9,7 @@
 
         <h3 @mouseover="setWord"> <span1>-</span1> {{ text }}</h3>
 
-        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
-          Découvrir
-        </button>
+        <button class="btn" type="button" >Savoir l'utiliser</button>
       </div>
       <div class="row" id="col">
         <div class="col-12 col-md-4">
@@ -125,19 +123,21 @@ img {
 }
 
 .btn {
+  display: flex;
+  background: #400186;
+  border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  color: #FFFFFF;
+  padding: 16px 24px;
+  line-height: 100.8%;
+  /* identical to box height */
 
-  background: #400186;
-  width: 205px;
-  height: 71px;
-  border-radius: 40px;
-  border-color: #400186;
+  text-align: center;
+  border: 2px solid #400186;
+
+  color: #FFFFFF;
 
 }
 

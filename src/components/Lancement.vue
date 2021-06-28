@@ -32,7 +32,7 @@
           <span1>association</span1>
         </p1>
       </div>
-      <div class="col-12 text-left">
+      <div class="col-12 text-center">
         <button class="btn" type="button">Guide de création</button>
       </div>
     </div>
@@ -118,17 +118,16 @@ img {
   color: #FFFFFF;
 
   background: #400186;
-  height: 71px;
-  width: 222px;
   border-radius: 50px;
+  padding: 16px 24px;
 
   margin-top: 30px;
+  border: 2px solid #400186;
 }
 
 .btn:hover {
   text-decoration-line: none;
   background: #FFFFFF;
-  border: 2px solid #400186;
   color: #400186;
   border-radius: 50px;
 }

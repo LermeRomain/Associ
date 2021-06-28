@@ -121,11 +121,10 @@ p{
   background: #400186;
   border-color: #400186;
   border: 2px solid #400186;
-  height: 71px;
   border-radius: 40px;
-  margin-top: 33%;
+  margin-top: 36%;
   float: right;
-  padding: 24px 32px;
+  padding: 16px 24px;
 
 }
 

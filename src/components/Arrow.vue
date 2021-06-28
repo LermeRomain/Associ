@@ -3,7 +3,6 @@
   <div class="arrow">
     <button class="btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/Call.svg">
     </button>
-    <a href="#" class="arrow2"><img src="../assets/Frame.svg"></a>
   </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -18,14 +17,17 @@
           <p>Quel moyen de contact préférez-vous ?</p>
           <div class="content">
             <div class="test text-center">
+              <a href="#"><img src="../assets/Whatsapp.svg"></a>
               <h2>WhatsApp</h2>
               <p1>Rejoingnez la team</p1>
             </div>
             <div class="test text-center">
+              <a href="#"><img src="../assets/Tel.svg"></a>
               <h2>Etre rappelé</h2>
               <p1>Réservez un créneau horaire</p1>
             </div>
             <div class="test text-center">
+              <a href="#"><img src="../assets/Email.svg"></a>
               <h2>Email</h2>
               <p1>Envoyez-nous un email et nous vous répondrons dans les meilleurs délais</p1>
             </div>
@@ -138,10 +140,16 @@ h5{
   max-width: 55em;
 }
 
+p1{
+  font-family: Roboto;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
 p{
   font-family: Roboto;
   font-size: 14px;
-  color: #404DEF;
   margin-top: 15px;
   margin-left: 20px;
 }

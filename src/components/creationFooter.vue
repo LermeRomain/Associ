@@ -86,7 +86,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  padding: 24px 32px;
+  padding: 16px 24px;
   line-height: 100.8%;
   /* identical to box height */
 

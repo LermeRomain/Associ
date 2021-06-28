@@ -36,7 +36,7 @@
                     action="https://b01bfbbf.sibforms.com/serve/MUIEAKN9rd2eqo9z8cE8vnUFwc-fpg7mMyoFuszcFcJVsnIGURcDTxXQH78RzO02CBWFnwKYyixykhTR7Ag5-MAeW6y5OqCIIkB9ODPJMoAZx3c_HOtmDlVqsdKrNcHDPM16-dt8MRtpT_C4_IBu1Y8d4VZz3qc0mzoyI3OEc4fU6Sf40OBW_Y7mC_pA0LxCbjXB4rE3mtCCFE5x">
                 <div>
                   <div class="sib-form-block">
-                    <h1>Je m’abonne à la newsletter</h1>
+                    <h1>Newsletter</h1>
                   </div>
                 </div>
                 <div>

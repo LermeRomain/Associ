@@ -12,7 +12,7 @@
             <a class="nav-link" href="#about">Fonctionnalités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://associ-blog.000webhostapp.com">Blog</a>
+            <a class="nav-link" href="https://associ.medium.com/">Blog</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown" aria-expanded="false">
@@ -36,7 +36,7 @@
         <ul class="form-inline my-2 my-lg-0">
           <a class="nav-link" href="/#login">Se connecter</a>
           <li class="active">
-            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Créer mon association</a>
+            <router-link to="/Create"><a class="nav-link active" href="#" title="Lien vers la page de connexion">Créer mon association</a></router-link>
           </li>
         </ul>
       </div>
@@ -76,7 +76,9 @@ img {
 }
 
 .nav-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-style: normal;
   font-size: 20px;
   color: #7D8790;
   padding: 10px;
@@ -131,6 +133,7 @@ a:hover {
   margin-right: 20px;
   margin-top: 30px;
   margin-left: 25px;
+  margin-bottom: 15px;
 
 }
 .dropdown-item{
