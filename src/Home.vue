@@ -6,7 +6,6 @@
     <Services />
     <Video />
     <Blog />
-    <Retour />
     <creationFooter />
     <Arrow />
   </section>
@@ -18,7 +17,6 @@ import Blog from "@/components/Blog";
 import Banner from './components/Banner'
 import Services from './components/Services'
 import Video from './components/Video'
-import Retour from "./components/Retour";
 import Arrow from './components/Arrow'
 import creationFooter from "./components/creationFooter";
 
@@ -26,7 +24,6 @@ import creationFooter from "./components/creationFooter";
 export default {
   name: 'App',
   components:{
-    Retour,
     Blog,
     Video,
     Banner,
