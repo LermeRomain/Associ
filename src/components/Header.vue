@@ -9,16 +9,34 @@
         <a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="https://associ-blog.000webhostapp.com">Blog</a>
+            <a class="nav-link" href="#about">Fonctionnalités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Qui sommes nous?</a>
+            <a class="nav-link" href="https://associ-blog.000webhostapp.com">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown" aria-expanded="false">
+              Entreprise
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Qui sommes-nous ?</a></li>
+              <li><a class="dropdown-item" href="#">Presse</a></li>
+              <li><a class="dropdown-item" href="#">Contactez-nous</a></li>
+              <li>
+                <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram fab1"></i></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Tarifs</a>
           </li>
         </ul>
         <ul class="form-inline my-2 my-lg-0">
-          <a class="nav-link" href="/#login">Créer mon association</a>
+          <a class="nav-link" href="/#login">Se connecter</a>
           <li class="active">
-            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Se connecter</a>
+            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Créer mon association</a>
           </li>
         </ul>
       </div>
@@ -38,6 +56,16 @@ export default {
 
 
 <style scoped>
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar{
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 img {
   height: 37px;
@@ -74,6 +102,7 @@ img {
   border: 1px solid #400186;
 }
 
+
 .nav-link.active:hover {
   text-decoration-line: none;
   background: #FFFFFF;
@@ -85,4 +114,28 @@ a:hover {
   color: #400186;
 }
 
+
+
+.fab {
+  font-size: 30px;
+  color: #400186;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+
+}
+
+.fab.fab1 {
+  font-size: 30px;
+  color: #400186;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-left: 25px;
+
+}
+.dropdown-item{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #400186;
+}
 </style>
