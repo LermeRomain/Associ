@@ -66,21 +66,21 @@
       <div class="container-fluid d-none d-sm-block d-none d-md-block">
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner" style="padding: 20px">
-            <div class="carousel-item active" data-interval="10000">
+            <div class="carousel-item active">
               <div class="row boxed">
                 <div class="box2">
                   <h4>Membres</h4>
-                  <img src="../assets/Fonction/membre.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
                 <div class="box2">
                   <h4>Messagerie</h4>
-                  <img src="../assets/Fonction/message.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
                 <div class="box2">
                   <h4>Taches</h4>
-                  <img src="../assets/Fonction/tache.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
               </div>
@@ -88,21 +88,24 @@
 
             <!--              slide 1 -->
 
-            <div class="carousel-item" data-interval="2000">
+            <div class="carousel-item">
               <div class="row boxed">
                 <div class="box2">
                   <h4>Messagerie</h4>
-                  <img src="../assets/Fonction/message.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px" title="">
+                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
                 <div class="box2">
                   <h4>Taches</h4>
-                  <img src="../assets/Fonction/tache.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
+                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
-                <div class="box col-md-3">
+                <div class="box2">
                   <h4>Discord</h4>
-                  <img src="../assets/Fonction/discord.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
+                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
               </div>
@@ -111,21 +114,21 @@
             <!--            slide 2-->
 
 
-            <div class="carousel-item" data-interval="3000">
+            <div class="carousel-item">
               <div class="row boxed">
                 <div class="box2">
                   <h4>Taches</h4>
-                  <img src="../assets/Fonction/tache.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
-                <div class="box col-md-3">
+                <div class="box2">
                   <h4>Discord</h4>
-                  <img src="../assets/Fonction/discord.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
                 <div class="box2">
                   <h4>Membres</h4>
-                  <img src="../assets/Fonction/membre.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
               </div>
@@ -133,21 +136,21 @@
 
             <!--          slide 3-->
 
-            <div class="carousel-item" data-interval="3000">
+            <div class="carousel-item">
               <div class="row boxed">
                 <div class="box2">
                   <h4>Discord</h4>
-                  <img src="../assets/Fonction/discord.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
                 <div class="box2">
                   <h4>Membres</h4>
-                  <img src="../assets/Fonction/membre.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
                 <div class="box2">
                   <h4>Messagerie</h4>
-                  <img src="../assets/Fonction/message.svg" style="margin-bottom: auto">
+                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
                   <button class="btn-1" type="button">Prendre en main</button>
                 </div>
               </div>
@@ -410,12 +413,11 @@ p2 {
   border-radius: 12px;
   margin-top: 40px;
   text-align: center;
-  width: 280px;
+  max-width: 280px;
   height: 500px;
 }
 
 .btn-1 {
-  float: bottom;
   background: #FD4C6F;
   border-radius: 40px;
   font-family: Roboto;
@@ -424,9 +426,7 @@ p2 {
   font-size: 20px;
   padding: 16px 24px;
   line-height: 100.8%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin-top: 40px;
   /* identical to box height */
 
   text-align: center;
