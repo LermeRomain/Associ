@@ -23,10 +23,10 @@ const routes = [
     },
 
     {
-        path:'/Create',
-        name: 'Creation asso',
+        path:'/Fonctionnalite',
+        name: 'Fonctionnalite',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Create.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Fonctionnalite.vue'),
         },
     },
 

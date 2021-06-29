@@ -1,17 +1,17 @@
 <template>
-    <Association />
+    <Video />
 </template>
 
 <script>
 
-import Association from "./components/Creation/Association";
+import Video from "./components/Video";
 
 
 
 export default {
-  name: 'Create',
+  name: 'Fonctionnalité',
   components:{
-    Association,
+    Video,
   }
 }
 

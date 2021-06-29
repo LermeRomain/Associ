@@ -6,10 +6,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse col-md-10 offset-1" id="navbarTogglerDemo01">
-        <a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a>
+        <router-link to="/"><a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a></router-link>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Fonctionnalités</a>
+            <router-link to="/Fonctionnalite"><a class="nav-link">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://associ.medium.com/">Blog</a>
@@ -36,7 +36,7 @@
         <ul class="form-inline my-2 my-lg-0">
           <a class="nav-link" href="/#login">Se connecter</a>
           <li class="active">
-            <router-link to="/Create"><a class="nav-link active" href="#" title="Lien vers la page de connexion">Créer mon association</a></router-link>
+            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Créer mon association</a>
           </li>
         </ul>
       </div>
