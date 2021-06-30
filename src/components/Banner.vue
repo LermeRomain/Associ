@@ -2,14 +2,18 @@
   <div class="background container-fluid">
     <div class="row">
       <div class="col-12 col-md-5 offset-md-1">
-        <h1><span> Créez votre</span> association</h1>
+        <h1>Créez votre association</h1>
         <p id="txt1">Associ vous aidera dans la création de votre association.
           Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.
           De l’administratif à sa gestion, nous vous accompagnerons tout au long de votre vie associative.</p>
-        <button class="btn" type="button">Créer mon association</button>
+        <div class="row" style="margin-left: 1px">
+          <button class="btn" type="button">Je rejoins la communauté</button>
+          <button class="btn1" type="button">Nous Découvrir</button>
+        </div>
       </div>
-      <div class="d-none d-sm-block d-none d-md-block col-md-5">
-        <img src="../assets/teams.svg" alt="Illustrations d'un groupe d'adolescent">
+      <div class="col-12 col-md-5">
+        <video src="../assets/videoCible.mp4" width=100% height=100% controls
+               title="vidéo explainer du concept Associ"></video>
       </div>
     </div>
   </div>
@@ -74,14 +78,10 @@ span {
   padding-bottom: 100px;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-}
-
 .btn {
   display: flex;
   margin-top: 7%;
+  margin-bottom: 10px;
   background: #400186;
   border-radius: 40px;
   font-family: Roboto;
@@ -106,5 +106,24 @@ img {
   color: #400186;
   box-sizing: border-box;
   border-radius: 50px;
+}
+
+.btn1 {
+  display: flex;
+  margin-top: 7%;
+  background: #FFFFFF;
+  border-radius: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 24px;
+  line-height: 100.8%;
+  /* identical to box height */
+
+  text-align: center;
+  border: none;
+
+  color: #400186;
 }
 </style>

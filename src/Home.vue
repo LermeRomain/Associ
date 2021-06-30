@@ -3,7 +3,8 @@
   <section id="content">
     <router-view></router-view>
     <Banner />
-    <Services />
+    <Seduire />
+    <Tableau />
     <Blog />
     <creationFooter />
     <Arrow />
@@ -14,17 +15,19 @@
 <script>
 import Blog from "@/components/Blog";
 import Banner from './components/Banner'
-import Services from './components/Services'
 import Arrow from './components/Arrow'
 import creationFooter from "./components/creationFooter";
+import Seduire from "./components/Seduire";
+import Tableau from "./components/Tableau";
 
 
 export default {
   name: 'App',
   components:{
+    Tableau,
+    Seduire,
     Blog,
     Banner,
-    Services,
     creationFooter,
     Arrow
   }

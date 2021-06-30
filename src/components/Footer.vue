@@ -3,10 +3,10 @@
     <div class="container-fluid text-center">
       <div class="row">
         <div class="col-md-2 text-left offset-1">
-          <img class="logo_Footer" src="../assets/logo.svg">
-          <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>
-          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
-          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
+          <img class="logo_Footer" src="../assets/logoFooter.svg">
+<!--          <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>-->
+<!--          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>-->
+<!--          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-discord"></i></a>-->
         </div>
 
 
@@ -31,7 +31,7 @@
         <div class="col-md-4 text-center">
           <div id="sib-form-container" class="sib-form-container">
             <div id="sib-container" class="sib-container--large sib-container--vertical"
-                 style="text-align:center; background-color:#F0F1FE; max-width:540px; padding: 0px">
+                 style="text-align:center; background-color:#400186; max-width:540px; padding: 0px">
               <form id="sib-form" method="POST"
                     action="https://b01bfbbf.sibforms.com/serve/MUIEAKN9rd2eqo9z8cE8vnUFwc-fpg7mMyoFuszcFcJVsnIGURcDTxXQH78RzO02CBWFnwKYyixykhTR7Ag5-MAeW6y5OqCIIkB9ODPJMoAZx3c_HOtmDlVqsdKrNcHDPM16-dt8MRtpT_C4_IBu1Y8d4VZz3qc0mzoyI3OEc4fU6Sf40OBW_Y7mC_pA0LxCbjXB4rE3mtCCFE5x">
                 <div>
@@ -44,12 +44,11 @@
                     <div class="form__entry entry_block">
                       <div class="form__label-row ">
                         <div class="entry__field"
-                             style="  filter: drop-shadow(0px 6px 16px #A6A9D3);
-border-radius: 10px; padding: 6px;">
+                             style="  border-radius: 10px; padding: 6px;">
                           <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off"
                                  placeholder="EMAIL"
                                  data-required="true" required style="
-                                  border: 1px solid #DFDFDF;
+                                  border: 1px solid #FFFFFF;
                                   box-sizing: border-box;
                                   padding: 2%;
                                   box-shadow: 3px 6px 29px 3px rgba(0, 0, 0, 0.1);
@@ -61,8 +60,8 @@ border-radius: 10px; padding: 6px;">
                              style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
                       </label>
                       <label class="entry__specification"
-                             style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4;">
-                        Veuillez renseigner votre adresse email pour vous inscrire. Ex. : abc@xyz.com
+                             style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF;">
+                        Veuillez renseigner votre adresse email pour vous inscrire.
                       </label>
                     </div>
                   </div>
@@ -75,7 +74,7 @@ border-radius: 10px; padding: 6px;">
                           <label>
                             <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" required/>
                             <span class="checkbox checkbox_tick_positive"></span><span
-                              style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p2>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour plus d’informations, nous vous invitons à vous rendre sur notre page de <span1>Politique de confidentialité.</span1></p2><span
+                              style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:transparent;"><p2>Associ vous informe, que l'on collectera les données personnelles dans le cadre réglementé du RGPD. Pour plus d’informations, nous vous invitons à vous rendre sur notre page de <span1>Politique de confidentialité.</span1></p2><span
                               data-required="*" style="display: inline;"
                               class="entry__label entry__label_optin"></span></span>
                           </label>
@@ -89,7 +88,7 @@ border-radius: 10px; padding: 6px;">
                 <div>
                   <div class="sib-form-block" style="text-align: left">
                     <button class="sib-form-block__button sib-form-block__button-with-loader"
-                            style=" background: #400186;
+                            style=" background: #FFFFFF;
                               border-radius: 40px;
                               font-family: Roboto;
                               font-style: normal;
@@ -97,9 +96,9 @@ border-radius: 10px; padding: 6px;">
                               font-size: 20px;
                               line-height: 100.8%;
                               border-radius: 40px;
-                              border: 2px solid #400186;
+                              border: 2px solid #FFFFFF;
                               text-align: center;
-                              color: #FFFFFF;"
+                              color: #400186;"
                             form="sib-form" type="submit">
                       <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
                            viewBox="0 0 512 512">
@@ -119,7 +118,7 @@ border-radius: 10px; padding: 6px;">
           </div>
         </div>
       </div>
-      <p>Tous droits réservés© Associ</p>
+      <p style="color: #FFFFFF">Tous droits réservés© Associ</p>
     </div>
   </div>
 </template>
@@ -135,7 +134,7 @@ export default {
 
 <style scoped>
 
-.container-fluid{
+.container-fluid {
   width: 90%;
 }
 
@@ -151,7 +150,7 @@ a {
 
   /* Text */
 
-  color: #093046;
+  color: #FFFFFF;
 
 }
 
@@ -167,11 +166,11 @@ p1 {
   font-weight: normal;
   font-size: 15px;
   /* identical to box height, or 150% */
-  color: #093046;
+  color: #FFFFFF;
 
 }
 
-p2{
+p2 {
   margin-left: 5px;
 }
 
@@ -187,7 +186,7 @@ h1 {
 
   /* Text */
 
-  color: #093046;
+  color: #FFFFFF;
 
 }
 
@@ -195,34 +194,38 @@ h1 {
   display: grid;
 }
 
-.fab {
-  font-size: 30px;
-  color: #400186;
-  margin-right: 20px;
-  margin-top: 30px;
-  text-align: left;
+/*.fab {*/
+/*  font-size: 30px;*/
+/*  color: #FFFFFF;*/
+/*  margin-right: 20px;*/
+/*  margin-top: 30px;*/
+/*  text-align: left;*/
 
-}
+/*}*/
 
 
-.fab:hover {
-  transform: scale(1.05);
-}
+/*.fab:hover {*/
+/*  transform: scale(1.05);*/
+/*}*/
 
 .footer {
-  background-color: #F0F1FE;
+  background-color: #400186;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
+img{
+  width: 150px;
+  margin-bottom: 20px;
+}
 
 span {
-  color: #400186;
+  color: #FFFFFF;
   font-family: Roboto;
 }
 
 span1 {
-  color: #400186;
+  color: #FFFFFF;
   font-family: Roboto;
 }
 
@@ -260,7 +263,7 @@ span1 {
   color: #c0ccda;
 }
 
-.sib-form-block__button-with-loader{
+.sib-form-block__button-with-loader {
   text-decoration-line: none;
   background: #FFFFFF;
   color: #400186;

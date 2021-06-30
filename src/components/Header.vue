@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -10,6 +10,9 @@
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <router-link to="/Fonctionnalite"><a class="nav-link">Fonctionnalités</a></router-link>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Formation</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://associ.medium.com/">Blog</a>
@@ -25,7 +28,7 @@
               <li>
                 <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram fab1"></i></a>
                 <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-discord"></i></a>
               </li>
             </ul>
           </li>
@@ -34,9 +37,8 @@
           </li>
         </ul>
         <ul class="form-inline my-2 my-lg-0">
-          <a class="nav-link" href="/#login">Se connecter</a>
           <li class="active">
-            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Créer mon association</a>
+            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Démarrer le quizz</a>
           </li>
         </ul>
       </div>
@@ -65,6 +67,7 @@ export default {
 .navbar{
   padding-left: 5px;
   padding-right: 5px;
+  background: #FFFFFF;
 }
 
 img {
@@ -81,7 +84,6 @@ img {
   font-style: normal;
   font-size: 20px;
   color: #7D8790;
-  padding: 10px;
   position: relative;
 }
 

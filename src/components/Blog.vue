@@ -1,10 +1,11 @@
 <template>
   <div class="container-fluid">
-    <div class="row justify-content-around">
+    <div class="row offset-md-1">
       <div class="col-12 col-md-6">
         <h1>Le blog</h1>
         <br>
-        <p>Découvrez notre blog où vous y trouverez toutes les informations nécessaires à l’élaboration en amont de votre association !</p>
+        <p>Découvrez notre blog ! <br>
+          Vous retrouverez toutes les informations nécessaire à l’élaboration de votre association.</p>
       </div>
       <div class="col-12 col col-md-5 active">
         <a href="https://associ-blog.000webhostapp.com/2021/06/bonjour-tout-le-monde">
@@ -39,10 +40,6 @@ export default {
 
 <style scoped>
 
-.container-fluid{
-  margin-bottom: 10%;
-  width: 90%;
-}
 
 p{
   font-family: Roboto;

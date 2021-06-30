@@ -1,0 +1,93 @@
+<template>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 offset-1">
+        <h1>Laisse-toi séduire...</h1>
+        <p>Sois guidé par notre quiz pour mieux définir ton projet associatif. </p>
+      </div>
+      <div class="col-md-3">
+        <img src="../assets/love.svg">
+      </div>
+      <div class="col-md-2 offset-1">
+        <button class="btn" type="button">Démarrer le quizz</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Seduire"
+}
+</script>
+
+<style scoped>
+
+.container-fluid{
+  background-image: url("../assets/gradiant.svg");
+  height:713px;
+  width: 100%;
+}
+
+h1{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 58px;
+  color: #FFFFFF;
+}
+
+p{
+  font-family: Roboto;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+
+.btn {
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 10px;
+  background: #400186;
+  border-radius: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 24px;
+  line-height: 100.8%;
+  /* identical to box height */
+
+  text-align: left;
+  border-color: #400186;
+  border: 2px solid #400186;
+
+  color: #FFFFFF;
+}
+
+
+.btn:hover {
+  text-decoration-line: none;
+  background: #FFFFFF;
+  color: #400186;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.col-md-4{
+  margin-top: 25%;
+}
+
+.col-md-3{
+  margin-top: 15%;
+}
+
+.col-md-2{
+  margin-top: 23%;
+}
+
+@media screen and (max-width: 1275px)
+{
+  img { display: none; }
+}
+
+</style>
