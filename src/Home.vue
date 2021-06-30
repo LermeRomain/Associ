@@ -7,7 +7,6 @@
     <Tableau />
     <Blog />
     <Conquis />
-    <Arrow />
   </section>
 
 </template>
@@ -15,7 +14,6 @@
 <script>
 import Blog from "@/components/Blog";
 import Banner from './components/Banner'
-import Arrow from './components/Arrow'
 import Seduire from "./components/Seduire";
 import Tableau from "./components/Tableau";
 import Conquis from "./components/Conquis";
@@ -28,8 +26,7 @@ export default {
     Tableau,
     Seduire,
     Blog,
-    Banner,
-    Arrow
+    Banner
   }
 }
 
