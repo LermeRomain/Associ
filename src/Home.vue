@@ -6,7 +6,7 @@
     <Seduire />
     <Tableau />
     <Blog />
-    <creationFooter />
+    <Conquis />
     <Arrow />
   </section>
 
@@ -16,19 +16,19 @@
 import Blog from "@/components/Blog";
 import Banner from './components/Banner'
 import Arrow from './components/Arrow'
-import creationFooter from "./components/creationFooter";
 import Seduire from "./components/Seduire";
 import Tableau from "./components/Tableau";
+import Conquis from "./components/Conquis";
 
 
 export default {
   name: 'App',
   components:{
+    Conquis,
     Tableau,
     Seduire,
     Blog,
     Banner,
-    creationFooter,
     Arrow
   }
 }

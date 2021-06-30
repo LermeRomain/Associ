@@ -1,15 +1,13 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 offset-1">
-        <h1>Laisse-toi séduire...</h1>
-        <p>Sois guidé par notre quiz pour mieux définir ton projet associatif. </p>
-      </div>
-      <div class="col-md-3">
-        <img src="../assets/love.svg">
-      </div>
-      <div class="col-md-2 offset-1">
-        <button class="btn" type="button">Démarrer le quizz</button>
+      <div class="col-md-12 text-center">
+        <h1>Conquis ?</h1>
+        <p>Ne passez pas à côté de l’expérience de votre vie</p>
+        <div class="row offset-md-4">
+          <button class="btn" type="button">Je rejoins la communauté</button>
+          <button class="btn1" type="button">Nous Découvrir</button>
+        </div>
       </div>
     </div>
   </div>
@@ -17,7 +15,7 @@
 
 <script>
 export default {
-  name: "Seduire"
+  name: "Conquis"
 }
 </script>
 
@@ -27,6 +25,7 @@ export default {
   background-image: url("../assets/gradiant.svg");
   height: 713px;
   width: 100%;
+  margin-top: 462px;
 }
 
 h1 {
@@ -72,28 +71,32 @@ p {
   border-color: white;
 }
 
-.col-md-4 {
-  margin-top: 25%;
+.btn1 {
+  display: flex;
+  margin-top: 7%;
+  background: none;
+  border-radius: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 24px;
+  line-height: 100.8%;
+  /* identical to box height */
+
+  text-align: center;
+  border: none;
+
+  color: #FFFFFF;
 }
 
-.col-md-3 {
-  margin-top: 15%;
-}
-
-.col-md-2 {
-  margin-top: 23%;
-}
-
-@media screen and (max-width: 1275px) {
-  img {
-    display: none;
-  }
-
+.col-md-12 {
+  margin-top: 20%;
 }
 
 @media screen and (max-width: 768px) {
-  .col-md-2 {
-    margin-top: 2%;
+  .col-md-12 {
+    margin-top: 50%;
   }
 }
 </style>
