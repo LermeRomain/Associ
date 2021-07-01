@@ -15,8 +15,10 @@
       </div>
       <div class="col-md-4">
         <div class="block text-center">
-          <img src="../assets/Tel.svg">
-          <p class="title1">Etre rappelé<br><span>Réservez un créneau horaire</span></p>
+          <a href="https://calendly.com/associ" target="_blank">
+            <img src="../assets/Tel.svg">
+            <p class="title1">Etre rappelé<br><span>Réservez un créneau horaire</span></p>
+          </a>
         </div>
       </div>
       <div class="col-md-4">
