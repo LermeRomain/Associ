@@ -13,7 +13,7 @@
         <div class="col-md-2 text-center">
           <h1>Pages</h1>
           <div class="menub">
-            <a href="#">Blog</a>
+            <a href="https://associ.medium.com/" target="_blank">Blog</a>
             <a href="#">Qui sommes-nous ?</a>
           </div>
         </div>

@@ -6,7 +6,7 @@
         <p>Ne passez pas à côté de l’expérience de votre vie</p>
         <div class="row offset-md-4">
           <button class="btn" type="button">Je rejoins la communauté</button>
-          <button class="btn1" type="button">Nous Découvrir</button>
+          <button class="btn1" type="button">Démarrer le quizz</button>
         </div>
       </div>
     </div>
@@ -74,7 +74,9 @@ p {
 .btn1 {
   display: flex;
   margin-top: 7%;
-  background: none;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  background: #FFFFFF;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
@@ -84,10 +86,18 @@ p {
   line-height: 100.8%;
   /* identical to box height */
 
-  text-align: center;
-  border: none;
+  text-align: left;
+  border-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
 
+  color: #400186;
+}
+
+.btn1:hover {
+  text-decoration-line: none;
+  background: none;
   color: #FFFFFF;
+  border-color: white;
 }
 
 .col-md-12 {

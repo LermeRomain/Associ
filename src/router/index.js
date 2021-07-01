@@ -30,6 +30,15 @@ const routes = [
         },
     },
 
+    {
+        path:'/Contacter',
+        name: 'Contacter',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Contacter.vue'),
+        },
+    },
+
+
 ]
 
 const router = new VueRouter({

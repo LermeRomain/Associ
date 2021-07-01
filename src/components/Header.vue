@@ -12,23 +12,23 @@
             <router-link to="/Fonctionnalite"><a class="nav-link">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Formation</a>
+            <a class="nav-link" href="#">Webinaires</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://associ.medium.com/">Blog</a>
+            <a class="nav-link" href="https://associ.medium.com/" target="_blank">Blog</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown" aria-expanded="false">
-              Entreprise
+              Equipe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <li><a class="dropdown-item" href="#">Qui sommes-nous ?</a></li>
               <li><a class="dropdown-item" href="#">Presse</a></li>
-              <li><a class="dropdown-item" href="#">Contactez-nous</a></li>
+              <router-link to="/Contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
               <li>
-                <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram fab1"></i></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-discord"></i></a>
+                <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram fab1"></i></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-discord"></i></a>
               </li>
             </ul>
           </li>
