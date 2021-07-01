@@ -23,10 +23,10 @@ const routes = [
     },
 
     {
-        path:'/Fonctionnalite',
-        name: 'Fonctionnalite',
+        path:'/Fonctionnalités',
+        name: 'Fonctionnalités',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Fonctionnalite.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Fonctionnalités.vue'),
         },
     },
 

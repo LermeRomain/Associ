@@ -9,7 +9,7 @@
         <router-link to="/"><a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a></router-link>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <router-link to="/Fonctionnalite"><a class="nav-link">Fonctionnalités</a></router-link>
+            <router-link to="/Fonctionnalités"><a class="nav-link">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Webinaires</a>
