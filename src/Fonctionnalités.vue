@@ -1,6 +1,5 @@
 <template>
   <section id="content">
-    <Arrow />
     <Video />
   </section>
 </template>
@@ -8,14 +7,12 @@
 <script>
 
 import Video from "./components/Video";
-import Arrow from "./components/Arrow";
 
 
 
 export default {
   name: 'Fonctionnalité',
   components:{
-    Arrow,
     Video,
   }
 }

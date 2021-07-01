@@ -38,6 +38,13 @@ const routes = [
         },
     },
 
+    {
+        path:'/Quizz',
+        name: 'Quizz',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Quizz.vue'),
+        },
+    },
 
 ]
 

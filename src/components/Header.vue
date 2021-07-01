@@ -38,7 +38,7 @@
         </ul>
         <ul class="form-inline my-2 my-lg-0">
           <li class="active">
-            <a class="nav-link active" href="#" title="Lien vers la page de connexion">Démarrer le quizz</a>
+            <router-link to="/Quizz" style="text-decoration-line: none"><a class="nav-link active" title="Lien vers la page de connexion">Démarrer le quizz</a></router-link>
           </li>
         </ul>
       </div>
