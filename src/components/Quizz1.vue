@@ -151,21 +151,6 @@ export default {
         this.isStep9Visible = true;
       }
     },
-    zip(value) {
-      if (value.length > 0) {
-        this.isLastInputFull = true;
-      }
-    },
-    phone(value) {
-      if (value.length > 0) {
-        this.isLastInputFull = true;
-      }
-    },
-    passConf(value) {
-      if (value.length > 0) {
-        this.isLastInputFull = true;
-      }
-    }
   },
   methods: {
     nextStep() {

@@ -46,6 +46,22 @@ const routes = [
         },
     },
 
+    {
+        path:'/Qui_sommes_nous',
+        name: 'Qui sommes nous',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Qui sommes nous.vue'),
+        },
+    },
+
+    {
+        path:'/Tarifs',
+        name: 'Tarifs',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Tarifs'),
+        },
+    },
+
 ]
 
 const router = new VueRouter({

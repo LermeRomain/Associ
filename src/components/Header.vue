@@ -22,7 +22,7 @@
               Equipe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="#">Qui sommes-nous ?</a></li>
+              <router-link to="/Qui_sommes_nous"><li><a class="dropdown-item">Qui sommes-nous ?</a></li></router-link>
               <li><a class="dropdown-item" href="#">Presse</a></li>
               <router-link to="/Contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
               <li>
@@ -33,7 +33,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Tarifs</a>
+            <router-link to="/Tarifs"><a class="nav-link" href="#about">Tarifs</a></router-link>
           </li>
         </ul>
         <ul class="form-inline my-2 my-lg-0">
