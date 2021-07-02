@@ -1,127 +1,201 @@
 <template>
   <div class="container-fluid">
-    <div class="container-fluid" v-if="isStep1Visible">
+    <p class="pt-5">Score : {{ score }}</p>
+
+
+    <div class="container-fluid" v-if="activeStep == 1">
       <h1 class="text-center">J'ai :</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">- de 16 ans</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-left: 150px">- de 16
+          ans
+        </button>
         <iframe src="https://giphy.com/embed/XGijTnUuPfZyrfVEMs" style="margin-right: auto; margin-left: auto"
                 width="284"
                 height="480" frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">+ de 16 ans</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">+ de 16
+          ans
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep2Visible">
+    <div class="container-fluid" v-if="activeStep == 2">
       <h1 class="text-center">J'apprends mieux...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">En équipe </button>
-        <iframe src="https://giphy.com/embed/55gSqlQsUkQJK7kAIP" style="margin-right: auto; margin-left: auto" width="480" height="270" frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-left: 150px">En équipe
+        </button>
+        <iframe src="https://giphy.com/embed/55gSqlQsUkQJK7kAIP" style="margin-right: auto; margin-left: auto"
+                width="480" height="270" frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">En autodidacte</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">En
+          autodidacte
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep3Visible">
+    <div class="container-fluid" v-if="activeStep == 3">
       <h1 class="text-center">L'engagement pour moi, c'est...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">Des valeurs qui me tiennent à cœur</button>
-        <iframe src="https://giphy.com/embed/l0MYFebwHWySTU5Lq" style="margin-right: auto; margin-left: auto" width="480" height="330" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-left: 150px">Des valeurs qui
+          me tiennent à cœur
+        </button>
+        <iframe src="https://giphy.com/embed/l0MYFebwHWySTU5Lq" style="margin-right: auto; margin-left: auto"
+                width="480" height="330" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">Pas ma priorité, je préfère Netflix & chill<conseils></conseils></button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">Pas ma
+          priorité, je préfère Netflix & chill
+          <conseils></conseils>
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep4Visible">
+    <div class="container-fluid" v-if="activeStep == 4">
       <h1 class="text-center">Mes besoins</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">J'ai mon idée d'association, je veux des membres qui me ressemblent !</button>
-        <iframe src="https://giphy.com/embed/SrRnsWM8fpnfktOFRD" style="margin-right: auto; margin-left: auto" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-left: 150px">J'ai mon idée
+          d'association, je veux des membres qui me ressemblent !
+        </button>
+        <iframe src="https://giphy.com/embed/SrRnsWM8fpnfktOFRD" style="margin-right: auto; margin-left: auto"
+                width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">J'ai besoin de conseils !</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">J'ai besoin de
+          conseils !
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep5Visible">
+    <div class="container-fluid" v-if="activeStep == 5">
       <h1 class="text-center">Je créer une association, j'en parle à...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">Mes amis / ma famille</button>
-        <iframe src="https://giphy.com/embed/KCdq1IyxkmgRKj2D23" style="margin-right: auto; margin-left: auto" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-left: 150px">Mes amis / ma
+          famille
+        </button>
+        <iframe src="https://giphy.com/embed/KCdq1IyxkmgRKj2D23" style="margin-right: auto; margin-left: auto"
+                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">Mon école / mon travail</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">Mon école /
+          mon travail
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep6Visible">
+    <div class="container-fluid" v-if="activeStep == 6">
       <h1 class="text-center">Le plus contraignant pour créer mon association c'est...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">Le manque de confiance en moi</button>
-        <iframe src="https://giphy.com/embed/2zYk0N9ilSztOAPzb0" style="margin-right: auto; margin-left: auto" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-left: 150px">Le manque de
+          confiance en moi
+        </button>
+        <iframe src="https://giphy.com/embed/2zYk0N9ilSztOAPzb0" style="margin-right: auto; margin-left: auto"
+                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">Le manque d'argent</button>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-right: 150px">Le manque
+          d'argent
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
 
-    <div class="container-fluid" v-if="isStep7Visible">
+    <div class="container-fluid" v-if="activeStep == 7">
       <h1 class="text-center">Je préfère...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">Parler </button>
-        <iframe src="https://giphy.com/embed/0WG69qNdpTEOKG0egb" style="margin-right: auto; margin-left: auto" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-left: 150px">Parler</button>
+        <iframe src="https://giphy.com/embed/0WG69qNdpTEOKG0egb" style="margin-right: auto; margin-left: auto"
+                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">Ecouter</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">Ecouter
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep8Visible">
+    <div class="container-fluid" v-if="activeStep == 8">
       <h1 class="text-center">Discord me sert...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">À avoir cours en ligne</button>
-        <iframe src="https://giphy.com/embed/IgAfIrRH96pFMT3sOm" style="margin-right: auto; margin-left: auto" width="480" height="336" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-left: 150px">À avoir cours
+          en ligne
+        </button>
+        <iframe src="https://giphy.com/embed/IgAfIrRH96pFMT3sOm" style="margin-right: auto; margin-left: auto"
+                width="480" height="336" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">À discuter avec des gens</button>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-right: 150px">À discuter
+          avec des gens
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep9Visible">
+    <div class="container-fluid" v-if="activeStep == 9">
       <h1 class="text-center">Le travail en équipe pour moi c'est...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">Comme un jeu d'enfant</button>
-        <iframe src="https://giphy.com/embed/pslhvBFfstOJiyBOrs" style="margin-right: auto; margin-left: auto" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-left: 150px">Comme un jeu
+          d'enfant
+        </button>
+        <iframe src="https://giphy.com/embed/pslhvBFfstOJiyBOrs" style="margin-right: auto; margin-left: auto"
+                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">À petites doses</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">À petites
+          doses
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep10Visible">
+    <div class="container-fluid" v-if="activeStep == 10">
       <h1 class="text-center">Dans 3 ans tu inspires à...</h1>
       <div class="row">
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-left: 150px">Mener des projets associatifs</button>
-        <iframe src="https://giphy.com/embed/fH985LNdqFZXOFHygK" style="margin-right: auto; margin-left: auto" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <button @click.prevent="nextStep(true)" class="btn1 col-md-2" type="button" style="margin-left: 150px">Mener des
+          projets associatifs
+        </button>
+        <iframe src="https://giphy.com/embed/fH985LNdqFZXOFHygK" style="margin-right: auto; margin-left: auto"
+                width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep" class="btn1 col-md-2" type="button" style="margin-right: 150px">Ne rien changer à ma vie</button>
+        <button @click.prevent="nextStep(false)" class="btn1 col-md-2" type="button" style="margin-right: 150px">Ne rien
+          changer à ma vie
+        </button>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
 
-    <div class="container-fluid" v-if="isStep11Visible">
-      <h1 class="text-center">Vous avez l’air de <span>tout<br> avoir</span> pour créer une <br><span1>association</span1></h1>
-      <div class="text-center">
-        <p>Rejoingnez notre communauté <span1>discord</span1>.<br>
-          Vous pouvez y retrouver des jeunes pleins d’ambitions qui souhaitent créer <br>ou rejoindre une association.
-          <br><br>
-          Ainsi que des news sur notre solution et des jeux créés pour vous.</p>
-        <a href="https://discord.gg/FN6DV8rF" target="_blank"><button class="btn" type="button">Rejoindre le Discord</button></a>
+    <div class="container-fluid" v-if="activeStep == 11">
+      <div v-if="score >= 4">
+        <h1 class="text-center">Vous avez l’air de <span>tout<br> avoir</span> pour créer une <br>
+          <span1>association</span1>
+        </h1>
+        <div class="text-center">
+          <p>Rejoignez notre communauté
+            <span1>discord</span1>
+            .<br>
+            Vous pouvez y retrouver des jeunes pleins d’ambitions qui souhaitent créer <br>ou rejoindre une association.
+            <br><br>
+            Ainsi que des news sur notre solution et des jeux créés pour vous.
+          </p>
+          <a href="https://discord.gg/FN6DV8rF" target="_blank">
+            <button class="btn" type="button">Rejoindre le Discord</button>
+          </a>
+        </div>
       </div>
+      <div v-else>
+        <h1 class="text-center">Vous êtes une merde</h1>
+        <div class="text-center">
+          <p>Rejoignez notre communauté
+            <span1>discord</span1>
+            .<br>
+            Vous pouvez y retrouver des jeunes pleins d’ambitions qui souhaitent créer <br>ou rejoindre une association.
+            <br><br>
+            Ainsi que des news sur notre solution et des jeux créés pour vous.
+          </p>
+          <a href="https://discord.gg/FN6DV8rF" target="_blank">
+            <button class="btn" type="button">Rejoindre le Discord</button>
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
@@ -133,20 +207,11 @@ export default {
   data() {
     return {
       count: 1,
-      isStep1Visible: true,
-      isStep2Visible: false,
-      isStep3Visible: false,
-      isStep4Visible: false,
-      isStep5Visible: false,
-      isStep6Visible: false,
-      isStep7Visible: false,
-      isStep8Visible: false,
-      isStep9Visible: false,
-      isStep10Visible: false,
-      isStep11Visible: false,
+      activeStep: 1,
+      score: 0,
     };
   },
-
+/*
   watch: {
     count(value) {
       if (value === 2) {
@@ -167,13 +232,13 @@ export default {
       } else if (value === 7) {
         this.isStep6Visible = false;
         this.isStep7Visible = true;
-      } else if (value === 8){
+      } else if (value === 8) {
         this.isStep7Visible = false;
         this.isStep8Visible = true;
-      } else if (value === 9){
+      } else if (value === 9) {
         this.isStep8Visible = false;
         this.isStep9Visible = true;
-      } else if (value === 10){
+      } else if (value === 10) {
         this.isStep9Visible = false;
         this.isStep10Visible = true;
       } else {
@@ -182,10 +247,13 @@ export default {
       }
     },
   },
+*/
   methods: {
-    nextStep() {
+    nextStep(isAnswerRight) {
+      this.score = isAnswerRight ? this.score + 1 : this.score
       if (this.count < 11) {
         this.count++;
+        this.activeStep = this.count;
         this.isLastInputFull = false;
       }
     },
@@ -209,7 +277,7 @@ h1 {
   margin-bottom: 76px;
 }
 
-.btn{
+.btn {
   margin-top: 5%;
   margin-bottom: 10px;
   background: #FD4C6F;
@@ -261,12 +329,12 @@ p {
   font-size: 20px;
 }
 
-span{
+span {
   color: #FD4C6F;
   font-family: Roboto;
 }
 
-span1{
+span1 {
   color: #FDC34A;
   font-family: Roboto;
 }
