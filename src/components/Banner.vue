@@ -2,12 +2,12 @@
   <div class="background container-fluid">
     <div class="row">
       <div class="col-12 col-md-5 offset-md-1">
-        <h1>Créez votre association</h1>
-        <p id="txt1">Associ vous aidera dans la création de votre association.
-          Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.
+        <h1>Créer votre association</h1>
+        <p id="txt1" class="col-md-11">Associ vous aidera dans la création de votre association.
+          Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.<br><br>
           De l’administratif à sa gestion, nous vous accompagnerons tout au long de votre vie associative.</p>
         <div class="row" style="margin-left: 1px">
-          <button class="btn" type="button">Je rejoins la communauté</button>
+          <button class="btn" type="button">Rejoindre la communauté</button>
           <button class="btn1" type="button">Nous Découvrir</button>
         </div>
       </div>

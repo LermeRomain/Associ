@@ -7,9 +7,9 @@
       </div>
     </div>
     <div class="row offset-md-1">
-      <div class="col-md-5 d-none d-md-block">
-        <img class="dash" src="../assets/Dashboard.svg">
+      <div class="col-md-5 d-none d-lg-block">
         <p1>Notre outil de gestion pour <span>tout types d’associations</span></p1>
+        <img class="dash" style="margin-left: 0px" src="../assets/Dashboard.svg">
       </div>
       <div class="col-md-4 offset-md-2">
         <div class="article">

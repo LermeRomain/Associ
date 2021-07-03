@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-4 offset-1">
         <h1>Laisse-toi séduire...</h1>
-        <p>Sois guidé par notre quiz pour mieux définir ton projet associatif. </p>
+        <p>Sois guidé par notre quiz pour mieux définir ton <br>projet associatif. </p>
       </div>
       <div class="col-md-3">
         <img src="../assets/love.svg">
@@ -73,7 +73,7 @@ p {
 }
 
 .col-md-4 {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 .col-md-3 {

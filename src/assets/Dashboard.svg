@@ -1,6 +1,19 @@
-<svg width="735" height="521" viewBox="0 0 735 521" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="1.5" y="1.5" width="732" height="518" fill="url(#pattern0)" stroke="#FDC34A" stroke-width="3"/>
+<svg width="799" height="585" viewBox="0 0 799 585" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d)">
+<rect x="29" y="26" width="735" height="521" rx="32" fill="url(#pattern0)"/>
+<rect x="30.5" y="27.5" width="732" height="518" rx="30.5" stroke="#400186" stroke-width="3"/>
+</g>
 <defs>
+<filter id="filter0_d" x="0" y="0" width="799" height="585" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feMorphology radius="3" operator="dilate" in="SourceAlpha" result="effect1_dropShadow"/>
+<feOffset dx="3" dy="6"/>
+<feGaussianBlur stdDeviation="14.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.000360144) scale(0.000260604 0.000367647)"/>
 </pattern>

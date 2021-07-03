@@ -4,17 +4,22 @@
       <div class="row">
         <div class="col-md-2 text-left offset-1">
           <img class="logo_Footer" src="../assets/logoFooter.svg">
-<!--          <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>-->
-<!--          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>-->
-<!--          <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-discord"></i></a>-->
+          <div class="text-left">
+            <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-discord"></i></a>
+          </div>
         </div>
 
 
         <div class="col-md-2 text-center">
           <h1>Pages</h1>
           <div class="menub">
+            <a href="#">Fonctionnalités</a>
+            <a href="#">Webinaires</a>
             <a href="https://associ.medium.com/" target="_blank">Blog</a>
-            <a href="#">Qui sommes-nous ?</a>
+            <a href="#">Equipe</a>
+            <a href="#">Tarifs</a>
           </div>
         </div>
 
@@ -194,19 +199,19 @@ h1 {
   display: grid;
 }
 
-/*.fab {*/
-/*  font-size: 30px;*/
-/*  color: #FFFFFF;*/
-/*  margin-right: 20px;*/
-/*  margin-top: 30px;*/
-/*  text-align: left;*/
+.fab {
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-right: 30px;
+  margin-top: 30px;
+  text-align: left;
 
-/*}*/
+}
 
 
-/*.fab:hover {*/
-/*  transform: scale(1.05);*/
-/*}*/
+.fab:hover {
+  transform: scale(1.05);
+}
 
 .footer {
   background-color: #400186;
@@ -214,7 +219,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-img{
+img {
   width: 150px;
   margin-bottom: 20px;
 }
