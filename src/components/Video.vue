@@ -42,7 +42,7 @@
             <p2>Consultez la liste de vos documents officiels d’association</p2>
           </div>
         </div>
-        <div class="row">
+        <div class="row offset-md-3">
           <button class="btn1" type="button">Se préinscrire</button>
           <button class="btn" type="button">Télécharger le guide de création</button>
         </div>
