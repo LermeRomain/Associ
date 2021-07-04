@@ -1,5 +1,6 @@
 <template>
   <section id="content">
+    <TableauBord />
     <Video />
   </section>
 </template>
@@ -7,12 +8,14 @@
 <script>
 
 import Video from "./components/Video";
+import TableauBord from "./components/TableauBord";
 
 
 
 export default {
   name: 'Fonctionnalité',
   components:{
+    TableauBord,
     Video,
   }
 }

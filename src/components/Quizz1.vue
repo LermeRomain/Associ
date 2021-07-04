@@ -164,16 +164,13 @@
 
     <div class="container-fluid" v-if="activeStep == 11">
       <div v-if="score >= 4">
-        <h1 class="text-center">Vous avez l’air de <span>tout<br> avoir</span> pour créer une <br>
-          <span1>association</span1>
+        <h1 class="text-center">Vous avez de bonnes raison <br>pour rejoindre la communauté <br>Associ
         </h1>
         <div class="text-center">
-          <p>Rejoignez notre communauté
-            <span1>discord</span1>
-            .<br>
-            Vous pouvez y retrouver des jeunes pleins d’ambitions qui souhaitent créer <br>ou rejoindre une association.
+          <p>Le monde associatif est quelque chose qui vous intéresse. Vous êtes quelqu'un <br>de curieux, dynamique et vous aimez échanger. Rejoindre notre communauté, c'est <br>favoriser votre épanouissement.
             <br><br>
-            Ainsi que des news sur notre solution et des jeux créés pour vous.
+            Tu commences déjà à t'intégrer chez nous !
+
           </p>
           <a href="https://discord.gg/FN6DV8rF" target="_blank">
             <button class="btn" type="button">Rejoindre le Discord</button>
@@ -181,14 +178,12 @@
         </div>
       </div>
       <div v-else>
-        <h1 class="text-center">Vous êtes une merde</h1>
+        <h1 class="text-center">Vous êtes un peu frilleux <br>pour rejoindre le monde <br>associatif</h1>
         <div class="text-center">
-          <p>Rejoignez notre communauté
-            <span1>discord</span1>
-            .<br>
-            Vous pouvez y retrouver des jeunes pleins d’ambitions qui souhaitent créer <br>ou rejoindre une association.
+          <p>Ne vous en faites pas, nous vous accompagnons tout au long de <br>la création de votre association. Que ce soit dans les démarches <br>administratives et dans sa gestion.
             <br><br>
-            Ainsi que des news sur notre solution et des jeux créés pour vous.
+            N'hesite pas à nous contacter.
+
           </p>
           <a href="https://discord.gg/FN6DV8rF" target="_blank">
             <button class="btn" type="button">Rejoindre le Discord</button>
@@ -273,8 +268,8 @@ h1 {
   font-weight: bold;
   font-size: 58px;
   color: #FFFFFF;
-  padding-top: 200px;
-  margin-bottom: 76px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -314,12 +309,22 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   padding: 16px 24px;
+  margin-bottom: 250px;
   /* identical to box height */
 
   text-align: center;
-  border: none;
+  border-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
 
   color: #FFFFFF;
+}
+
+.btn1:hover{
+  border-color: #400186;
+  border: 5px solid #400186;
+  border-radius: 10px;
+  transition: 200ms;
 }
 
 p {

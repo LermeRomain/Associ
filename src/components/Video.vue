@@ -1,24 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-6">
-        <h1>Tableau de bord :<br>un logiciel de gestion pour<br> tous <span>types d'associations</span></h1>
-        <p>Notre logiciel de gestion pour association s'adapte à tous les secteurs associatifs :
-          sportive, caritative, culturelle, loisirs, réseaux, omnisports, etc.</p>
-
-        <h3 @mouseover="setWord">
-          <span1>-</span1>
-          {{ text }}
-        </h3>
-
-        <button class="btn" type="button">Prendre en main</button>
-      </div>
-      <div class="col-12 col-md-6">
-        <img src="../assets/Capture.svg" class="rounded d-block" alt="Responsive image">
-      </div>
       <div class="row" id="col">
-        <h1 style="padding-bottom: 30px; margin-left: 30px">Associ répond aux besoins des associations de tous les
-          secteurs.</h1>
+        <h1 style="padding-bottom: 30px; margin-left: 30px">Associ répond aux besoins des associations<br>
+          de tous les secteurs avec l’offre <span>Gratuite*</span></h1>
       </div>
       <div class="container offset-1">
         <div class="row justify-content-around">
@@ -47,15 +32,20 @@
             <p2>Accedez à une conversation Discord dédiée à votre association</p2>
           </div>
           <div class="box col-md-3">
-            <h4>Ressources</h4>
+            <h4>Assistance</h4>
             <img src="../assets/Fonction/ressource.svg" style="margin-bottom: 50px">
+            <p2>Notre équipe assure le service client 6j/7 <br>9h-18h</p2>
           </div>
           <div class="box col-md-3">
             <h4>Documents</h4>
             <img src="../assets/Fonction/document.svg" style="margin-bottom: 50px">
+            <p2>Consultez la liste de vos documents officiels d’association</p2>
           </div>
         </div>
-        <button class="btn1" type="button">Je crée mon association</button>
+        <div class="row">
+          <button class="btn1" type="button">Se préinscrire</button>
+          <button class="btn" type="button">Télécharger le guide de création</button>
+        </div>
       </div>
       <h1>Et bien plus encore !<br>
         Profitez de l’offre <span>intense</span></h1><br>
@@ -228,7 +218,7 @@ span {
   /* identical to box height, or 59px */
   letter-spacing: -0.01em;
   /* Text */
-  color: #FD4C6F;
+  color: #400186;
 }
 
 p {
@@ -264,8 +254,10 @@ img {
 
 .btn {
   display: flex;
-  background: #400186;
+  background: #FFFFFF;
   border-radius: 40px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -275,19 +267,8 @@ img {
   /* identical to box height */
 
   text-align: center;
-  border: 2px solid #400186;
 
-  color: #FFFFFF;
-
-}
-
-.btn:hover {
-  text-decoration-line: none;
-  background: #FFFFFF;
-  border: 2px solid #400186;
   color: #400186;
-  box-sizing: border-box;
-  border-radius: 50px;
 }
 
 h2 {
@@ -311,10 +292,6 @@ p {
   line-height: 30px;
   color: #1A1D32;
   opacity: 0.7;
-}
-
-.col-12 {
-  margin-bottom: 30px;
 }
 
 
@@ -383,11 +360,11 @@ p2 {
 /*controle carrousel*/
 
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   margin-right: auto;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   margin-left: 70%;
 }
 
