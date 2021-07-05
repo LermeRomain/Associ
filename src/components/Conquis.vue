@@ -25,7 +25,7 @@ export default {
   background-image: url("../assets/gradiant.svg");
   height: 713px;
   width: 100%;
-  margin-top: 462px;
+  margin-top: 200px;
 }
 
 h1 {

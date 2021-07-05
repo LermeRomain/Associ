@@ -47,119 +47,142 @@
           <button class="btn" type="button">Télécharger le guide de création</button>
         </div>
       </div>
-      <h1>Et bien plus encore !<br>
-        Profitez de l’offre <span>intense</span></h1><br>
 
+<!--      offre intense-->
 
-      <!--      Carrousel-->
-
-      <div class="container-fluid d-none d-sm-block d-none d-md-block">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner" style="padding: 20px">
-            <div class="carousel-item active">
-              <div class="row boxed">
-                <div class="box2">
-                  <h4>Membres</h4>
-                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Messagerie</h4>
-                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Taches</h4>
-                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-              </div>
-            </div>
-
-            <!--              slide 1 -->
-
-            <div class="carousel-item">
-              <div class="row boxed">
-                <div class="box2">
-                  <h4>Messagerie</h4>
-                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px" title="">
-                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Taches</h4>
-                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
-                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Discord</h4>
-                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
-                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-              </div>
-            </div>
-
-            <!--            slide 2-->
-
-
-            <div class="carousel-item">
-              <div class="row boxed">
-                <div class="box2">
-                  <h4>Taches</h4>
-                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Discord</h4>
-                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Membres</h4>
-                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-              </div>
-            </div>
-
-            <!--          slide 3-->
-
-            <div class="carousel-item">
-              <div class="row boxed">
-                <div class="box2">
-                  <h4>Discord</h4>
-                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Membres</h4>
-                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-                <div class="box2">
-                  <h4>Messagerie</h4>
-                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">
-                  <button class="btn-1" type="button">Prendre en main</button>
-                </div>
-              </div>
-            </div>
-
-            <!--slide 4-->
-
-
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+      <h1 style="margin-bottom: 100px">Toutes les autres fonctionnalités pour votre <br>association avec l’offre payante <span1>Intense*</span1></h1><br>
+      <div class="container offset-1">
+        <div class="row justify-content-around">
+          <div class="box1 col-md-3">
+            <h4>Assistance avancée</h4>
+            <img src="../assets/Fonction/discord.svg" style="margin-bottom: 50px">
+            <p2>Notre équipe assure le service client 7/7, 24h-24h</p2>
+            <button class="btn2">Rester informé</button>
+          </div>
+          <div class="box1 col-md-3">
+            <h4>Statistiques</h4>
+            <img src="../assets/Fonction/membre.svg" style="margin-bottom: 50px">
+            <p2>Voyez en temps réel l’impact de votre activité</p2>
+            <button class="btn2">Rester informé</button>
+          </div>
+          <div class="box1 col-md-3">
+            <h4>Gestion trésorierie</h4>
+            <img src="../assets/Fonction/document.svg" style="padding-right: 20px; margin-bottom: 50px">
+            <p2>Un conseiller vous aide sur la partie financière</p2>
+            <button class="btn2">Rester informé</button>
           </div>
         </div>
       </div>
+
+      <!--      Carrousel-->
+
+<!--      <div class="container-fluid d-none d-sm-block d-none d-md-block">-->
+<!--        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">-->
+<!--          <div class="carousel-inner" style="padding: 20px">-->
+<!--            <div class="carousel-item active">-->
+<!--              <div class="row boxed">-->
+<!--                <div class="box2">-->
+<!--                  <h4>Membres</h4>-->
+<!--                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Messagerie</h4>-->
+<!--                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Taches</h4>-->
+<!--                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash;              slide 1 &ndash;&gt;-->
+
+<!--            <div class="carousel-item">-->
+<!--              <div class="row boxed">-->
+<!--                <div class="box2">-->
+<!--                  <h4>Messagerie</h4>-->
+<!--                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px" title="">-->
+<!--                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Taches</h4>-->
+<!--                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">-->
+<!--                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Discord</h4>-->
+<!--                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">-->
+<!--                  <p2>Accedez à une conversation Discord dédiée à votre association</p2>-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash;            slide 2&ndash;&gt;-->
+
+
+<!--            <div class="carousel-item">-->
+<!--              <div class="row boxed">-->
+<!--                <div class="box2">-->
+<!--                  <h4>Taches</h4>-->
+<!--                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Discord</h4>-->
+<!--                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Membres</h4>-->
+<!--                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash;          slide 3&ndash;&gt;-->
+
+<!--            <div class="carousel-item">-->
+<!--              <div class="row boxed">-->
+<!--                <div class="box2">-->
+<!--                  <h4>Discord</h4>-->
+<!--                  <img src="../assets/Fonction/membre2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Membres</h4>-->
+<!--                  <img src="../assets/Fonction/collab2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--                <div class="box2">-->
+<!--                  <h4>Messagerie</h4>-->
+<!--                  <img src="../assets/Fonction/whatapp2.svg" style="max-height: 200px">-->
+<!--                  <button class="btn-1" type="button">Prendre en main</button>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash;slide 4&ndash;&gt;-->
+
+
+<!--            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">-->
+<!--              <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--              <span class="sr-only">Previous</span>-->
+<!--            </a>-->
+<!--            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">-->
+<!--              <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--              <span class="sr-only">Next</span>-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </div>
 </template>
@@ -219,6 +242,18 @@ span {
   letter-spacing: -0.01em;
   /* Text */
   color: #400186;
+}
+
+span1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 101.8%;
+  /* identical to box height, or 59px */
+  letter-spacing: -0.01em;
+  /* Text */
+  color: #FDC34A;
 }
 
 p {
@@ -294,12 +329,22 @@ p {
   opacity: 0.7;
 }
 
-
--------------------------------------
 .container-fluid {
   width: 90%;
 }
 
+
+.box1 {
+  margin-right: auto;
+  background: #FFFFFF;
+  /* Shadow_step */
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin-top: 40px;
+  text-align: center;
+  width: 280px;
+  height: 550px;
+}
 
 .box {
   margin-right: auto;
@@ -422,5 +467,22 @@ p2 {
   border-radius: 50px;
 }
 
+.btn2 {
+  background: #FDC34A;
+  border-radius: 40px;
+  margin-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 24px;
+  line-height: 100.8%;
+  /* identical to box height */
+
+  text-align: center;
+  border: none;
+
+  color: #FFFFFF;
+}
 
 </style>
