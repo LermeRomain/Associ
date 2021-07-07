@@ -23,7 +23,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <router-link to="/Qui_sommes_nous"><li><a class="dropdown-item">Qui sommes-nous ?</a></li></router-link>
-              <li><a class="dropdown-item" href="#">Presse</a></li>
+              <router-link to="/Presse"><li><a class="dropdown-item">Presse</a></li></router-link>
               <router-link to="/Contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
               <li>
                 <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram fab1"></i></a>

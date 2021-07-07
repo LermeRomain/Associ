@@ -62,6 +62,13 @@ const routes = [
         },
     },
 
+    {
+        path:'/Presse',
+        name: 'Presse',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Presse'),
+        },
+    },
 ]
 
 const router = new VueRouter({

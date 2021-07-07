@@ -1,17 +1,15 @@
 <template>
   <section id="content">
-   <QSN />
+    <Communiquer/>
   </section>
 </template>
 
 <script>
-import QSN from "./components/QSN";
+import Communiquer from "./components/Communiquer";
 
 export default {
-  name: "Qui sommes nous",
-  components: {
-    QSN,
-  }
+  name: "Presse",
+  components: {Communiquer}
 }
 </script>
 
