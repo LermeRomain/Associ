@@ -69,6 +69,14 @@ const routes = [
             default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Presse'),
         },
     },
+
+    {
+        path:'/Webinaire',
+        name: 'Webinaire',
+        components: {
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Webinaire'),
+        },
+    },
 ]
 
 const router = new VueRouter({

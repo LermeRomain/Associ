@@ -12,7 +12,7 @@
             <router-link to="/Fonctionnalités"><a class="nav-link">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Webinaires</a>
+           <router-link to="/Webinaire"><a class="nav-link">Webinaires</a></router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://associ.medium.com/" target="_blank">Blog</a>

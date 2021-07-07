@@ -94,11 +94,11 @@ export default {
 
 .container-fluid {
   margin-top: 70px;
-  height: 768px;
 }
 
 .background {
   background-image: url("../assets/Backrose.svg");
+  height: 768px;
 }
 
 .background2 {
