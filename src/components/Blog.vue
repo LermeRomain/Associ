@@ -5,8 +5,8 @@
         <h1>Le blog</h1>
       </div>
     </div>
-    <div class="container-fluid row offset-md-1">
-      <div class="col-md-3">
+    <div class="container-fluid row">
+      <div class="col-md-3 offset-md-1">
         <h2>Communauté Discord</h2>
         <div class="block">
           <p class="title1" style="float: right; color: #FD4C6F; margin-right: 16px">Financement</p>

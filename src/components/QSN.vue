@@ -25,7 +25,7 @@
         Nos valeurs
       </h2>
       <div class="row offset-md-1">
-        <div class="col-md-5">
+        <div class="col-md-6">
           <img src="../assets/trophy.svg">
           <h3>L’esprit d’équipe</h3>
           <p1>Savoir travailler en équipe est essentiel dans toute activité, surtout quand on sait qu’il est nécésaire
@@ -49,7 +49,7 @@
       </div>
 
       <div class="row offset-md-1" style="margin-top: 60px;padding-bottom: 20%">
-        <div class="col-md-5">
+        <div class="col-md-6">
           <img src="../assets/mains.svg">
           <h3>L’entraide</h3>
           <p1>Pourquoi créé-t-on une association ?<br>
