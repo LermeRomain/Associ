@@ -1,16 +1,16 @@
 <template>
   <section id="content">
-   <QSN />
+    <Quizz1/>
   </section>
 </template>
 
 <script>
-import QSN from "./components/QSN";
+import Quizz1 from "./components/Quizz1";
 
 export default {
-  name: "Qui sommes nous",
+  name: "quizz",
   components: {
-    QSN,
+    Quizz1
   }
 }
 </script>

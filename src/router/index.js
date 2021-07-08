@@ -15,74 +15,74 @@ const routes = [
     },
 
     {
-        path:'/Legale',
-        name: 'Mentionslegales',
+        path:'/legale',
+        name: 'legale',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Legale.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/legale.vue'),
         },
     },
 
     {
-        path:'/Fonctionnalités',
-        name: 'Fonctionnalités',
+        path:'/fonctionnalités',
+        name: 'fonctionnalités',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Fonctionnalités.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/fonctionnalités.vue'),
         },
     },
 
     {
-        path:'/Contacter',
-        name: 'Contacter',
+        path:'/contacter',
+        name: 'contacter',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Contacter.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/contacter.vue'),
         },
     },
 
     {
-        path:'/Quizz',
-        name: 'Quizz',
+        path:'/quizz',
+        name: 'quizz',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Quizz.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/quizz.vue'),
         },
     },
 
     {
-        path:'/Qui_sommes_nous',
-        name: 'Qui sommes nous',
+        path:'/qui-sommes-nous',
+        name: 'qui sommes nous',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Qui sommes nous.vue'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/qui sommes nous.vue'),
         },
     },
 
     {
-        path:'/Tarifs',
-        name: 'Tarifs',
+        path:'/tarifs',
+        name: 'tarifs',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Tarifs'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/tarifs.vue'),
         },
     },
 
     {
-        path:'/Presse',
-        name: 'Presse',
+        path:'/presse',
+        name: 'presse',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Presse'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/presse.vue'),
         },
     },
 
     {
-        path:'/Webinaire',
-        name: 'Webinaire',
+        path:'/webinaire',
+        name: 'webinaire',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Webinaire'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/webinaire.vue'),
         },
     },
 
     {
-        path:'/Blogs',
-        name: 'Blogs',
+        path:'/blogs',
+        name: 'blogs',
         components: {
-            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/Blogs'),
+            default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/blogs.vue'),
         },
     },
 ]

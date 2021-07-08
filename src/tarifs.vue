@@ -7,7 +7,7 @@
 <script>
 import Tarif from "./components/Tarif";
 export default {
-  name: "Tarifs",
+  name: "tarifs",
   components: {Tarif}
 }
 </script>

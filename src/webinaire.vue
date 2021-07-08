@@ -1,17 +1,14 @@
 <template>
   <section id="content">
-    <Quizz1/>
+    <Webinaires />
   </section>
 </template>
 
 <script>
-import Quizz1 from "./components/Quizz1";
-
+import Webinaires from "./components/Webinaires";
 export default {
-  name: "Quizz",
-  components: {
-    Quizz1
-  }
+  name: "webinaire",
+  components: {Webinaires}
 }
 </script>
 

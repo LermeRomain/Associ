@@ -1,15 +1,14 @@
 <template>
   <section id="content">
-    <Communiquer/>
+    <LesBlogs />
   </section>
 </template>
 
 <script>
-import Communiquer from "./components/Communiquer";
-
+import LesBlogs from "./components/LesBlogs";
 export default {
-  name: "Presse",
-  components: {Communiquer}
+  name: "blogs",
+  components: {LesBlogs}
 }
 </script>
 

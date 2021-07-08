@@ -4,7 +4,7 @@
       <div class="col-md-4 offset-1">
         <h1>Laisse-toi séduire...</h1>
         <p>Sois guidé par notre quiz pour mieux définir ton <br>projet associatif.</p>
-        <router-link to="/Quizz"><button class="btn" type="button">Démarrer le quizz</button></router-link>
+        <router-link to="/quizz"><button class="btn" type="button">Démarrer le quizz</button></router-link>
       </div>
       <div class="col-md-4 offset-md-2">
         <img src="../assets/love.svg">

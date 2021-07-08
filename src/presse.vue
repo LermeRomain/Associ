@@ -1,14 +1,15 @@
 <template>
   <section id="content">
-  <Contact />
+    <Communiquer/>
   </section>
 </template>
 
 <script>
-import Contact from "./components/Contact";
+import Communiquer from "./components/Communiquer";
+
 export default {
-  name: "Contacter",
-  components: {Contact}
+  name: "presse",
+  components: {Communiquer}
 }
 </script>
 

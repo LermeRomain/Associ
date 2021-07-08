@@ -45,7 +45,7 @@
           <br>
           <img src="../assets/0€.svg">
           <br>
-          <router-link to="/Quizz"><button class="btn">Démarrer</button></router-link>
+          <router-link to="/quizz"><button class="btn">Démarrer</button></router-link>
           <br>
           <span>Pas d’abonnement ni d’engagement</span>
         </div>
@@ -70,7 +70,7 @@
           </p1>
         </div>
         <div class="row offset-md-4">
-          <router-link to="/Contacter"><button class="btn" type="button">Contactez-nous</button></router-link>
+          <router-link to="/contacter"><button class="btn" type="button">Contactez-nous</button></router-link>
           <button class="btn" type="button">Télécharger le guide de création</button>
         </div>
       </div>

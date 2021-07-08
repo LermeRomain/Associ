@@ -9,22 +9,22 @@
         <router-link to="/"><a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a></router-link>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <router-link to="/Fonctionnalités"><a class="nav-link">Fonctionnalités</a></router-link>
+            <router-link to="/fonctionnalités"><a class="nav-link">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
-           <router-link to="/Webinaire"><a class="nav-link">Webinaires</a></router-link>
+           <router-link to="/webinaire"><a class="nav-link">Webinaires</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/Blogs"><a class="nav-link">Blog</a></router-link>
+            <router-link to="/blogs"><a class="nav-link">Blog</a></router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown" aria-expanded="false">
               Equipe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <router-link to="/Qui_sommes_nous"><li><a class="dropdown-item">Qui sommes-nous ?</a></li></router-link>
-              <router-link to="/Presse"><li><a class="dropdown-item">Presse</a></li></router-link>
-              <router-link to="/Contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
+              <router-link to="/qui-sommes-nous"><li><a class="dropdown-item">Qui sommes-nous ?</a></li></router-link>
+              <router-link to="/presse"><li><a class="dropdown-item">Presse</a></li></router-link>
+              <router-link to="/contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
               <li>
                 <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram fab1"></i></a>
                 <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-tiktok"></i></a>
@@ -38,7 +38,7 @@
         </ul>
         <ul class="form-inline my-2 my-lg-0">
           <li class="active">
-            <router-link to="/Quizz" style="text-decoration-line: none"><a class="nav-link active" title="Lien vers la page de connexion">Démarrer le quizz</a></router-link>
+            <router-link to="/quizz" style="text-decoration-line: none"><a class="nav-link active" title="Lien vers la page de connexion">Démarrer le quizz</a></router-link>
           </li>
         </ul>
       </div>

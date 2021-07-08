@@ -15,21 +15,21 @@
         <div class="col-md-2 text-center">
           <h1>Pages</h1>
           <div class="menub">
-            <router-link to="/Fonctionnalités"><a>Fonctionnalités</a></router-link>
-            <router-link to="/Webinaire"><a>Webinaires</a></router-link>
+            <router-link to="/fonctionnalités"><a>Fonctionnalités</a></router-link>
+            <router-link to="/webinaire"><a>Webinaires</a></router-link>
             <a href="https://associ.medium.com/" target="_blank">Blog</a>
-            <router-link to="/Qui_sommes_nous"><a>Equipe</a></router-link>
-            <router-link to="/Tarifs"><a>Tarifs</a></router-link>
+            <router-link to="/qui_sommes_nous"><a>Equipe</a></router-link>
+            <router-link to="/tarifs"><a>Tarifs</a></router-link>
           </div>
         </div>
 
         <div class="col-md-2 text-center">
           <h1>Informations</h1>
           <div class="menub">
-            <router-link :to="'/Legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a>
+            <router-link :to="'/legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a>
             </router-link>
-            <router-link :to="'/Legale'"><a>Politique de cookies</a></router-link>
-            <router-link :to="'/Presse'"><a>Presse</a></router-link>
+            <router-link :to="'/legale'"><a>Politique de cookies</a></router-link>
+            <router-link :to="'/presse'"><a>Presse</a></router-link>
           </div>
         </div>
 

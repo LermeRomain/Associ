@@ -1,20 +1,25 @@
 <template>
-
   <section id="content">
-    <Mention />
+    <TableauBord />
+    <Video />
+    <Conquis />
   </section>
-
 </template>
 
 <script>
-import Mention from "@/components/Mention";
+
+import Video from "./components/Video";
+import TableauBord from "./components/TableauBord";
+import Conquis from "./components/Conquis";
 
 
 
 export default {
-  name: 'Legale',
+  name: 'fonctionnalité',
   components:{
-    Mention,
+    Conquis,
+    TableauBord,
+    Video,
   }
 }
 

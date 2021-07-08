@@ -1,14 +1,14 @@
 <template>
   <section id="content">
-    <LesBlogs />
+  <Contact />
   </section>
 </template>
 
 <script>
-import LesBlogs from "./components/LesBlogs";
+import Contact from "./components/Contact";
 export default {
-  name: "Blogs",
-  components: {LesBlogs}
+  name: "contacter",
+  components: {Contact}
 }
 </script>
 

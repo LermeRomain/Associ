@@ -1,14 +1,17 @@
 <template>
   <section id="content">
-    <Webinaires />
+   <QSN />
   </section>
 </template>
 
 <script>
-import Webinaires from "./components/Webinaires";
+import QSN from "./components/QSN";
+
 export default {
-  name: "Webinaire",
-  components: {Webinaires}
+  name: "qui sommes nous",
+  components: {
+    QSN,
+  }
 }
 </script>
 

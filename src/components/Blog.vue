@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="container-fluid">
-      <router-link to="/Blogs"><button class="btn offset-md-5">Découvrir le blog</button></router-link>
+      <router-link to="/blogs"><button class="btn offset-md-5">Découvrir le blog</button></router-link>
     </div>
   </div>
 </template>

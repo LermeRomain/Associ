@@ -56,7 +56,7 @@
           <img src="../assets/Webinaire/group1.svg"><br>
           <p2>En savoir plus sur moi</p2>
           <br>
-          <router-link to="/Quizz"><button class="btn">Démarrer</button></router-link>
+          <router-link to="/quizz"><button class="btn">Démarrer</button></router-link>
         </div>
         <div class="box1 col-md-4">
           <h4>Je m’inscris au prochain webinaire</h4>

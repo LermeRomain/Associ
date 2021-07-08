@@ -29,8 +29,8 @@
           <p>Une solution pensée pour tous. Il est important que chacun d’entre vous puisse s’exprimer.</p>
         </div>
         <div class="row">
-        <router-link to="/Fonctionnalités"><button class="btn" type="button">Fonctionnalité</button></router-link>
-          <router-link to="/Contacter"><button class="btn1" type="button">Nous Contacter</button></router-link>
+        <router-link to="/fonctionnalités"><button class="btn" type="button">Fonctionnalité</button></router-link>
+          <router-link to="/contacter"><button class="btn1" type="button">Nous Contacter</button></router-link>
         </div>
       </div>
     </div>
