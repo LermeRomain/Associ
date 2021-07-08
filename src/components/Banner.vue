@@ -62,7 +62,6 @@ h1 {
 }
 
 span {
-  background-image: url("../assets/backSpan.png");
   padding-bottom: 15px;
   font-family: Roboto;
   font-style: normal;

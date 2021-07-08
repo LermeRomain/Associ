@@ -34,21 +34,33 @@
                href="#list-messages" role="tab" aria-controls="messages">Les intervenants</a>
           </div>
         </div>
+        <p1 class="col-md-6">Après votre inscription, vous recevez un e-mail de confirmation avec un lien personnalisé qui vous permettra
+          à l’heure prévue de vous connecter au site sur lequel est retransmis la réunion. En cas de retard, vous pouvez
+          tout de même accéder au webinaire en cours.
+          Vous pouvez participer à un webinaire depuis un ordinateur, une tablette, un smartphone ou un mini pc,
+          connecté à internet. Il vous suffit de suivre la procédure suivante :<br><br>
+
+          Cliquez sur le lien que vous avez reçu par mail,
+          Rentrez, si besoin, les informations demandées puis sur "connexion",
+          La plateforme du webinaire (Zoom, Microsoft Teams, Livestorm, Adobe Connect, Google Meet...) s'ouvre,
+          Paramétrez votre caméra et votre micro si besoin,
+          Rejoignez la réunion.
+        </p1>
       </div>
     </div>
 
-    <div class="container offset-2">
+    <div class="container offset-md-2">
       <div class="row justify-content-around">
         <div class="box1 col-md-4">
           <h4>Tentez l’expérience</h4>
-          <img>
+          <img src="../assets/Webinaire/group1.svg"><br>
           <p2>En savoir plus sur moi</p2>
           <br>
           <button class="btn">Démarrer</button>
         </div>
         <div class="box1 col-md-4">
           <h4>Je m’inscris au prochain webinaire</h4>
-          <img>
+          <img src="../assets/Webinaire/group2.svg"><br>
           <p2>Session début août</p2>
           <br>
           <button class="btn">S’inscrire au webinaire</button>

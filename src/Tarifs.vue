@@ -1,14 +1,14 @@
 <template>
   <section id="content">
-    <tableau />
+    <tarif />
   </section>
 </template>
 
 <script>
-import Tableau from "./components/Tableau";
+import Tarif from "./components/Tarif";
 export default {
   name: "Tarifs",
-  components: {Tableau}
+  components: {Tarif}
 }
 </script>
 

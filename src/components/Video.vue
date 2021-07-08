@@ -1,11 +1,11 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid offset-md-1">
     <div class="row">
       <div class="row" id="col">
         <h1 style="padding-bottom: 30px; margin-left: 30px">Associ répond aux besoins des associations<br>
           de tous les secteurs avec l’offre <span>Gratuite*</span></h1>
       </div>
-      <div class="container offset-1">
+      <div class="container">
         <div class="row justify-content-around">
           <div class="box col-md-3">
             <h4>Membres</h4>

@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
