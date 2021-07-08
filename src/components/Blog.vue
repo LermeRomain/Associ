@@ -9,15 +9,26 @@
       <div class="col-md-3 offset-md-1">
         <h2>Communauté Discord</h2>
         <div class="block">
-          <p class="title1" style="float: right; color: #FD4C6F; margin-right: 16px">Financement</p>
+          <div>
+            <p class="title1" style="float: right; color: #FD4C6F; margin-right: 16px">Financement</p>
+          </div>
+          <div>
+            <img src="../assets/blog/CommuDiscord.svg">
+          </div>
         </div>
-        <p>Astuces, nouveaux collaborateurs et sujets de discussions sont tous les éléments qui vous retrouverez dans la communauté Associ.</p>
+        <p>Astuces, nouveaux collaborateurs et sujets de discussions sont tous les éléments qui vous retrouverez dans la
+          communauté Associ.</p>
         <a style="color: #404DEF">Voir l'article ></a>
       </div>
       <div class="col-md-3">
         <h2>3 chose à savoir ?</h2>
         <div class="block">
-          <p class="title1" style="float: right; color: #404DEF; margin-right: 16px">Communauté</p>
+          <div>
+            <p class="title1" style="float: right; color: #404DEF; margin-right: 16px">Communauté</p>
+          </div>
+          <div>
+            <img src="../assets/blog/3choses.svg">
+          </div>
         </div>
         <p>Le domaine associatif n’est pas le domaine le plus complexe en matière
           de compréhension. Dans cet article, nous allons vous exposer trois points clés à
@@ -27,11 +38,22 @@
       <div class="col-md-3">
         <h2>Moins de 18 ans ?</h2>
         <div class="block">
-          <p class="title1" style="float: right; color: #404DEF; margin-right: 16px">Communauté</p>
+          <div>
+            <p class="title1" style="float: right; color: #404DEF; margin-right: 16px">Communauté</p>
+          </div>
+          <div>
+            <img src="../assets/blog/moin18.svg">
+          </div>
         </div>
-        <p>Vous avez un projet d’associations mais vous n’êtes pas encore majeur ? Depuis 2017, La loi n°2017–86 permet maintenant aux mineurs de créer et d’administrer une <association class=""></association></p>
+        <p>Vous avez un projet d’associations mais vous n’êtes pas encore majeur ? Depuis 2017, La loi n°2017–86 permet
+          maintenant aux mineurs de créer et d’administrer une
+          <association class=""></association>
+        </p>
         <a style="color: #404DEF">Voir l'article ></a>
       </div>
+    </div>
+    <div class="container-fluid">
+      <button class="btn offset-md-5">Découvrir le blog</button>
     </div>
   </div>
 </template>
@@ -136,11 +158,8 @@ button:hover {
   height: 265px;
 }
 
-.container {
-  margin-top: 240px;
-  background-color: #F9F9F9;
-  border-radius: 25px;
-  padding: 58px;
+img{
+  margin-left: 70px;
 }
 
 </style>

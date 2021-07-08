@@ -51,7 +51,7 @@
                         <div class="entry__field"
                              style="  border-radius: 10px; padding: 6px;">
                           <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off"
-                                 placeholder="EMAIL"
+                                 placeholder="Renseignez votre email"
                                  data-required="true" required style="
                                   border: 1px solid #FFFFFF;
                                   box-sizing: border-box;

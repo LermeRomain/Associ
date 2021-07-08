@@ -3,13 +3,11 @@
     <div class="row">
       <div class="col-md-4 offset-1">
         <h1>Laisse-toi séduire...</h1>
-        <p>Sois guidé par notre quiz pour mieux définir ton <br>projet associatif. </p>
-      </div>
-      <div class="col-md-3">
-        <img src="../assets/love.svg">
-      </div>
-      <div class="col-md-2 offset-1">
+        <p>Sois guidé par notre quiz pour mieux définir ton <br>projet associatif.</p>
         <button class="btn" type="button">Démarrer le quizz</button>
+      </div>
+      <div class="col-md-4 offset-md-2">
+        <img src="../assets/love.svg">
       </div>
     </div>
   </div>
@@ -47,7 +45,7 @@ p {
   display: flex;
   margin-top: 7%;
   margin-bottom: 10px;
-  background: #400186;
+  background: #FD4C6F;
   border-radius: 40px;
   font-family: Roboto;
   font-style: normal;
@@ -58,8 +56,8 @@ p {
   /* identical to box height */
 
   text-align: left;
-  border-color: #400186;
-  border: 2px solid #400186;
+  border-color: #FD4C6F;
+  border: 2px solid #FD4C6F;
 
   color: #FFFFFF;
 }
