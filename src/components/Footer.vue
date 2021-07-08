@@ -1,13 +1,13 @@
-<template>
+<template id="Footer">
   <div class="footer">
     <div class="container-fluid text-center">
       <div class="row">
         <div class="col-md-2 text-left offset-1">
           <img class="logo_Footer" src="../assets/logoFooter.svg">
           <div class="text-left">
-            <a href="https://www.instagram.com/associ.officiel/"><i class="fab fa-instagram active"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-tiktok"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/"><i class="fab fa-discord"></i></a>
+            <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram active"></i></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://discord.gg/GuSa7w7U" target="_blank"><i class="fab fa-discord"></i></a>
           </div>
         </div>
 
@@ -15,11 +15,11 @@
         <div class="col-md-2 text-center">
           <h1>Pages</h1>
           <div class="menub">
-            <a href="#">Fonctionnalités</a>
-            <a href="#">Webinaires</a>
+            <router-link to="/Fonctionnalités"><a>Fonctionnalités</a></router-link>
+            <router-link to="/Webinaire"><a>Webinaires</a></router-link>
             <a href="https://associ.medium.com/" target="_blank">Blog</a>
-            <a href="#">Equipe</a>
-            <a href="#">Tarifs</a>
+            <router-link to="/Qui_sommes_nous"><a>Equipe</a></router-link>
+            <router-link to="/Tarifs"><a>Tarifs</a></router-link>
           </div>
         </div>
 
@@ -28,8 +28,8 @@
           <div class="menub">
             <router-link :to="'/Legale'"><a href="#" title="Lien vers la page de mentions légales">Mentions légales</a>
             </router-link>
-            <a href="#">Politique de cookies</a>
-            <a href="#">Presse</a>
+            <router-link :to="'/Legale'"><a>Politique de cookies</a></router-link>
+            <router-link :to="'/Presse'"><a>Presse</a></router-link>
           </div>
         </div>
 

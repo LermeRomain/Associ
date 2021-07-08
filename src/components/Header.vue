@@ -15,7 +15,7 @@
            <router-link to="/Webinaire"><a class="nav-link">Webinaires</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/Blogs"><a class="nav-link" href="https://associ.medium.com/" target="_blank">Blog</a></router-link>
+            <router-link to="/Blogs"><a class="nav-link">Blog</a></router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown" aria-expanded="false">
@@ -28,7 +28,7 @@
               <li>
                 <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram fab1"></i></a>
                 <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://discord.gg/GuSa7w7U" target="_blank"><i class="fab fa-discord"></i></a>
               </li>
             </ul>
           </li>

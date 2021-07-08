@@ -33,7 +33,9 @@
         <p>Le domaine associatif n’est pas le domaine le plus complexe en matière
           de compréhension. Dans cet article, nous allons vous exposer trois points clés à
           connaître en matière de création d’association.</p>
-        <a style="color: #404DEF">Voir l'article ></a>
+        <a style="color: #404DEF"
+           href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986"
+           target="_blank">Voir l'article ></a>
       </div>
       <div class="col-md-3">
         <h2>Moins de 18 ans ?</h2>
@@ -49,11 +51,14 @@
           maintenant aux mineurs de créer et d’administrer une
           <association class=""></association>
         </p>
-        <a style="color: #404DEF">Voir l'article ></a>
+        <a style="color: #404DEF"
+           href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835"
+           target="_blank">Voir
+          l'article ></a>
       </div>
     </div>
     <div class="container-fluid">
-      <button class="btn offset-md-5">Découvrir le blog</button>
+      <router-link to="/Blogs"><button class="btn offset-md-5">Découvrir le blog</button></router-link>
     </div>
   </div>
 </template>
@@ -158,7 +163,7 @@ button:hover {
   height: 265px;
 }
 
-img{
+img {
   margin-left: 70px;
 }
 

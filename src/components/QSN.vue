@@ -76,7 +76,7 @@
             Vous pouvez nous rencontrer et communiquer avec nous dès maintenant grâce à la communauté Discord
           </p>
           <div>
-            <button class="btn">Rejoindre la communauté</button>
+            <a href="https://discord.gg/GuSa7w7U" target="_blank"><button class="btn">Rejoindre la communauté</button></a>
           </div>
         </div>
       </div>
