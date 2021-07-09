@@ -72,8 +72,9 @@ export default {
 <style scoped>
 
 .container-fluid {
-  margin-top: 50px;
+  padding-top: 50px;
   padding-right: 0px;
+  background-color: #F9F9F9;
 }
 
 p {
