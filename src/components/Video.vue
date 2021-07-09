@@ -42,9 +42,8 @@
             <p2>Consultez la liste de vos documents officiels d’association</p2>
           </div>
         </div>
-        <div class="row offset-md-3">
-          <button class="btn1" type="button">Se préinscrire</button>
-          <button class="btn" type="button">Télécharger le guide de création</button>
+        <div class="row offset-md-4">
+          <router-link to="#footer"><button class="btn1" type="button">Rester informé</button></router-link>
         </div>
       </div>
 

@@ -11,7 +11,7 @@
 <!--          {{ text }}-->
 <!--        </h3>-->
 
-        <router-link to="#footer"><button class="btn" type="button">S’inscrire à la newsletter</button></router-link>
+        <router-link to="#footer"><button class="btn" type="button">Télécharger le guide de création</button></router-link>
       </div>
       <div class="col-12 col-md-6" style="margin-top: 12%; border-radius: 40px">
         <img src="../assets/Dashboard.svg" class="rounded d-block" alt="Responsive image" style="border-radius: 32px;">
