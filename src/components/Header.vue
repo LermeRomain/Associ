@@ -26,9 +26,9 @@
               <router-link to="/presse"><li><a class="dropdown-item">Presse</a></li></router-link>
               <router-link to="/contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
               <li>
-                <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram fab1"></i></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://discord.gg/GuSa7w7U" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://www.instagram.com/associ.officiel/" target="_blank"><img src="../assets/header/insta.svg" style="width: 20%; margin-left: 15px"></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><img src="../assets/header/tiktok.svg" style="width: 20%; margin-left: 15px"></a>
+                <a href="https://discord.gg/GuSa7w7U" target="_blank"><img src="../assets/header/discord.svg" style="width: 20%; margin-left: 15px"></a>
               </li>
             </ul>
           </li>
@@ -118,8 +118,6 @@ a:hover {
   color: #400186;
 }
 
-
-
 .fab {
   font-size: 30px;
   color: #400186;
@@ -136,11 +134,12 @@ a:hover {
   margin-top: 30px;
   margin-left: 25px;
   margin-bottom: 15px;
-
 }
+
 .dropdown-item{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #400186;
 }
+
 </style>

@@ -485,4 +485,8 @@ p2 {
   color: #FFFFFF;
 }
 
+a{
+  text-decoration:none;
+}
+
 </style>

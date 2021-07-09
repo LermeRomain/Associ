@@ -110,4 +110,8 @@ span{
   font-size: 55px;
   color: #400186;
 }
+
+a{
+  text-decoration:none;
+}
 </style>

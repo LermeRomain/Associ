@@ -5,9 +5,9 @@
         <div class="col-md-2 text-left offset-1">
           <img class="logo_Footer" src="../assets/logoFooter.svg">
           <div class="text-left">
-            <a href="https://www.instagram.com/associ.officiel/" target="_blank"><i class="fab fa-instagram active"></i></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><i class="fab fa-tiktok"></i></a>
-            <a href="https://discord.gg/GuSa7w7U" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://www.instagram.com/associ.officiel/" target="_blank"><img src="../assets/footer/insta.svg" style="width: 20%"></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><img src="../assets/footer/tiktok.svg" style="width: 20%; margin-left: 15px"></a>
+            <a href="https://discord.gg/GuSa7w7U" target="_blank"><img src="../assets/footer/discord.svg" style="width: 20%; margin-left: 15px"></a>
           </div>
         </div>
 
@@ -111,7 +111,7 @@
                             d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"
                         />
                       </svg>
-                      Validé
+                      Valider
                     </button>
                   </div>
                 </div>
@@ -123,7 +123,7 @@
           </div>
         </div>
       </div>
-      <p style="color: #FFFFFF">Tous droits réservés© Associ</p>
+      <p style="color: #FFFFFF">Tous droits réservés © Associ</p>
     </div>
   </div>
 </template>
@@ -273,6 +273,16 @@ span1 {
   background: #FFFFFF;
   color: #400186;
   box-sizing: border-box;
+  border: 2px #FFFFFF;
+  padding: 16px 24px;
+}
+
+.sib-form-block__button-with-loader:hover {
+  text-decoration-line: none;
+  background: #400186;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 16px 24px;
 }
 
 </style>

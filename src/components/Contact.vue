@@ -102,6 +102,7 @@ a {
   font-family: Roboto;
   font-size: 20px;
   color: #093046;
+  text-decoration: none;
 }
 
 a:hover {

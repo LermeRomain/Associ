@@ -23,8 +23,8 @@ export default {
 
 .container-fluid {
   background-image: url("../assets/gradiant.svg");
-  height: 713px;
-  width: 100%;
+  height: 748px;
+  width: auto;
 }
 
 h1 {
@@ -71,15 +71,11 @@ p {
 }
 
 .col-md-4 {
-  margin-top: 20%;
-}
-
-.col-md-3 {
   margin-top: 15%;
 }
 
-.col-md-2 {
-  margin-top: 23%;
+a{
+  text-decoration:none;
 }
 
 @media screen and (max-width: 1275px) {

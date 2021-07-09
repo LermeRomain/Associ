@@ -22,7 +22,7 @@ export default {
 <style scoped>
 
 .container-fluid {
-  background-image: url("../assets/gradiant.svg");
+  background-image: url("../assets/radiant2.svg");
   height: 713px;
   width: 100%;
   margin-top: 200px;
@@ -102,6 +102,10 @@ p {
 
 .col-md-12 {
   margin-top: 20%;
+}
+
+a{
+  text-decoration:none;
 }
 
 @media screen and (max-width: 768px) {

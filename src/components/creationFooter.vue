@@ -96,14 +96,15 @@ img {
   color: #FFFFFF;
 }
 
-
-
-
 .btn:hover {
   text-decoration-line: none;
   background: #FFFFFF;
   color: #400186;
   box-sizing: border-box;
   border-radius: 50px;
+}
+
+a{
+  text-decoration:none;
 }
 </style>

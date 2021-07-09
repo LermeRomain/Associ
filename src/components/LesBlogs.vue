@@ -150,9 +150,14 @@ span{
 }
 
 img{
-  height: 95%;
-  width: 95%;
+  height: 90%;
+  width: 90%;
+  margin-left: 15px;
   margin-top: 25%;
+}
+
+a{
+  text-decoration:none;
 }
 
 </style>
