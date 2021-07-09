@@ -23,6 +23,7 @@ export default {
 
 .container-fluid {
   background-image: url("../assets/gradiant.svg");
+  background-color: #F9F9F9;
   height: 748px;
   width: auto;
 }

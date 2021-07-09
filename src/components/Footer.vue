@@ -1,5 +1,5 @@
-<template id="Footer">
-  <div class="footer">
+<template>
+  <div class="footer"  id="footer">
     <div class="container-fluid text-center">
       <div class="row">
         <div class="col-md-2 text-left offset-1">

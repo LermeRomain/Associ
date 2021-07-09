@@ -73,7 +73,7 @@ span {
 
 .background {
   padding-top: 100px;
-  background-color: white;
+  background-color: #F9F9F9;
   padding-bottom: 100px;
 }
 

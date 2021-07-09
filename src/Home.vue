@@ -46,5 +46,8 @@ export default {
 	scroll-behavior: smooth;
   font-family: 'Ubuntu', sans-serif;
 }
+#content{
+  overflow-x: hidden;
+}
 
 </style>
