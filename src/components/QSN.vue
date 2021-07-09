@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font">
     <div class="container-fluid background">
       <div class="row">
         <div class="col-md-6 offset-md-1">
@@ -91,6 +91,10 @@ export default {
 </script>
 
 <style scoped>
+
+.font{
+  background-color: #F9F9F9;
+}
 
 .container-fluid {
   margin-top: 70px;

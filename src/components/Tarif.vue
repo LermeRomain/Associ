@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font">
     <div class="container-fluid background">
       <div class="row">
         <div class="offset-md-1" style="margin-top: 10%">
@@ -86,6 +86,10 @@ export default {
 </script>
 
 <style scoped>
+
+.font{
+  background-color: #F9F9F9;
+}
 
 .background {
   background-image: url("../assets/Backrose.svg");

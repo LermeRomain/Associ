@@ -52,6 +52,7 @@ export default {
   height: 1035px;
   width: 100%;
   margin-top: 80px;
+  background-color: #F9F9F9;
 }
 
 h1 {

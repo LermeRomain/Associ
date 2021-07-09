@@ -49,8 +49,8 @@
       </div>
     </div>
 
-    <div class="container offset-md-2">
-      <div class="row justify-content-around">
+    <div class="container-fluid">
+      <div class="row justify-content-around  offset-md-2">
         <div class="box1 col-md-4">
           <h4>Tentez l’expérience</h4>
           <img src="../assets/Webinaire/group1.svg"><br>
@@ -77,6 +77,10 @@ export default {
 </script>
 
 <style scoped>
+
+.container-fluid{
+  background-color: #F9F9F9;
+}
 
 .background {
   background-image: url("../assets/Backrose.svg");

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-fluid">
     <div class="container-fluid" style="margin-top: 100px">
       <h1 class="col-md-9 offset-md-1">
         Découvrez nos conseils et astuces pour progesser !
@@ -97,6 +97,10 @@ export default {
 </script>
 
 <style scoped>
+
+.container-fluid{
+  background-color: #F9F9F9;
+}
 
 h1 {
   font-family: Roboto;

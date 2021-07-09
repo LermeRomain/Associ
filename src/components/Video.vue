@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid offset-md-1">
-    <div class="row">
+  <div class="container-fluid">
+    <div class="row offset-md-1">
       <div class="row" id="col">
         <h1 style="padding-bottom: 30px; margin-left: 30px">Associ répond aux besoins des associations<br>
           de tous les secteurs avec l’offre <span>Gratuite*</span></h1>
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="container offset-1">
+      <div class="container">
         <div class="row justify-content-around">
           <div class="box col-md-3">
             <h4>Discord</h4>
@@ -215,9 +215,9 @@ export default {
 <style scoped>
 
 .container-fluid {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  width: 85%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #F9F9F9;
 }
 
 h1 {
@@ -327,10 +327,6 @@ p {
   line-height: 30px;
   color: #1A1D32;
   opacity: 0.7;
-}
-
-.container-fluid {
-  width: 90%;
 }
 
 

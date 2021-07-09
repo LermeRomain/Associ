@@ -25,7 +25,6 @@ export default {
   background-image: url("../assets/radiant2.svg");
   height: 713px;
   width: 100%;
-  margin-top: 200px;
   background-color: #F9F9F9;
 }
 

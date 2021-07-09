@@ -73,6 +73,7 @@ export default {
 
 .container-fluid {
   padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 0px;
   background-color: #F9F9F9;
 }
