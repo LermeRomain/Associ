@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
-    <div class="row offset-md-1">
-      <div class="col-12 col-md-6">
+    <div class="row">
+      <div class="col-12 col-md-6 offset-md-1">
         <h1>Le blog</h1>
       </div>
     </div>
@@ -18,7 +18,7 @@
         </div>
         <p>Astuces, nouveaux collaborateurs et sujets de discussions sont tous les éléments qui vous retrouverez dans la
           communauté Associ.</p>
-        <a style="color: #404DEF">Voir l'article ></a>
+        <a style="color: #404DEF; font-family: Roboto">Voir l'article ></a>
       </div>
       <div class="col-md-3">
         <h2>3 chose à savoir ?</h2>
@@ -33,7 +33,7 @@
         <p>Le domaine associatif n’est pas le domaine le plus complexe en matière
           de compréhension. Dans cet article, nous allons vous exposer trois points clés à
           connaître en matière de création d’association.</p>
-        <a style="color: #404DEF"
+        <a style="color: #404DEF; font-family: Roboto"
            href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986"
            target="_blank">Voir l'article ></a>
       </div>
@@ -48,17 +48,18 @@
           </div>
         </div>
         <p>Vous avez un projet d’associations mais vous n’êtes pas encore majeur ? Depuis 2017, La loi n°2017–86 permet
-          maintenant aux mineurs de créer et d’administrer une
-          <association class=""></association>
+          maintenant aux mineurs de créer et d’administrer une association.
         </p>
-        <a style="color: #404DEF"
+        <a style="color: #404DEF; font-family: Roboto"
            href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835"
            target="_blank">Voir
           l'article ></a>
       </div>
     </div>
     <div class="container-fluid">
-      <router-link to="/blogs"><button class="btn offset-md-5">Découvrir le blog</button></router-link>
+      <router-link to="/blogs">
+        <button class="btn offset-md-5">Découvrir le blog</button>
+      </router-link>
     </div>
   </div>
 </template>
@@ -159,7 +160,7 @@ button:hover {
   background: #FFFFFF;
   /* Shadow_step */
 
-  box-shadow: 4px 10px 24px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 24px 2px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   width: auto;
   height: 265px;
@@ -169,7 +170,7 @@ img {
   margin-left: 70px;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 </style>

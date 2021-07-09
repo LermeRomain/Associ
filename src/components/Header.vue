@@ -6,29 +6,41 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse col-md-10 offset-1" id="navbarTogglerDemo01">
-        <router-link to="/"><a href="#" style="margin-right:15px"><img src="../assets/logo.svg" alt="Logo de l'organisme Associ"></a></router-link>
+        <router-link to="/"><a href="#" style="margin-right:15px"><img src="../assets/logo.svg"
+                                                                       alt="Logo de l'organisme Associ"></a>
+        </router-link>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <router-link to="/fonctionnalités"><a class="nav-link">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
-           <router-link to="/webinaire"><a class="nav-link">Webinaires</a></router-link>
+            <router-link to="/webinaire"><a class="nav-link">Webinaires</a></router-link>
           </li>
           <li class="nav-item">
             <router-link to="/blogs"><a class="nav-link">Blog</a></router-link>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown" aria-expanded="false">
-              Equipe
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"
+               aria-expanded="false">
+              Équipe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <router-link to="/qui-sommes-nous"><li><a class="dropdown-item">Qui sommes-nous ?</a></li></router-link>
-              <router-link to="/presse"><li><a class="dropdown-item">Presse</a></li></router-link>
-              <router-link to="/contacter"><li><a class="dropdown-item">Contactez-nous</a></li></router-link>
+              <router-link to="/qui-sommes-nous">
+                <li><a class="dropdown-item">Qui sommes-nous ?</a></li>
+              </router-link>
+              <router-link to="/presse">
+                <li><a class="dropdown-item">Presse</a></li>
+              </router-link>
+              <router-link to="/contacter">
+                <li><a class="dropdown-item">Contactez-nous</a></li>
+              </router-link>
               <li>
-                <a href="https://www.instagram.com/associ.officiel/" target="_blank"><img src="../assets/header/insta.svg" style="width: 20%; margin-left: 15px"></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><img src="../assets/header/tiktok.svg" style="width: 20%; margin-left: 15px"></a>
-                <a href="https://discord.gg/GuSa7w7U" target="_blank"><img src="../assets/header/discord.svg" style="width: 20%; margin-left: 15px"></a>
+                <a href="https://www.instagram.com/associ.officiel/" target="_blank"><img
+                    src="../assets/header/insta.svg" style="width: 20%; margin-left: 15px"></a>
+                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><img src="../assets/header/tiktok.svg"
+                                                                                style="width: 20%; margin-left: 15px"></a>
+                <a href="https://discord.gg/GuSa7w7U" target="_blank"><img src="../assets/header/discord.svg"
+                                                                           style="width: 20%; margin-left: 15px"></a>
               </li>
             </ul>
           </li>
@@ -38,7 +50,9 @@
         </ul>
         <ul class="form-inline my-2 my-lg-0">
           <li class="active">
-            <router-link to="/quizz" style="text-decoration-line: none"><a class="nav-link active" title="Lien vers la page de connexion">Démarrer le quizz</a></router-link>
+            <router-link to="/quizz" style="text-decoration-line: none"><a class="nav-link active"
+                                                                           title="Lien vers la page de connexion">Démarrer
+              le quizz</a></router-link>
           </li>
         </ul>
       </div>
@@ -59,12 +73,12 @@ export default {
 
 <style scoped>
 
-.container-fluid{
+.container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.navbar{
+.navbar {
   padding-left: 5px;
   padding-right: 5px;
   background: #FFFFFF;
@@ -136,10 +150,21 @@ a:hover {
   margin-bottom: 15px;
 }
 
-.dropdown-item{
+.dropdown-item {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #400186;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0px;
+  vertical-align: 0px;
+  content: url("../assets/fleche.svg");
+  border-top: none;
+  border-right: none;
+  border-bottom: 0;
+  border-left: none;
 }
 
 </style>

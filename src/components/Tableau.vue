@@ -9,7 +9,7 @@
     <div class="row offset-md-1">
       <div class="col-md-5 d-none d-lg-block">
         <p1>Notre outil de gestion pour <span>tout types d’associations</span></p1>
-        <img class="dash" style="margin-left: 0px" src="../assets/Dashboard.svg">
+        <img class="dash" src="../assets/Dashboard.svg">
       </div>
       <div class="col-md-4 offset-md-2">
         <div class="article">
@@ -29,8 +29,7 @@
           <p>Une solution pensée pour tous. Il est important que chacun d’entre vous puisse s’exprimer.</p>
         </div>
         <div class="row">
-        <router-link to="/fonctionnalités"><button class="btn" type="button">Fonctionnalité</button></router-link>
-          <router-link to="/contacter"><button class="btn1" type="button">Nous Contacter</button></router-link>
+        <router-link to="/fonctionnalités"><button class="btn" type="button">Fonctionnalités</button></router-link>
         </div>
       </div>
     </div>
@@ -44,6 +43,7 @@ export default {
 </script>
 
 <style scoped>
+
 .container-fluid {
   padding-top: 324px;
   background-color: #F9F9F9;
@@ -141,9 +141,8 @@ span{
 }
 
 img.dash{
-  float: left;
-  margin-right: 16px;
-  margin-bottom: 24px;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 
 img {
