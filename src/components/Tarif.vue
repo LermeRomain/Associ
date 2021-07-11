@@ -29,7 +29,7 @@
                href="#list-messages" role="tab" aria-controls="messages">Calendrier</a>
           </div>
         </div>
-        <div>
+        <div style="margin-top: 30px">
           <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard2.svg" style="width: 829px;height: 585px">
           <img v-if="activeStep ==2" class="col-12" src="../assets/membres.svg" style="width: 829px;height: 585px">
           <img v-if="activeStep ==3" class="col-12" src="../assets/calendrier.svg" style="width: 829px;height: 585px">

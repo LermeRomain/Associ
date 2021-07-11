@@ -18,7 +18,7 @@
             <router-link to="/fonctionnalités"><a>Fonctionnalités</a></router-link>
             <router-link to="/webinaire"><a>Webinaires</a></router-link>
             <a href="https://associ.medium.com/" target="_blank">Blog</a>
-            <router-link to="/qui_sommes_nous"><a>Équipe</a></router-link>
+            <router-link to="/qui-sommes-nous"><a>Équipe</a></router-link>
             <router-link to="/tarifs"><a>Tarifs</a></router-link>
           </div>
         </div>

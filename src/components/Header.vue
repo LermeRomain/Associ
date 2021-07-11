@@ -45,7 +45,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <router-link to="/Tarifs"><a class="nav-link" href="#about" style="margin-right:15px">Tarifs</a></router-link>
+            <router-link to="/tarifs"><a class="nav-link" href="#about" style="margin-right:15px">Tarifs</a></router-link>
           </li>
         </ul>
         <ul class="form-inline my-2 my-lg-0">
