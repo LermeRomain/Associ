@@ -147,11 +147,11 @@ P {
   margin-bottom: 50px;
 }
 
-P1 {
+p1 {
   color: black;
   font-size: 20px;
   font-family: Roboto;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -259,6 +259,7 @@ h4 {
 
 a {
   text-decoration: none;
+  font-family: Roboto;
 }
 
 </style>

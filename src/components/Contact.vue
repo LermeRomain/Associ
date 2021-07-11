@@ -22,7 +22,7 @@
         </a>
       </div>
       <div class="col-md-4">
-        <a href="mailto:votreadresse@mail.fr">
+        <a href="mailto:votreadresse@mail.fr" target="_blank">
           <div class="block text-center">
             <img src="../assets/Email.svg">
             <p class="title1">Email<br><span>Envoyez-nous un email</span></p>

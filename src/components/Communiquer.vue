@@ -27,7 +27,7 @@
       </div>
     </div>
     <h2 class="offset-md-1">
-      Communiqué de presse
+      Dossier de presse
     </h2>
     <div class="container-fluid background2">
       <div class="row">

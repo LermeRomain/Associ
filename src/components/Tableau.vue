@@ -8,7 +8,7 @@
     </div>
     <div class="row offset-md-1">
       <div class="col-md-5 d-none d-lg-block">
-        <p1>Notre outil de gestion pour <span>tout types d’associations</span></p1>
+        <p1>Notre outil de gestion pour <span>tous types d’associations</span></p1>
         <img class="dash" src="../assets/Dashboard.svg">
       </div>
       <div class="col-md-4 offset-md-2">
@@ -45,7 +45,7 @@ export default {
 <style scoped>
 
 .container-fluid {
-  padding-top: 324px;
+  padding-top: 100px;
   background-color: #F9F9F9;
 }
 
