@@ -98,6 +98,28 @@
         <button class="btn offset-md-8">Télécharger le guide de création</button>
       </div>
     </div>
+
+    <div class="container-fluid background2">
+      <div class="row" style="margin-top: 150px; margin-right: 0px">
+        <div class="col-12 col-md-11 offset-md-1" style="margin-top: 15%">
+          <h3>Suivez notre actualité !</h3>
+          <div class="row">
+            <div class="col-md-2">
+              <img class="rs" src="../assets/footer/insta.svg">
+            </div>
+            <div class="col-md-2 offset-1">
+              <img class="rs" src="../assets/footer/tiktok.svg">
+            </div>
+            <div class="col-md-2 offset-1">
+              <img class="rs" src="../assets/footer/tiktok.svg">
+            </div>
+            <div class="col-md-2 offset-1">
+              <img class="rs" src="../assets/footer/insta.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -111,6 +133,17 @@ export default {
 
 .container-fluid {
   background-color: #F9F9F9;
+  padding: 0px 0px 0px 0px;
+}
+
+.row{
+  margin-right: 0px;
+}
+
+.background2 {
+  background-image: url("../assets/Backrose2.svg");
+  height: 713px;
+  width: 100%;
 }
 
 h1 {
@@ -140,6 +173,13 @@ h2 {
   margin-top: 10%;
 }
 
+h3{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 58px;
+  color: #FFFFFF;
+}
+
 p {
   font-family: Roboto;
   font-size: 20px;
@@ -165,10 +205,14 @@ span {
 }
 
 img {
-  height: 85%;
-  width: 85%;
-  margin-left: 20px;
-  margin-top: 20%;
+  height: 80%;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 10%;
+}
+
+.rs{
+  height: 52px;
 }
 
 a {
