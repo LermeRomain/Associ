@@ -18,16 +18,21 @@
       <div class="row">
         <div class="col-md-3 offset-md-1" style="margin-top: 50px">
           <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+            <a @click.prevent="nextStep(true)" class="list-group-item list-group-item-action active" id="list-home-list"
+               data-toggle="list"
                href="#list-home" role="tab" aria-controls="home">Tableau de bord</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+            <a @click.prevent="nextStep(true)" class="list-group-item list-group-item-action" id="list-profile-list"
+               data-toggle="list"
                href="#list-profile" role="tab" aria-controls="profile">Gestion des membres</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+            <a @click.prevent="nextStep(true)" class="list-group-item list-group-item-action" id="list-messages-list"
+               data-toggle="list"
                href="#list-messages" role="tab" aria-controls="messages">Calendrier</a>
           </div>
         </div>
         <div>
-          <img  class="col-12" src="../assets/Dashboard.svg">
+          <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard.svg">
+          <img v-if="activeStep ==2" class="col-12" src="../assets/Dashboard.svg">
+          <img v-if="activeStep ==3" class="col-12" src="../assets/trophy.svg">
         </div>
       </div>
     </div>
@@ -45,7 +50,9 @@
           <br>
           <img src="../assets/0€.svg">
           <br>
-          <router-link to="/quizz"><button class="btn">Démarrer</button></router-link>
+          <router-link to="/quizz">
+            <button class="btn">Démarrer</button>
+          </router-link>
           <br>
           <span>Pas d’abonnement ni d’engagement</span>
         </div>
@@ -63,14 +70,16 @@
 
     <div class="container-fluid background2">
       <div class="row" style="margin-top: 150px">
-        <div class="col-11  offset-md-1 text-left" style="margin-top: 15%">
+        <div class="col-12 text-center" style="margin-top: 15%">
           <h2>Des questions ?</h2>
           <p1>
             Contactez-nous ou télécharger gratuitement notre guide de création
           </p1>
         </div>
         <div class="row offset-md-4">
-          <router-link to="/contacter"><button class="btn" type="button">Contactez-nous</button></router-link>
+          <router-link to="/contacter">
+            <button class="btn" type="button">Contactez-nous</button>
+          </router-link>
           <button class="btn" type="button">Télécharger le guide de création</button>
         </div>
       </div>
@@ -81,13 +90,32 @@
 
 <script>
 export default {
-  name: "Tarif"
+  name: "Tarif",
+
+  data() {
+    return {
+      count: 1,
+      activeStep: 1,
+      score: 0,
+    };
+  },
+
+  methods: {
+    nextStep(isAnswerRight) {
+      this.score = isAnswerRight ? this.score + 1 : this.score
+      if (this.count < 3) {
+        this.count++;
+        this.activeStep = this.count;
+        this.isLastInputFull = false;
+      }
+    },
+  }
 }
 </script>
 
 <style scoped>
 
-.font{
+.font {
   background-color: #F9F9F9;
 }
 
@@ -128,7 +156,7 @@ h3 {
   margin-bottom: 50px;
 }
 
-h4{
+h4 {
   color: black;
   font-size: 20px;
   font-family: Roboto;
@@ -210,14 +238,14 @@ P1 {
 }
 
 
-span{
+span {
   color: #7D8790;
   font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 </style>

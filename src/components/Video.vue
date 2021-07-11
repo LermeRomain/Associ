@@ -5,8 +5,11 @@
         <h1 style="padding-bottom: 30px; margin-left: 30px">Associ répond aux besoins des associations<br>
           de tous les secteurs avec l’offre <span>Gratuite*</span></h1>
       </div>
+      <div class="row offset-1 offset-md-8">
+        <p3>* Pas d’abonnement ni d’engagement</p3>
+      </div>
       <div class="container">
-        <div class="row justify-content-around">
+        <div class="row justify-content-around offset-1 offset-md-0">
           <div class="box col-md-3">
             <h4>Membres</h4>
             <img src="../assets/Fonction/membre.svg" style="margin-bottom: 50px;">
@@ -25,7 +28,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="row justify-content-around">
+        <div class="row justify-content-around offset-1 offset-md-0">
           <div class="box col-md-3">
             <h4>Discord</h4>
             <img src="../assets/Fonction/discord.svg" style="margin-bottom: 50px">
@@ -42,7 +45,7 @@
             <p2>Consultez la liste de vos documents officiels d’association</p2>
           </div>
         </div>
-        <div class="row offset-md-4">
+        <div class="row justify-content-center">
           <router-link to="#footer"><button class="btn1" type="button">Rester informé</button></router-link>
         </div>
       </div>
@@ -50,6 +53,9 @@
 <!--      offre intense-->
 
       <h1 style="margin-bottom: 100px">Toutes les autres fonctionnalités pour votre <br>association avec l’offre payante <span1>Intense*</span1></h1><br>
+      <div class="row offset-1 offset-md-8">
+        <p4>* Pas d’abonnement ni d’engagement</p4>
+      </div>
       <div class="container offset-1">
         <div class="row justify-content-around">
           <div class="box1 col-md-3">
@@ -482,6 +488,18 @@ p2 {
 
 a{
   text-decoration:none;
+}
+
+p3{
+  font-family: Roboto;
+  font-weight: bold;
+  color:#400186;
+}
+
+p4{
+  font-family: Roboto;
+  font-weight: bold;
+  color:#FDC34A;
 }
 
 </style>

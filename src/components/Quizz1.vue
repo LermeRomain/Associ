@@ -219,43 +219,6 @@ export default {
       score: 0,
     };
   },
-  /*
-    watch: {
-      count(value) {
-        if (value === 2) {
-          this.isStep1Visible = false;
-          this.isStep2Visible = true;
-        } else if (value === 3) {
-          this.isStep2Visible = false;
-          this.isStep3Visible = true;
-        } else if (value === 4) {
-          this.isStep3Visible = false;
-          this.isStep4Visible = true;
-        } else if (value === 5) {
-          this.isStep4Visible = false;
-          this.isStep5Visible = true;
-        } else if (value === 6) {
-          this.isStep5Visible = false;
-          this.isStep6Visible = true;
-        } else if (value === 7) {
-          this.isStep6Visible = false;
-          this.isStep7Visible = true;
-        } else if (value === 8) {
-          this.isStep7Visible = false;
-          this.isStep8Visible = true;
-        } else if (value === 9) {
-          this.isStep8Visible = false;
-          this.isStep9Visible = true;
-        } else if (value === 10) {
-          this.isStep9Visible = false;
-          this.isStep10Visible = true;
-        } else {
-          this.isStep10Visible = false;
-          this.isStep11Visible = true;
-        }
-      },
-    },
-  */
   methods: {
     nextStep(isAnswerRight) {
       this.score = isAnswerRight ? this.score + 1 : this.score

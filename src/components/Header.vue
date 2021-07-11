@@ -11,17 +11,17 @@
         </router-link>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <router-link to="/fonctionnalités"><a class="nav-link">Fonctionnalités</a></router-link>
+            <router-link to="/fonctionnalités"><a class="nav-link" style="margin-right:15px">Fonctionnalités</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/webinaire"><a class="nav-link">Webinaires</a></router-link>
+            <router-link to="/webinaire"><a class="nav-link" style="margin-right:15px">Webinaires</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/blogs"><a class="nav-link">Blog</a></router-link>
+            <router-link to="/blogs"><a class="nav-link" style="margin-right:15px">Blog</a></router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"
-               aria-expanded="false">
+               aria-expanded="false" style="margin-right:15px">
               Équipe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -45,7 +45,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <router-link to="/Tarifs"><a class="nav-link" href="#about">Tarifs</a></router-link>
+            <router-link to="/Tarifs"><a class="nav-link" href="#about" style="margin-right:15px">Tarifs</a></router-link>
           </li>
         </ul>
         <ul class="form-inline my-2 my-lg-0">

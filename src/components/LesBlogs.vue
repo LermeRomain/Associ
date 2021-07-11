@@ -104,7 +104,7 @@
         <div class="col-12 col-md-11 offset-md-1" style="margin-top: 15%">
           <h3>Suivez notre actualité !</h3>
           <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 offset-1 offset-md-0">
               <img class="rs" src="../assets/footer/insta.svg">
             </div>
             <div class="col-md-2 offset-1">
@@ -178,6 +178,7 @@ h3{
   font-weight: bold;
   font-size: 58px;
   color: #FFFFFF;
+  margin-top: 30px;
 }
 
 p {

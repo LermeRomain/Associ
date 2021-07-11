@@ -26,7 +26,7 @@
       </h2>
       <div class="row offset-md-1">
         <div class="col-md-6">
-          <img src="../assets/trophy.svg">
+          <img class="ico" src="../assets/trophy.svg">
           <h3>L’esprit d’équipe</h3>
           <p1>Savoir travailler en équipe est essentiel dans toute activité, surtout quand on sait qu’il est nécésaire
             d’être deux pour créer une association.
@@ -36,7 +36,7 @@
           </p1>
         </div>
         <div class="col-md-5">
-          <img src="../assets/high.svg">
+          <img class="ico" src="../assets/high.svg">
           <h3>La confiance</h3>
           <p1>La confiance est la base de toute relation, nous avons une confiance absole envers la jeunesse, ses
             ambitions et son envie de créer un monde meilleur.
@@ -48,9 +48,9 @@
         </div>
       </div>
 
-      <div class="row offset-md-1" style="margin-top: 60px;padding-bottom: 20%">
+      <div class="row offset-md-1" style="margin-top: 60px;padding-bottom: 1%">
         <div class="col-md-6">
-          <img src="../assets/mains.svg">
+          <img class="ico" src="../assets/mains.svg">
           <h3>L’entraide</h3>
           <p1>Pourquoi créé-t-on une association ?<br>
             Pour que des personnes avec les mêmes valeurs ou centres d’interet puissent s’entraider au quotidien.
@@ -58,7 +58,7 @@
           </p1>
         </div>
         <div class="col-md-5">
-          <img src="../assets/smile.svg">
+          <img class="ico" src="../assets/smile.svg">
           <h3>La positivité</h3>
           <p1>
             Donner de son temps pour quelque chose qui nous plait. Les association font plaisir à la fois aux bénévols
@@ -76,7 +76,7 @@
             Vous pouvez nous rencontrer et communiquer avec nous dès maintenant grâce à la communauté Discord
           </p>
           <div>
-            <a href="https://discord.gg/GuSa7w7U" target="_blank"><button class="btn">Rejoindre la communauté</button></a>
+            <a href="https://discord.gg/VpxPH2zNmU" target="_blank"><button class="btn">Rejoindre la communauté</button></a>
           </div>
         </div>
       </div>
@@ -149,6 +149,8 @@ h3 {
   color: black;
   font-size: 32px;
   font-family: Roboto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -161,5 +163,9 @@ h3 {
 
 a{
   text-decoration:none;
+}
+
+.ico{
+  height: 15%;
 }
 </style>

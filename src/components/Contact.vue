@@ -6,28 +6,28 @@
     </div>
     <div class="container-fluid row contact">
       <div class="col-md-4">
-        <div class="block text-center">
-          <a href="https://discord.gg/FN6DV8rF" target="_blank">
+        <a href="https://discord.gg/VpxPH2zNmU" target="_blank">
+          <div class="block text-center">
             <img src="../assets/discord.svg" style="height: 64px; width: 64px">
             <p class="title1">Discord<br><span>Rejoingnez la communauté</span></p>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       <div class="col-md-4">
-        <div class="block text-center">
-          <a href="https://calendly.com/associ" target="_blank">
+        <a href="https://calendly.com/associ" target="_blank">
+          <div class="block text-center">
             <img src="../assets/Tel.svg">
             <p class="title1">Etre rappelé<br><span>Réservez un créneau horaire</span></p>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       <div class="col-md-4">
-        <div class="block text-center">
-          <a href="mailto:votreadresse@mail.fr">
+        <a href="mailto:votreadresse@mail.fr">
+          <div class="block text-center">
             <img src="../assets/Email.svg">
             <p class="title1">Email<br><span>Envoyez-nous un email</span></p>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
