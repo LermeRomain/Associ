@@ -18,21 +18,21 @@
       <div class="row">
         <div class="col-md-3 offset-md-1" style="margin-top: 50px">
           <div class="list-group" id="list-tab" role="tablist">
-            <a @click.prevent="nextStep(true)" class="list-group-item list-group-item-action active" id="list-home-list"
+            <a @click.prevent="nextStep1(true)" class="list-group-item list-group-item-action active" id="list-home-list"
                data-toggle="list"
                href="#list-home" role="tab" aria-controls="home">Tableau de bord</a>
-            <a @click.prevent="nextStep(true)" class="list-group-item list-group-item-action" id="list-profile-list"
+            <a @click.prevent="nextStep2(true)" class="list-group-item list-group-item-action" id="list-profile-list"
                data-toggle="list"
                href="#list-profile" role="tab" aria-controls="profile">Gestion des membres</a>
-            <a @click.prevent="nextStep(true)" class="list-group-item list-group-item-action" id="list-messages-list"
+            <a @click.prevent="nextStep3(true)" class="list-group-item list-group-item-action" id="list-messages-list"
                data-toggle="list"
                href="#list-messages" role="tab" aria-controls="messages">Calendrier</a>
           </div>
         </div>
         <div>
-          <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard.svg">
-          <img v-if="activeStep ==2" class="col-12" src="../assets/Dashboard.svg">
-          <img v-if="activeStep ==3" class="col-12" src="../assets/trophy.svg">
+          <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard2.svg" style="width: 829px;height: 585px">
+          <img v-if="activeStep ==2" class="col-12" src="../assets/membres.svg" style="width: 829px;height: 585px">
+          <img v-if="activeStep ==3" class="col-12" src="../assets/calendrier.svg" style="width: 829px;height: 585px">
         </div>
       </div>
     </div>
@@ -96,18 +96,18 @@ export default {
     return {
       count: 1,
       activeStep: 1,
-      score: 0,
     };
   },
 
   methods: {
-    nextStep(isAnswerRight) {
-      this.score = isAnswerRight ? this.score + 1 : this.score
-      if (this.count < 3) {
-        this.count++;
-        this.activeStep = this.count;
-        this.isLastInputFull = false;
-      }
+    nextStep1() {
+        this.activeStep =1;
+    },
+    nextStep2() {
+      this.activeStep =2;
+    },
+    nextStep3() {
+      this.activeStep =3;
     },
   }
 }

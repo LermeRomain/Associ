@@ -26,15 +26,19 @@
       <div class="row">
         <div class="col-md-3 offset-md-1" style="margin-top: 50px">
           <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+            <a @click.prevent="nextStep1(true)" class="list-group-item list-group-item-action active"
+               id="list-home-list" data-toggle="list"
                href="#list-home" role="tab" aria-controls="home">Le déroulé du webinaire</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+            <a @click.prevent="nextStep2(true)" class="list-group-item list-group-item-action" id="list-profile-list"
+               data-toggle="list"
                href="#list-profile" role="tab" aria-controls="profile">Les avantages</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+            <a @click.prevent="nextStep3(true)" class="list-group-item list-group-item-action" id="list-messages-list"
+               data-toggle="list"
                href="#list-messages" role="tab" aria-controls="messages">Les intervenants</a>
           </div>
         </div>
-        <p1 class="col-md-6">Après votre inscription, vous recevez un e-mail de confirmation avec un lien personnalisé qui vous permettra
+        <p1 v-if="activeStep ==1" class="col-md-6">Après votre inscription, vous recevez un e-mail de confirmation avec
+          un lien personnalisé qui vous permettra
           à l’heure prévue de vous connecter au site sur lequel est retransmis la réunion. En cas de retard, vous pouvez
           tout de même accéder au webinaire en cours.
           Vous pouvez participer à un webinaire depuis un ordinateur, une tablette, un smartphone ou un mini pc,
@@ -46,6 +50,25 @@
           Paramétrez votre caméra et votre micro si besoin,
           Rejoignez la réunion.
         </p1>
+
+        <p1 v-if="activeStep ==2" class="col-md-6">Interactif, rapide et aisé à mettre en oeuvre, les webinaires
+          éliminent les contraintes liées au déplacement ; elles favorisent la mise en réseau et la collaboration entre
+          différents acteurs.<br><br>
+
+          Se former : un webinaire peut servir à communiquer des ressources ou conférences sur un objet. L’organisateur
+          crée le rendez-vous, informe le public cible et transfère le contenu en répondant aux questions des
+          participants.<br>
+          Collaborer : lors d’un projet réunissant un groupe d’acteurs, plusieurs personnes encadrées par un animateur
+          se connectent pour échanger et définir les pistes et stratégies de travail. Les interactions facilitent ainsi
+          la prise de décision et l’avancée du projet.
+
+        </p1>
+
+        <p1 v-if="activeStep ==3" class="col-md-6">Les intervenants sont des indépendants, spécialiste en gestion et en
+          solutions de financement. Notamment chez les adolescents afin qu’il puisse prendre plaisir à gérer leur
+          trésorierie. Les financements publics, privés et participatifs n’auront plus aucun secret pour vous.
+        </p1>
+
       </div>
     </div>
 
@@ -56,7 +79,9 @@
           <img src="../assets/Webinaire/group1.svg"><br>
           <p2>En savoir plus sur moi</p2>
           <br>
-          <router-link to="/quizz"><button class="btn">Démarrer</button></router-link>
+          <router-link to="/quizz">
+            <button class="btn">Démarrer</button>
+          </router-link>
         </div>
         <div class="box1 col-md-4">
           <h4>Je m’inscris au prochain webinaire</h4>
@@ -72,13 +97,32 @@
 
 <script>
 export default {
-  name: "Webinaires"
+  name: "Webinaires",
+
+  data() {
+    return {
+      count: 1,
+      activeStep: 1,
+    };
+  },
+
+  methods: {
+    nextStep1() {
+      this.activeStep = 1;
+    },
+    nextStep2() {
+      this.activeStep = 2;
+    },
+    nextStep3() {
+      this.activeStep = 3;
+    },
+  }
 }
 </script>
 
 <style scoped>
 
-.container-fluid{
+.container-fluid {
   background-color: #F9F9F9;
 }
 
@@ -213,8 +257,8 @@ h4 {
   color: #400186;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 </style>
