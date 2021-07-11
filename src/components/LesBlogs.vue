@@ -13,16 +13,20 @@
     <div class="container-fluid">
       <div class=" row offset-1">
         <div class="col-md-3">
-          <div class="block">
-            <div>
-              <img src="../assets/blogs/1.svg">
+          <a href="https://associ.medium.com/comment-cr%C3%A9er-un-business-plan-bee6497e34f7"
+             target="_blank">
+            <div class="block">
+              <div>
+                <img src="../assets/blogs/1.svg">
+              </div>
+              <h2>Comment faire un business plan ?</h2>
             </div>
-            <h2>Comment faire un business plan ?</h2>
-          </div>
-          <p>Temps de lecture : <span>5-10 minutes</span></p>
-          <p>Catégorie : <span>Financement</span></p>
+            <p>Temps de lecture : <span>5-10 minutes</span></p>
+            <p>Catégorie : <span>Financement</span></p>
+          </a>
         </div>
         <div class="col-md-3 offset-md-1">
+          <a href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835" target="_blank">
           <div class="block">
             <div>
               <img src="../assets/blogs/2.svg">
@@ -30,10 +34,12 @@
             <h2>Créer son association quand on a
               moins de 18 ans</h2>
           </div>
+          </a>
           <p>Temps de lecture : <span>5 minutes</span></p>
           <p>Catégorie : <span>Solution</span></p>
         </div>
         <div class="col-md-3 offset-md-1">
+          <a href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986" target="_blank">
           <div class="block">
             <div>
               <img src="../assets/blogs/3.svg">
@@ -41,6 +47,7 @@
             <h2>3 choses à savoir pour
               la création d'association </h2>
           </div>
+          </a>
           <p>Temps de lecture : <span>15 minutes</span></p>
           <p>Catégorie : <span>Savoirs</span></p>
         </div>
@@ -50,12 +57,14 @@
     <div class="container-fluid">
       <div class=" row offset-1">
         <div class="col-md-3">
+          <a href="https://associ.medium.com/ressources-une-liste-doutils-pour-votre-association-d8e285402f2a" target="_blank">
           <div class="block">
             <div>
               <img src="../assets/blogs/4.svg">
             </div>
             <h2>Ressources utiles</h2>
           </div>
+          </a>
           <p>Temps de lecture : <span>5-10 minutes</span></p>
           <p>Catégorie : <span>Savoirs</span></p>
         </div>
@@ -70,12 +79,14 @@
           <p>Catégorie : <span>Savoirs</span></p>
         </div>
         <div class="col-md-3 offset-md-1">
+          <a href="https://associ.medium.com/communaut%C3%A9-discord-dassoci-838162937c84" target="_blank">
           <div class="block">
             <div>
               <img src="../assets/blogs/6.svg">
             </div>
-            <h2>La communauté sur WhatsApp</h2>
+            <h2>La communauté sur Discord</h2>
           </div>
+          </a>
           <p>Temps de lecture : <span>5 minutes</span></p>
           <p>Catégorie : <span>Réseaux sociaux</span></p>
         </div>
@@ -98,7 +109,7 @@ export default {
 
 <style scoped>
 
-.container-fluid{
+.container-fluid {
   background-color: #F9F9F9;
 }
 
@@ -121,28 +132,28 @@ h1 {
   height: 432px;
 }
 
-h2{
+h2 {
   font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10%;
 }
 
-p{
+p {
   font-family: Roboto;
   font-size: 20px;
   color: #400186;
 }
 
-span{
+span {
   font-family: Roboto;
   font-weight: bold;
   font-size: 20px;
   color: #400186;
 }
 
-.btn{
+.btn {
   padding: 16px 24px;
   background: #400186;
   border-radius: 50px;
@@ -153,15 +164,16 @@ span{
   margin-top: 50px;
 }
 
-img{
-  height: 90%;
-  width: 90%;
-  margin-left: 15px;
-  margin-top: 25%;
+img {
+  height: 85%;
+  width: 85%;
+  margin-left: 20px;
+  margin-top: 20%;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 </style>
