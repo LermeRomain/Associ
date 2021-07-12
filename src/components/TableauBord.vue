@@ -4,14 +4,18 @@
       <div class="col-12 col-md-5" style="margin-top: 18%">
         <h2>Bientôt disponible</h2>
         <h1>Tableau de bord</h1>
-        <p>Consultez la liste des adhérents à votre <br>association et assignez leur des tâches, des <br>rôles et bien plus encore !</p>
+        <p>Consultez la liste des adhérents à votre <br>association et assignez leur des tâches, des <br>rôles et bien
+          plus encore !</p>
 
-<!--        <h3 @mouseover="setWord">-->
-<!--          <span1>-</span1>-->
-<!--          {{ text }}-->
-<!--        </h3>-->
+        <!--        <h3 @mouseover="setWord">-->
+        <!--          <span1>-</span1>-->
+        <!--          {{ text }}-->
+        <!--        </h3>-->
 
-        <router-link to="#footer"><button class="btn" type="button">Télécharger le guide de création</button></router-link>
+        <a href="https://drive.google.com/file/d/1Nek3VsJNKDJ0E5xSBA9TKV8rtuXEtMbE/view?usp=sharing" target="_blank"
+           rel="nofollow">
+          <button class="btn" type="button">Télécharger le guide de création</button>
+        </a>
       </div>
       <div class="col-12 col-md-6" style="margin-top: 12%; border-radius: 40px">
         <img src="../assets/Dashboard.svg" class="rounded d-block" alt="Responsive image" style="border-radius: 32px;">
@@ -66,7 +70,6 @@ h1 {
   /* Text */
   color: #FFFFFF;
 }
-
 
 
 p {
@@ -127,7 +130,7 @@ h2 {
 
 }
 
-span{
+span {
   color: #400186;
   font-family: Roboto;
   font-style: normal;
@@ -136,8 +139,8 @@ span{
   line-height: 30px;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 
