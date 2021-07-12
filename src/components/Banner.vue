@@ -4,7 +4,7 @@
       <div class="col-12 col-md-5 offset-md-1">
         <h1>Créer votre association</h1>
         <p id="txt1" class="col-md-11">Associ vous aidera dans la création de votre association.
-          Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.<br><br>
+          Jusqu’à 20 ans, vous aurez la possibilité avec un associé de créer votre association.<br><br>
           De l’administratif à sa gestion, nous vous accompagnerons tout au long de votre vie associative.</p>
         <div class="row" style="margin-left: 1px">
           <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="dofollow"><button class="btn" type="button">Rejoindre la communauté</button></a>

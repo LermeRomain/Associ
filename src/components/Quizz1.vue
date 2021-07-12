@@ -7,9 +7,8 @@
         <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">- de 16
           ans
         </button>
-        <iframe src="https://giphy.com/embed/XGijTnUuPfZyrfVEMs" style="margin-right: auto; margin-left: auto"
-                width="284"
-                height="480" frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/XGijTnUuPfZyrfVEMs" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
+                frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
         <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">+ de 16
           ans
@@ -76,8 +75,8 @@
           / ma
           famille
         </button>
-        <iframe src="https://giphy.com/embed/KCdq1IyxkmgRKj2D23" style="margin-right: auto; margin-left: auto"
-                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/KCdq1IyxkmgRKj2D23" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
+                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
         <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Mon
           école /
@@ -94,8 +93,8 @@
           manque de
           confiance en moi
         </button>
-        <iframe src="https://giphy.com/embed/2zYk0N9ilSztOAPzb0" style="margin-right: auto; margin-left: auto"
-                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/2zYk0N9ilSztOAPzb0" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
+                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
         <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Le
           manque
@@ -112,7 +111,7 @@
         <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Parler
         </button>
         <iframe src="https://giphy.com/embed/0WG69qNdpTEOKG0egb" style="margin-right: auto; margin-left: auto"
-                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                width="auto" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
         <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Ecouter
         </button>
@@ -145,8 +144,8 @@
           jeu
           d'enfant
         </button>
-        <iframe src="https://giphy.com/embed/pslhvBFfstOJiyBOrs" style="margin-right: auto; margin-left: auto"
-                width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/pslhvBFfstOJiyBOrs" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
+                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
         <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">À
           petites
@@ -245,7 +244,7 @@ h1 {
   font-weight: bold;
   font-size: 58px;
   color: #FFFFFF;
-  padding-top: 150px;
+  padding-top: 75px;
   margin-bottom: 50px;
 }
 

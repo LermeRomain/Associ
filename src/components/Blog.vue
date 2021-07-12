@@ -18,7 +18,7 @@
         </div>
         <p>Astuces, nouveaux collaborateurs et sujets de discussions sont tous les éléments qui vous retrouverez dans la
           communauté Associ.</p>
-        <a style="color: #404DEF; font-family: Roboto" rel="dofollow">Voir l'article ></a>
+        <a style="color: #404DEF; font-family: Roboto" href="https://associ.medium.com/communaut%C3%A9-discord-dassoci-838162937c84" target="_blank" rel="dofollow">Voir l'article ></a>
       </div>
       <div class="col-md-3">
         <h2>3 chose à savoir ?</h2>
