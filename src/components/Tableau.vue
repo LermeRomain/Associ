@@ -1,17 +1,17 @@
 <template>
   <div class="container-fluid">
-    <div class="row offset-md-1">
+    <div class="row offset-1">
       <div class="col-md-12">
         <h2>Bientôt disponible</h2>
         <h1>Tableau de bord</h1>
       </div>
     </div>
-    <div class="row offset-md-1">
-      <div class="col-md-5 d-none d-lg-block">
+    <div class="row offset-1">
+      <div class="col-12 col-md-6">
         <p1>Notre outil de gestion pour <span>tous types d’associations</span></p1>
         <img class="dash" src="../assets/Dashboard.svg">
       </div>
-      <div class="col-md-4 offset-md-2">
+      <div class="col-md-4 offset-1 lst">
         <div class="article">
           <img src="../assets/click.svg">
           <h3 style="line-height: 40px">Simple</h3>
@@ -121,28 +121,13 @@ span{
   border-radius: 50px;
 }
 
-.btn1 {
-  display: flex;
-  margin-top: 7%;
-  background: #FFFFFF;
-  border-radius: 40px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 16px 24px;
-  line-height: 100.8%;
-  /* identical to box height */
-
-  text-align: center;
-  border: none;
-
-  color: #400186;
-}
 
 img.dash{
   margin-right: auto;
   margin-bottom: 0px;
+  width: 100%;
+  height: auto;
+  margin-left: -23px;
 }
 
 img {
@@ -152,5 +137,9 @@ img {
 
 a{
   text-decoration:none;
+}
+
+.lst{
+  margin-top: 50px;
 }
 </style>
