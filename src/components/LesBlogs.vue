@@ -17,7 +17,7 @@
              target="_blank">
             <div class="block">
               <div>
-                <img src="../assets/blogs/1.svg">
+                <img src="../assets/blogs/1.svg" alt="illustrations theme blog">
               </div>
               <h2>Comment faire un business plan ?</h2>
             </div>
@@ -29,7 +29,7 @@
           <a href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835" target="_blank">
           <div class="block">
             <div>
-              <img src="../assets/blogs/2.svg">
+              <img src="../assets/blogs/2.svg" alt="illustrations theme blog">
             </div>
             <h2>Créer son association quand on a
               moins de 18 ans</h2>
@@ -42,7 +42,7 @@
           <a href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986" target="_blank">
           <div class="block">
             <div>
-              <img src="../assets/blogs/3.svg">
+              <img src="../assets/blogs/3.svg" alt="illustrations theme blog">
             </div>
             <h2>3 choses à savoir pour
               la création d'association </h2>
@@ -60,7 +60,7 @@
           <a href="https://associ.medium.com/ressources-une-liste-doutils-pour-votre-association-d8e285402f2a" target="_blank">
           <div class="block">
             <div>
-              <img src="../assets/blogs/4.svg">
+              <img src="../assets/blogs/4.svg" alt="illustrations theme blog">
             </div>
             <h2>Ressources utiles</h2>
           </div>
@@ -71,7 +71,7 @@
         <div class="col-md-3 offset-md-1">
           <div class="block">
             <div>
-              <img src="../assets/blogs/5.svg">
+              <img src="../assets/blogs/5.svg" alt="illustrations theme blog">
             </div>
             <h2>Pourquoi créer son association ?</h2>
           </div>
@@ -82,7 +82,7 @@
           <a href="https://associ.medium.com/communaut%C3%A9-discord-dassoci-838162937c84" target="_blank">
           <div class="block">
             <div>
-              <img src="../assets/blogs/6.svg">
+              <img src="../assets/blogs/6.svg" alt="illustrations theme blog">
             </div>
             <h2>La communauté sur Discord</h2>
           </div>
@@ -105,16 +105,16 @@
           <h3>Suivez notre actualité !</h3>
           <div class="row">
             <div class="col-md-2 offset-1 offset-md-0">
-              <img class="rs" src="../assets/footer/insta.svg">
+              <img class="rs" src="../assets/footer/insta.svg" alt="logo insta">
             </div>
             <div class="col-md-2 offset-1">
-              <img class="rs" src="../assets/footer/tiktok.svg">
+              <img class="rs" src="../assets/footer/tiktok.svg" alt="logo tiktok">
             </div>
             <div class="col-md-2 offset-1">
-              <img class="rs" src="../assets/footer/tiktok.svg">
+              <img class="rs" src="../assets/footer/tiktok.svg" alt="logo tiktok">
             </div>
             <div class="col-md-2 offset-1">
-              <img class="rs" src="../assets/footer/insta.svg">
+              <img class="rs" src="../assets/footer/insta.svg" alt="logo insta">
             </div>
           </div>
         </div>

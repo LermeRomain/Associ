@@ -9,22 +9,22 @@
     <div class="row offset-1">
       <div class="col-12 col-md-6">
         <p1>Notre outil de gestion pour <span>tous types d’associations</span></p1>
-        <img class="dash" src="../assets/Dashboard.svg">
+        <img class="dash" src="../assets/Dashboard.svg" alt="dashboard application associ">
       </div>
       <div class="col-md-4 offset-1 lst">
         <div class="article">
-          <img src="../assets/click.svg">
+          <img src="../assets/click.svg" alt="illustrations click">
           <h3 style="line-height: 40px">Simple</h3>
           <p>Un e-mail, un mot de passe et c’est parti.
             Démarrez simplement la création de votre association.</p>
         </div>
         <div class="article">
-          <img src="../assets/coeur.svg">
+          <img src="../assets/coeur.svg" alt="illustrations coeur">
           <h3 style="line-height: 40px">Agréable</h3>
           <p>Une interface de synthèse simple pour vous faciliter dans vos tâches quotidienne.</p>
         </div>
         <div class="article">
-          <img src="../assets/etiquette.svg">
+          <img src="../assets/etiquette.svg" alt="illustrations etiquette">
           <h3 style="line-height: 40px">Personnalisé</h3>
           <p>Une solution pensée pour tous. Il est important que chacun d’entre vous puisse s’exprimer.</p>
         </div>

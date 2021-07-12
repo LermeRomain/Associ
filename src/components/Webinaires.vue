@@ -17,7 +17,7 @@
           <button class="btn1">S’inscrire au webinaire</button>
         </div>
         <div class="col-md-5">
-          <img src="../assets/solar.svg" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
+          <img src="../assets/solar.svg" alt="illustrations solar associ" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
       <div class="row justify-content-around  offset-md-2">
         <div class="box1 col-md-4">
           <h4>Tentez l’expérience</h4>
-          <img src="../assets/Webinaire/group1.svg"><br>
+          <img src="../assets/Webinaire/group1.svg" alt="illustrations experience"><br>
           <p2>En savoir plus sur moi</p2>
           <br>
           <router-link to="/quizz">
@@ -85,7 +85,7 @@
         </div>
         <div class="box1 col-md-4">
           <h4>Je m’inscris au prochain webinaire</h4>
-          <img src="../assets/Webinaire/group2.svg"><br>
+          <img src="../assets/Webinaire/group2.svg" alt="illustration webinaire"><br>
           <p2>Session début août</p2>
           <br>
           <button class="btn">S’inscrire au webinaire</button>

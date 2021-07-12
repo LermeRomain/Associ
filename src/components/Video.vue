@@ -12,17 +12,17 @@
         <div class="row justify-content-around offset-1 offset-md-0">
           <div class="box col-md-3">
             <h4>Membres</h4>
-            <img src="../assets/Fonction/membre.svg" style="margin-bottom: 50px;">
+            <img src="../assets/Fonction/membre.svg" alt="illustraions membre associ" style="margin-bottom: 50px;">
             <p2>Consultez la liste des adhérents à votre association et assignez leur des rôles</p2>
           </div>
           <div class="box col-md-3">
             <h4>Taches</h4>
-            <img src="../assets/Fonction/tache.svg" style="margin-bottom: 70px">
+            <img src="../assets/Fonction/tache.svg" alt="illustraions tache" style="margin-bottom: 70px">
             <p2>Donnez des tâches à effectuer à vos adhérents</p2>
           </div>
           <div class="box col-md-3">
             <h4>Messagerie</h4>
-            <img src="../assets/Fonction/message.svg" style="margin-bottom: 100px">
+            <img src="../assets/Fonction/message.svg" alt="illustraions message" style="margin-bottom: 100px">
             <p2>Consultez vos messages liés à la gestion et l’organisation de votre association</p2>
           </div>
         </div>
@@ -31,17 +31,17 @@
         <div class="row justify-content-around offset-1 offset-md-0">
           <div class="box col-md-3">
             <h4>Discord</h4>
-            <img src="../assets/Fonction/discord.svg" style="margin-bottom: 50px">
+            <img src="../assets/Fonction/discord.svg" alt="illustraions serveur discord associ" style="margin-bottom: 50px">
             <p2>Accedez à une conversation Discord dédiée à votre association</p2>
           </div>
           <div class="box col-md-3">
             <h4>Assistance</h4>
-            <img src="../assets/Fonction/ressource.svg" style="margin-bottom: 50px">
+            <img src="../assets/Fonction/ressource.svg" alt="illustraions ressource associ" style="margin-bottom: 50px">
             <p2>Notre équipe assure le service client 6j/7 <br>9h-18h</p2>
           </div>
           <div class="box col-md-3">
             <h4>Documents</h4>
-            <img src="../assets/Fonction/document.svg" style="margin-bottom: 50px">
+            <img src="../assets/Fonction/document.svg" alt="illustraions documents associ" style="margin-bottom: 50px">
             <p2>Consultez la liste de vos documents officiels d’association</p2>
           </div>
         </div>
@@ -60,19 +60,19 @@
         <div class="row justify-content-around">
           <div class="box1 col-md-3">
             <h4>Assistance avancée</h4>
-            <img src="../assets/Fonction/discord.svg" style="margin-bottom: 50px">
+            <img src="../assets/Fonction/discord.svg" alt="illustraions serveur discord associ" style="margin-bottom: 50px">
             <p2>Notre équipe assure le service client 7/7, 24h-24h</p2>
             <button class="btn2">Rester informé</button>
           </div>
           <div class="box1 col-md-3">
             <h4>Statistiques</h4>
-            <img src="../assets/Fonction/membre.svg" style="margin-bottom: 50px">
+            <img src="../assets/Fonction/membre.svg" alt="illustraions membre associ" style="margin-bottom: 50px">
             <p2>Voyez en temps réel l’impact de votre activité</p2>
             <button class="btn2">Rester informé</button>
           </div>
           <div class="box1 col-md-3">
             <h4>Gestion trésorierie</h4>
-            <img src="../assets/Fonction/document.svg" style="padding-right: 20px; margin-bottom: 50px">
+            <img src="../assets/Fonction/document.svg" alt="illustraions documents associ" style="padding-right: 20px; margin-bottom: 50px">
             <p2>Un conseiller vous aide sur la partie financière</p2>
             <button class="btn2">Rester informé</button>
           </div>

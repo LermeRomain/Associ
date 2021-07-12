@@ -1,7 +1,7 @@
 <template>
   <div class="test2">
   <div class="arrow">
-    <button class="btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/Call.svg">
+    <button class="btn" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/Call.svg" alt="logo call">
     </button>
   </div>
     <!-- Modal -->
@@ -17,17 +17,17 @@
           <p>Quel moyen de contact préférez-vous ?</p>
           <div class="content">
             <div class="test text-center">
-              <a href="#"><img src="../assets/Whatsapp.svg"></a>
+              <a href="#"><img src="../assets/Whatsapp.svg" alt="logo whatsapp"></a>
               <h2>WhatsApp</h2>
               <p1>Rejoingnez la team</p1>
             </div>
             <div class="test text-center">
-              <a href="#"><img src="../assets/Tel.svg"></a>
+              <a href="#"><img src="../assets/Tel.svg" alt="logo téléphone"></a>
               <h2>Etre rappelé</h2>
               <p1>Réservez un créneau horaire</p1>
             </div>
             <div class="test text-center">
-              <a href="#"><img src="../assets/Email.svg"></a>
+              <a href="#"><img src="../assets/Email.svg" alt="logo email"></a>
               <h2>Email</h2>
               <p1>Envoyez-nous un email et nous vous répondrons dans les meilleurs délais</p1>
             </div>

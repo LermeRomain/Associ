@@ -14,7 +14,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="../assets/Conference.svg" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
+          <img src="../assets/Conference.svg" alt="logo pour les conference" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
         Communiqué de presse
       </h2>
       <div class="row offset-md-1">
-        <img class="col-md-7" src="../assets/Pitch.svg" style="width: 100%">
+        <img class="col-md-7" src="../assets/Pitch.svg" alt="logo pour les pitch" style="width: 100%">
       </div>
     </div>
     <h2 class="offset-md-1">
@@ -32,7 +32,7 @@
     <div class="container-fluid background2">
       <div class="row">
         <div class="col-md-5">
-          <img src="../assets/Conference.svg" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
+          <img src="../assets/Conference.svg" alt="logo pour les conference" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
         </div>
         <div class="col-md-6 offset-md-1" style="margin-top: 15%">
           <p>

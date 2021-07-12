@@ -7,7 +7,7 @@
         <router-link to="/quizz"><button class="btn" type="button">Démarrer le quizz</button></router-link>
       </div>
       <div class="col-md-4 offset-md-2">
-        <img src="../assets/love.svg">
+        <img src="../assets/love.svg" alt="illustration love associ">
       </div>
     </div>
   </div>

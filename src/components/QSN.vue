@@ -16,7 +16,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="../assets/solar.svg" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
+          <img src="../assets/solar.svg" alt="illustration solar associ" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
       </h2>
       <div class="row offset-md-1">
         <div class="col-md-6">
-          <img class="ico" src="../assets/trophy.svg">
+          <img class="ico" src="../assets/trophy.svg" alt="illustrations trophy">
           <h3>L’esprit d’équipe</h3>
           <p1>Savoir travailler en équipe est essentiel dans toute activité, surtout quand on sait qu’il est nécésaire
             d’être deux pour créer une association.
@@ -36,7 +36,7 @@
           </p1>
         </div>
         <div class="col-md-5">
-          <img class="ico" src="../assets/high.svg">
+          <img class="ico" src="../assets/high.svg" alt="illustration hight five">
           <h3>La confiance</h3>
           <p1>La confiance est la base de toute relation, nous avons une confiance absole envers la jeunesse, ses
             ambitions et son envie de créer un monde meilleur.
@@ -50,7 +50,7 @@
 
       <div class="row offset-md-1" style="margin-top: 60px;padding-bottom: 1%">
         <div class="col-md-6">
-          <img class="ico" src="../assets/mains.svg">
+          <img class="ico" src="../assets/mains.svg" alt="illustrations poigné de mains">
           <h3>L’entraide</h3>
           <p1>Pourquoi créé-t-on une association ?<br>
             Pour que des personnes avec les mêmes valeurs ou centres d’interet puissent s’entraider au quotidien.
@@ -58,7 +58,7 @@
           </p1>
         </div>
         <div class="col-md-5">
-          <img class="ico" src="../assets/smile.svg">
+          <img class="ico" src="../assets/smile.svg" alt="illustrations smiley">
           <h3>La positivité</h3>
           <p1>
             Donner de son temps pour quelque chose qui nous plait. Les association font plaisir à la fois aux bénévols

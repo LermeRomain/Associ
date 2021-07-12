@@ -10,7 +10,7 @@
             Les fonctionnalités du tableau de bord
           </h2>
         </div>
-        <img class="col-md-10 offset-md-1" src="../assets/offres.svg">
+        <img class="col-md-10 offset-md-1" src="../assets/offres.svg" alt="offre du service associ">
       </div>
     </div>
 
@@ -30,9 +30,9 @@
           </div>
         </div>
         <div style="margin-top: 30px">
-          <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard2.svg" style="width: 829px;height: 585px">
-          <img v-if="activeStep ==2" class="col-12" src="../assets/membres.svg" style="width: 829px;height: 585px">
-          <img v-if="activeStep ==3" class="col-12" src="../assets/calendrier.svg" style="width: 829px;height: 585px">
+          <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard2.svg" alt="dashboard associ" style="width: 829px;height: 585px">
+          <img v-if="activeStep ==2" class="col-12" src="../assets/membres.svg" alt="dashboard membres associ" style="width: 829px;height: 585px">
+          <img v-if="activeStep ==3" class="col-12" src="../assets/calendrier.svg" alt="dashboard calendrier associ" style="width: 829px;height: 585px">
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
         <div class="box1 col-md-5">
           <h4>Gratuit</h4>
           <br>
-          <img src="../assets/0€.svg">
+          <img src="../assets/0€.svg" alt="illustrations tarif 0€">
           <br>
           <router-link to="/quizz">
             <button class="btn">Démarrer</button>
@@ -59,7 +59,7 @@
         <div class="box1 col-md-5">
           <h4>Intense</h4>
           <br>
-          <img src="../assets/6€.svg">
+          <img src="../assets/6€.svg" alt="illustrations tarif 6€99">
           <br>
           <button class="btn1">Rester informé</button>
           <br>

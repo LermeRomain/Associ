@@ -13,7 +13,7 @@
             <p class="title1" style="float: right; color: #FD4C6F; margin-right: 16px">Financement</p>
           </div>
           <div>
-            <img src="../assets/blog/CommuDiscord.svg">
+            <img src="../assets/blog/CommuDiscord.svg" alt="image representant la communauté discord">
           </div>
         </div>
         <p>Astuces, nouveaux collaborateurs et sujets de discussions sont tous les éléments qui vous retrouverez dans la
@@ -27,7 +27,7 @@
             <p class="title1" style="float: right; color: #404DEF; margin-right: 16px">Communauté</p>
           </div>
           <div>
-            <img src="../assets/blog/3choses.svg">
+            <img src="../assets/blog/3choses.svg" alt="image representant les 3 choses principales pour une association">
           </div>
         </div>
         <p>Le domaine associatif n’est pas le domaine le plus complexe en matière
@@ -44,7 +44,7 @@
             <p class="title1" style="float: right; color: #404DEF; margin-right: 16px">Communauté</p>
           </div>
           <div>
-            <img src="../assets/blog/moin18.svg">
+            <img src="../assets/blog/moin18.svg" alt="image pour les personne mineurs dans une association">
           </div>
         </div>
         <p>Vous avez un projet d’associations mais vous n’êtes pas encore majeur ? Depuis 2017, La loi n°2017–86 permet
