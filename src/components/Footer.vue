@@ -1,13 +1,17 @@
 <template>
-  <div class="footer"  id="footer">
+  <div class="footer" id="footer">
     <div class="container-fluid text-center">
       <div class="row">
         <div class="col-md-2 text-left offset-1">
           <img class="logo_Footer" src="../assets/logoFooter.svg" alt="logo de l'organisme associ">
           <div class="text-left">
-            <a href="https://www.instagram.com/associ.officiel/" target="_blank" rel="noopener"><img src="../assets/footer/insta.svg" alt="logo instagram" style="width: 20%"></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank" rel="noopener"><img src="../assets/footer/tiktok.svg" alt="logo tiktok" style="width: 20%; margin-left: 15px"></a>
-            <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="noopener"><img src="../assets/footer/discord.svg" alt="logo discord" style="width: 20%; margin-left: 15px"></a>
+            <a href="https://www.instagram.com/associ.officiel/" target="_blank" rel="noopener"><img
+                src="../assets/footer/insta.svg" alt="logo instagram" style="width: 20%; height: auto"></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank" rel="noopener"><img
+                src="../assets/footer/tiktok.svg" alt="logo tiktok" style="width: 20%;height: auto; margin-left: 15px"></a>
+            <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="noopener"><img src="../assets/footer/discord.svg"
+                                                                                      alt="logo discord"
+                                                                                      style="width: 20%;height: auto; margin-left: 15px"></a>
           </div>
         </div>
 
@@ -38,7 +42,8 @@
             <div id="sib-container" class="sib-container--large sib-container--vertical"
                  style="text-align:center; background-color:#400186; max-width:540px; padding: 0px">
               <form id="sib-form" method="POST"
-                    action="https://b01bfbbf.sibforms.com/serve/MUIEAKN9rd2eqo9z8cE8vnUFwc-fpg7mMyoFuszcFcJVsnIGURcDTxXQH78RzO02CBWFnwKYyixykhTR7Ag5-MAeW6y5OqCIIkB9ODPJMoAZx3c_HOtmDlVqsdKrNcHDPM16-dt8MRtpT_C4_IBu1Y8d4VZz3qc0mzoyI3OEc4fU6Sf40OBW_Y7mC_pA0LxCbjXB4rE3mtCCFE5x" target="_blank">
+                    action="https://b01bfbbf.sibforms.com/serve/MUIEAKN9rd2eqo9z8cE8vnUFwc-fpg7mMyoFuszcFcJVsnIGURcDTxXQH78RzO02CBWFnwKYyixykhTR7Ag5-MAeW6y5OqCIIkB9ODPJMoAZx3c_HOtmDlVqsdKrNcHDPM16-dt8MRtpT_C4_IBu1Y8d4VZz3qc0mzoyI3OEc4fU6Sf40OBW_Y7mC_pA0LxCbjXB4rE3mtCCFE5x"
+                    target="_blank">
                 <div>
                   <div class="sib-form-block">
                     <h1>Newsletter</h1>
@@ -221,6 +226,7 @@ h1 {
 
 img {
   width: 150px;
+  height: auto;
   margin-bottom: 20px;
 }
 

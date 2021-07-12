@@ -7,7 +7,7 @@
       </button>
       <div class="collapse navbar-collapse col-md-10 offset-1" id="navbarTogglerDemo01">
         <router-link to="/"><a href="#" style="margin-right:15px"><img src="../assets/logo.svg"
-                                                                       alt="Logo de l'organisme Associ"></a>
+                                                                       alt="Logo de l'organisme Associ" style="width: auto"></a>
         </router-link>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">

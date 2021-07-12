@@ -86,6 +86,11 @@ a{
 
 }
 
+img{
+  height: auto;
+  width: auto;
+}
+
 @media screen and (max-width: 768px) {
   .col-md-2 {
     margin-top: 2%;

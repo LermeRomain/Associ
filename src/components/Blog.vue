@@ -168,6 +168,8 @@ button:hover {
 
 img {
   margin-left: 70px;
+  height: auto;
+  width: auto;
 }
 
 a {

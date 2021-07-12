@@ -133,6 +133,8 @@ img.dash{
 img {
   float: left;
   margin-right: 16px;
+  width: auto;
+  height: auto;
 }
 
 a{
