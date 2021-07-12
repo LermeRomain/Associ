@@ -35,11 +35,11 @@
                 <li><a routerLink="/contacter" class="dropdown-item">Contactez-nous</a></li>
               </router-link>
               <li>
-                <a href="https://www.instagram.com/associ.officiel/" target="_blank"><img
+                <a href="https://www.instagram.com/associ.officiel/" target="_blank" rel="noopener"><img
                     src="../assets/header/insta.svg" alt="logo instagram" style="width: 20%; margin-left: 15px"></a>
-                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><img src="../assets/header/tiktok.svg"
+                <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank" rel="noopener"><img src="../assets/header/tiktok.svg"
                                                                                 alt="logo tiktok" style="width: 20%; margin-left: 15px"></a>
-                <a href="https://discord.gg/GuSa7w7U" target="_blank"><img src="../assets/header/discord.svg"
+                <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="noopener"><img src="../assets/header/discord.svg"
                                                                            alt="logo discord" style="width: 20%; margin-left: 15px"></a>
               </li>
             </ul>

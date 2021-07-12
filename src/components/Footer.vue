@@ -5,9 +5,9 @@
         <div class="col-md-2 text-left offset-1">
           <img class="logo_Footer" src="../assets/logoFooter.svg" alt="logo de l'organisme associ">
           <div class="text-left">
-            <a href="https://www.instagram.com/associ.officiel/" target="_blank"><img src="../assets/footer/insta.svg" alt="logo instagram" style="width: 20%"></a>
-            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank"><img src="../assets/footer/tiktok.svg" alt="logo tiktok" style="width: 20%; margin-left: 15px"></a>
-            <a href="https://discord.gg/GuSa7w7U" target="_blank"><img src="../assets/footer/discord.svg" alt="logo discord" style="width: 20%; margin-left: 15px"></a>
+            <a href="https://www.instagram.com/associ.officiel/" target="_blank" rel="noopener"><img src="../assets/footer/insta.svg" alt="logo instagram" style="width: 20%"></a>
+            <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank" rel="noopener"><img src="../assets/footer/tiktok.svg" alt="logo tiktok" style="width: 20%; margin-left: 15px"></a>
+            <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="noopener"><img src="../assets/footer/discord.svg" alt="logo discord" style="width: 20%; margin-left: 15px"></a>
           </div>
         </div>
 
@@ -17,7 +17,7 @@
           <div class="menub">
             <router-link to="/fonctionnalités"><a>Fonctionnalités</a></router-link>
             <router-link to="/webinaire"><a>Webinaires</a></router-link>
-            <a href="https://associ.medium.com/" target="_blank">Blog</a>
+            <a href="https://associ.medium.com/" target="_blank" rel="noopener">Blog</a>
             <router-link to="/qui-sommes-nous"><a>Équipe</a></router-link>
             <router-link to="/tarifs"><a>Tarifs</a></router-link>
           </div>
