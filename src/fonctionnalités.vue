@@ -2,7 +2,7 @@
   <section id="content">
     <TableauBord />
     <Video />
-    <Conquis />
+    <Charme />
   </section>
 </template>
 
@@ -10,14 +10,14 @@
 
 import Video from "./components/Video";
 import TableauBord from "./components/TableauBord";
-import Conquis from "./components/Conquis";
+import Charme from "./components/Charme";
 
 
 
 export default {
   name: 'fonctionnalité',
   components:{
-    Conquis,
+    Charme,
     TableauBord,
     Video,
   }
