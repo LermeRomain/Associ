@@ -234,9 +234,15 @@ h4 {
   /* identical to box height */
 
   text-align: center;
-  border: none;
-
+  border: 2px solid #FD4C6F;
   color: #FFFFFF;
+}
+
+.btn:hover{
+  border-color: #FFFFFF;
+  color: #FD4C6F;
+  background: none;
+  border-color: #FD4C6F;
 }
 
 .btn1 {
@@ -252,9 +258,15 @@ h4 {
   /* identical to box height */
 
   text-align: center;
-  border: none;
+  border: 2px solid #FFFFFF;
 
   color: #400186;
+}
+
+.btn1:hover{
+  background: none;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 
 a {

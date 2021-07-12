@@ -199,10 +199,18 @@ span {
   background: #400186;
   border-radius: 50px;
   font-family: Roboto;
+  font-weight: bold;
   font-size: 20px;
   color: #FFFFFF;
+  border: 2px solid #400186;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+
+.btn:hover{
+  background: none;
+  color: #400186;
+  border-color: #400186;
 }
 
 img {

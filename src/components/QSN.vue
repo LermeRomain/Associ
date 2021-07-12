@@ -159,6 +159,15 @@ h3 {
   padding: 16px 24px;
   background: #FFFFFF;
   border-radius: 50px;
+  border: 2px solid #FFFFFF;
+  color: #400186;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background: none;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 a{

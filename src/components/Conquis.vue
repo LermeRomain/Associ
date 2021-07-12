@@ -96,8 +96,8 @@ p {
 .btn1:hover {
   text-decoration-line: none;
   background: none;
-  color: #FFFFFF;
-  border-color: white;
+  color: #400186;
+  border-color: #400186;
 }
 
 .col-md-12 {

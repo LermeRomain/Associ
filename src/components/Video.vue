@@ -477,13 +477,19 @@ p2 {
   font-weight: bold;
   font-size: 20px;
   padding: 16px 24px;
+  border: 2px solid #FDC34A;
   line-height: 100.8%;
   /* identical to box height */
 
   text-align: center;
-  border: none;
 
   color: #FFFFFF;
+}
+
+.btn2:hover{
+  color: #FDC34A;
+  border-color: #FDC34A;
+  background: none;
 }
 
 a{

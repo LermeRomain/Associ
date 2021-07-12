@@ -106,8 +106,8 @@ img {
 
 .btn:hover {
   text-decoration-line: none;
-  background: #FFFFFF;
-  border: 2px solid #FFFFFF;
+  background: none;
+  border: 2px solid #400186;
   color: #400186;
   box-sizing: border-box;
   border-radius: 50px;

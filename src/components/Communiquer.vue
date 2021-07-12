@@ -104,9 +104,18 @@ h2 {
 btn {
   font-family: Roboto;
   font-size: 20px;
+  font-weight: bold;
   padding: 16px 24px;
   background: #FFFFFF;
   border-radius: 50px;
+  color: #400186;
+  border: 2px solid #FFFFFF;
+}
+
+btn:hover{
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background: none;
 }
 
 a{

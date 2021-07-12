@@ -67,8 +67,8 @@ p {
 .btn:hover {
   text-decoration-line: none;
   background: none;
-  color: #FFFFFF;
-  border-color: white;
+  color: #FD4C6F;
+  border-color: #FD4C6F;
 }
 
 .col-md-4 {

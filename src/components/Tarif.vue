@@ -211,12 +211,18 @@ P1 {
   font-size: 20px;
   padding: 16px 24px;
   line-height: 100.8%;
+  border: 2px solid #400186;
   /* identical to box height */
 
   text-align: center;
-  border: none;
 
   color: #FFFFFF;
+}
+
+.btn:hover{
+  border-color: #400186;
+  color: #400186;
+  background: none;
 }
 
 .btn1 {
@@ -229,14 +235,19 @@ P1 {
   font-size: 20px;
   padding: 16px 24px;
   line-height: 100.8%;
+  border: 2px solid #FDC34A;
   /* identical to box height */
 
   text-align: center;
-  border: none;
 
   color: #FFFFFF;
 }
 
+.btn1:hover{
+  background: none;
+  border-color: #FDC34A;
+  color: #FDC34A;
+}
 
 span {
   color: #7D8790;
