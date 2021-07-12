@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-6 offset-md-1" style="margin-top: 10%">
           <h1>
-            Webinaire
+            Webinaires
           </h1>
           <p>
             Le webinaire désigne une conférence en ligne à laquelle plusieurs personnes connectées dans des lieux
