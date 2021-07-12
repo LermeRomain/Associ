@@ -18,7 +18,7 @@
         </div>
         <p>Astuces, nouveaux collaborateurs et sujets de discussions sont tous les éléments qui vous retrouverez dans la
           communauté Associ.</p>
-        <a style="color: #404DEF; font-family: Roboto" rel="noopener">Voir l'article ></a>
+        <a style="color: #404DEF; font-family: Roboto" rel="dofollow">Voir l'article ></a>
       </div>
       <div class="col-md-3">
         <h2>3 chose à savoir ?</h2>
@@ -35,7 +35,7 @@
           connaître en matière de création d’association.</p>
         <a style="color: #404DEF; font-family: Roboto"
            href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986"
-           target="_blank" rel="noopener">Voir l'article ></a>
+           target="_blank" rel="dofollow">Voir l'article ></a>
       </div>
       <div class="col-md-3">
         <h2>Moins de 18 ans ?</h2>
@@ -52,7 +52,7 @@
         </p>
         <a style="color: #404DEF; font-family: Roboto"
            href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835"
-           target="_blank" rel="noopener">Voir
+           target="_blank" rel="dofollow">Voir
           l'article ></a>
       </div>
     </div>

@@ -7,7 +7,7 @@
           Jusqu’à 19 ans, vous aurez la possibilité avec un associé de créer votre association.<br><br>
           De l’administratif à sa gestion, nous vous accompagnerons tout au long de votre vie associative.</p>
         <div class="row" style="margin-left: 1px">
-          <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="noopener"><button class="btn" type="button">Rejoindre la communauté</button></a>
+          <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="dofollow"><button class="btn" type="button">Rejoindre la communauté</button></a>
           <router-link to="/qui-sommes-nous"><button class="btn1" type="button" style="margin-top: 20px; background: #F9F9F9">Nous Découvrir</button></router-link>
         </div>
       </div>

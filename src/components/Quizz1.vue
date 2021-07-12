@@ -183,7 +183,7 @@
             Tu commences déjà à t'intégrer chez nous !
 
           </p>
-          <a href="https://discord.gg/VpxPH2zNmU" target="_blank">
+          <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow">
             <button class="btn" type="button">Rejoindre le Discord</button>
           </a>
         </div>
@@ -198,7 +198,7 @@
             N'hesite pas à nous contacter.
 
           </p>
-          <a href="https://discord.gg/VpxPH2zNmU" target="_blank">
+          <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow">
             <button class="btn" type="button">Rejoindre le Discord</button>
           </a>
         </div>

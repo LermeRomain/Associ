@@ -14,7 +14,7 @@
       <div class=" row offset-1">
         <div class="col-md-3">
           <a href="https://associ.medium.com/comment-cr%C3%A9er-un-business-plan-bee6497e34f7"
-             target="_blank">
+             target="_blank" rel="dofollow">
             <div class="block">
               <div>
                 <img src="../assets/blogs/1.svg" alt="illustrations theme blog">
@@ -26,7 +26,7 @@
           </a>
         </div>
         <div class="col-md-3 offset-md-1">
-          <a href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835" target="_blank">
+          <a href="https://associ.medium.com/cr%C3%A9er-son-association-quand-on-a-moins-de-18-ans-bb620955f835" target="_blank" rel="dofollow">
           <div class="block">
             <div>
               <img src="../assets/blogs/2.svg" alt="illustrations theme blog">
@@ -39,7 +39,7 @@
           <p>Catégorie : <span>Solution</span></p>
         </div>
         <div class="col-md-3 offset-md-1">
-          <a href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986" target="_blank">
+          <a href="https://associ.medium.com/3-choses-%C3%A0-savoir-pour-la-cr%C3%A9ation-dassociation-e7462ba77986" target="_blank" rel="dofollow">
           <div class="block">
             <div>
               <img src="../assets/blogs/3.svg" alt="illustrations theme blog">
@@ -57,7 +57,7 @@
     <div class="container-fluid">
       <div class=" row offset-1">
         <div class="col-md-3">
-          <a href="https://associ.medium.com/ressources-une-liste-doutils-pour-votre-association-d8e285402f2a" target="_blank">
+          <a href="https://associ.medium.com/ressources-une-liste-doutils-pour-votre-association-d8e285402f2a" target="_blank" rel="dofollow">
           <div class="block">
             <div>
               <img src="../assets/blogs/4.svg" alt="illustrations theme blog">
@@ -79,7 +79,7 @@
           <p>Catégorie : <span>Savoirs</span></p>
         </div>
         <div class="col-md-3 offset-md-1">
-          <a href="https://associ.medium.com/communaut%C3%A9-discord-dassoci-838162937c84" target="_blank">
+          <a href="https://associ.medium.com/communaut%C3%A9-discord-dassoci-838162937c84" target="_blank" rel="dofollow">
           <div class="block">
             <div>
               <img src="../assets/blogs/6.svg" alt="illustrations theme blog">

@@ -6,7 +6,7 @@
     </div>
     <div class="container-fluid row contact">
       <div class="col-md-4">
-        <a href="https://discord.gg/VpxPH2zNmU" target="_blank">
+        <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow">
           <div class="block text-center">
             <img src="../assets/discord.svg" alt="logo discord" style="height: 64px; width: 64px">
             <p class="title1">Discord<br><span>Rejoingnez la communauté</span></p>
@@ -14,7 +14,7 @@
         </a>
       </div>
       <div class="col-md-4">
-        <a href="https://calendly.com/associ" target="_blank">
+        <a href="https://calendly.com/associ" target="_blank" rel="dofollow">
           <div class="block text-center">
             <img src="../assets/Tel.svg" alt="logo téléphone">
             <p class="title1">Etre rappelé<br><span>Réservez un créneau horaire</span></p>
