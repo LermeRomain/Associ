@@ -1,6 +1,9 @@
 <template>
   <div class="container-fluid">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand d-lg-none d-md-none d-sm-block" href="#">
+        <router-link to="/"><img src="../assets/icon.svg" width="30" height="30" alt=""></router-link>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
