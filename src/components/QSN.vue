@@ -16,7 +16,8 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="../assets/solar.svg" alt="illustration solar associ" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
+          <img src="../assets/solar.svg" alt="illustration solar associ" class="d-none d-md-block"
+               style="width: 100%; margin-top: 100px">
         </div>
       </div>
     </div>
@@ -76,7 +77,9 @@
             Vous pouvez nous rencontrer et communiquer avec nous dès maintenant grâce à la communauté Discord
           </p>
           <div>
-            <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow"><button class="btn">Rejoindre la communauté</button></a>
+            <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow">
+              <button class="btn">Rejoindre la communauté</button>
+            </a>
           </div>
         </div>
       </div>
@@ -92,12 +95,8 @@ export default {
 
 <style scoped>
 
-.font{
+.font {
   background-color: #F9F9F9;
-}
-
-.container-fluid {
-  margin-top: 70px;
 }
 
 .background {
@@ -116,7 +115,18 @@ h1 {
   font-size: 58px;
   font-family: Roboto;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 70px;
+
+  }
 }
 
 P {
@@ -164,17 +174,17 @@ h3 {
   font-weight: bold;
 }
 
-.btn:hover{
+.btn:hover {
   background: none;
   border-color: #FFFFFF;
   color: #FFFFFF;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-.ico{
+.ico {
   height: 15%;
 }
 </style>

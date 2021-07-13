@@ -17,7 +17,8 @@
           <button class="btn1">S’inscrire au webinaire</button>
         </div>
         <div class="col-md-5">
-          <img src="../assets/solar.svg" alt="illustrations solar associ" class="d-none d-md-block" style="width: 100%; margin-top: 100px">
+          <img src="../assets/solar.svg" alt="illustrations solar associ" class="d-none d-md-block"
+               style="width: 100%; margin-top: 100px">
         </div>
       </div>
     </div>
@@ -49,7 +50,40 @@
           La plateforme du webinaire (Zoom, Microsoft Teams, Livestorm, Adobe Connect, Google Meet...) s'ouvre,
           Paramétrez votre caméra et votre micro si besoin,
           Rejoignez la réunion.
+          <br>
+          <br>
+          <a @click.prevent="nextStep4(true)" style="font-family: Roboto; color: #FDC34A; cursor: pointer">Voir plus</a>
         </p1>
+
+        <p1 v-if="activeStep ==4" class="col-md-6">Après votre inscription, vous recevez un e-mail de confirmation avec
+          un lien personnalisé qui vous permettra à l’heure prévue de vous connecter au site sur lequel est retransmis
+          la réunion. En cas de retard, vous pouvez tout de même accéder au webinaire en cours.
+          Vous pouvez participer à un webinaire depuis un ordinateur, une tablette, un smartphone ou un mini pc,
+          connecté à internet. Il vous suffit de suivre la procédure suivante :
+          <br><br>
+          Cliquez sur le lien que vous avez reçu par mail,
+          Rentrez, si besoin, les informations demandées puis sur "connexion",
+          La plateforme du webinaire (Zoom, Microsoft Teams, Livestorm, Adobe Connect, Google Meet...) s'ouvre,
+          Paramétrez votre caméra et votre micro si besoin,
+          Rejoignez la réunion.
+          Depuis la plateforme, vous pouvez :
+          <br><br>
+          Visualiser en direct la présentation PowerPoint utilisée par le conférencier grâce à la retransmission vidéo
+          de la conférence,
+          Voir et entendre le conférencier en temps réel et lui poser des questions par « chat » (boîte de dialogue
+          écrit),
+          Intervenir oralement, même si nous vous conseillons d'utiliser la fenêtre de chat.
+
+          <br><br>
+          Pour écouter la réunion, vous avez 2 choix :
+          <br><br>
+          Via les haut-parleurs de votre pc, smartphone ou tablette,
+          Via les écouteurs que vous brancherez sur votre pc, smartphone ou tablette.
+          <br><br>
+          Pour poser vos questions : Il vous suffit de taper un message dans la boîte de dialogue du « chat ». Les
+          questions seront vues en temps réel par l’animateur et seront traitées au cours de la conférence.
+        </p1>
+
 
         <p1 v-if="activeStep ==2" class="col-md-6">Interactif, rapide et aisé à mettre en oeuvre, les webinaires
           éliminent les contraintes liées au déplacement ; elles favorisent la mise en réseau et la collaboration entre
@@ -61,12 +95,64 @@
           Collaborer : lors d’un projet réunissant un groupe d’acteurs, plusieurs personnes encadrées par un animateur
           se connectent pour échanger et définir les pistes et stratégies de travail. Les interactions facilitent ainsi
           la prise de décision et l’avancée du projet.
+          <br>
+          <br>
+          <a @click.prevent="nextStep5(true)" style="font-family: Roboto; color: #FDC34A; cursor: pointer">Voir plus</a>
+        </p1>
 
+        <p1 v-if="activeStep ==5" class="col-md-6">Interactif, rapide et aisé à mettre en oeuvre, les webinaires
+          éliminent les contraintes liées au déplacement ; elles favorisent la mise en réseau et la collaboration entre
+          différents acteurs.
+          <br><br>
+          <span>Se former :</span> un webinaire peut servir à communiquer des ressources ou conférences sur un objet. L’organisateur
+          crée le rendez-vous, informe le public cible et transfère le contenu en répondant aux questions des
+          participants.<br>
+          <span>Collaborer : </span>lors d’un projet réunissant un groupe d’acteurs, plusieurs personnes encadrées par un animateur
+          se connectent pour échanger et définir les pistes et stratégies de travail. Les interactions facilitent ainsi
+          la prise de décision et l’avancée du projet.<br>
+          <span>Produire : </span>en binôme dans la perspective de co-produire un document, cet espace élimine les distances permet
+          un accès direct vers des navigateurs et des ressources externes.<br>
+          <span>Mettre en réseau des acteurs :</span> Afin d’informer, d’acculturer des personnes travaillant séparément sur les même
+          objectifs, le webinaire permet des mises en commun, de la mutualisation et de l’entraide entre pairs. Les
+          rencontres virtuelles sont conservées stockées en ligne pour être consultables par chacun de manière différée.
         </p1>
 
         <p1 v-if="activeStep ==3" class="col-md-6">Les intervenants sont des indépendants, spécialiste en gestion et en
           solutions de financement. Notamment chez les adolescents afin qu’il puisse prendre plaisir à gérer leur
           trésorierie. Les financements publics, privés et participatifs n’auront plus aucun secret pour vous.
+          <br>
+          <br>
+          <a @click.prevent="nextStep6(true)" style="font-family: Roboto; color: #FDC34A; cursor: pointer">Voir plus</a>
+        </p1>
+
+        <p1 v-if="activeStep ==6" class="col-md-6">Accélérateur culturel, notre objectif est de vous proposer les
+          services des spécialistes et experts les plus légitimes dans leurs domaines de compétences, reconnus pour le
+          contenu et la valeur ajoutée de leurs prestations.
+          <br>
+          <br>
+          Nos intervenants prennent plaisir à diffuser le savoir et génèrer le changement.
+          <br>
+          <br>
+          Pour vous, nous cultivons un suivi constant en France pour déceler de nouveaux talents et conférenciers.
+          la qualité et l’originalité de l’approche, mais aussi l’objectif visé et la réponse à un besoin réel des
+          jeunes associations<br>
+          l’expérience dans l’animation de collectifs, la pratique de l’expérimentation, du jeu, et de l’interactivité
+          constructive dans les modes pédagogiques
+          <br>
+          <br>
+          La capacité à porter un regard critique sur sa pratique professionnelle, la curiosité et la formation continue
+          à de nouvelles compétences
+          <br>
+          <br>
+          La bonne compréhension des enjeux et des fonctionnements actuels des associations
+          <br>
+          <br>
+          Le savoir-être (écoute, bienveillance, adaptabilité, bonne humeur), la capacité à partager son enthousiasme,
+          susciter des émotions positives et inspirer les autres
+          <br>
+          <br>
+          L’adhésion à nos valeurs et à nos missions en tant qu’organisation, l’envie de s’engager sur le moyen-long
+          terme au sein du réseau associ.
         </p1>
 
       </div>
@@ -116,6 +202,15 @@ export default {
     nextStep3() {
       this.activeStep = 3;
     },
+    nextStep4() {
+      this.activeStep = 4;
+    },
+    nextStep5() {
+      this.activeStep = 5;
+    },
+    nextStep6() {
+      this.activeStep = 6;
+    },
   }
 }
 </script>
@@ -153,6 +248,13 @@ p1 {
   font-family: Roboto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+span{
+  color: black;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
 }
 
 P2 {
@@ -238,7 +340,7 @@ h4 {
   color: #FFFFFF;
 }
 
-.btn:hover{
+.btn:hover {
   border-color: #FFFFFF;
   color: #FD4C6F;
   background: none;
@@ -263,7 +365,7 @@ h4 {
   color: #400186;
 }
 
-.btn1:hover{
+.btn1:hover {
   background: none;
   color: #FFFFFF;
   border-color: #FFFFFF;

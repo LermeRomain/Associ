@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="container-fluid" style="margin-top: 100px">
+    <div class="container-fluid" style="margin-top: 70px">
       <h1 class="col-md-9 offset-md-1">
         Découvrez nos conseils et astuces pour progesser !
       </h1>

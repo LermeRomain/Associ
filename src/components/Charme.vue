@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h1>Sous le charme ?</h1>
-        <p>saisissez votre opportunité</p>
+        <p>Saisissez votre opportunité</p>
         <div class="row offset-md-4">
           <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="dofollow"><button class="btn" type="button">Rejoindre la communauté</button></a>
           <router-link to="/quizz"><button class="btn1" type="button">Démarrer le quizz</button></router-link>

@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row offset-1">
-      <div class="col-12 col-md-5" style="margin-top: 18%">
+      <div class="col-12 col-md-5" style="margin-top: 14%">
         <h2>Bientôt disponible</h2>
         <h1>Tableau de bord</h1>
         <p>Consultez la liste des adhérents à votre <br>association et assignez leur des tâches, des <br>rôles et bien
@@ -17,8 +17,8 @@
           <button class="btn" type="button">Télécharger le guide de création</button>
         </a>
       </div>
-      <div class="col-12 col-md-6" style="margin-top: 12%; border-radius: 40px">
-        <img src="../assets/Dashboard.svg" class="rounded d-block" alt="Responsive image" style="border-radius: 32px;">
+      <div class="col-12 col-md-6" style="margin-top: 7%; border-radius: 40px">
+        <img src="../assets/Dashboard.svg" class="rounded d-block" alt="Responsive image" style="border-radius: 32px; margin-left: -25px">
         <p>Notre outil de gestion pour <span>tout types d’associations</span></p>
       </div>
     </div>
@@ -55,7 +55,6 @@ export default {
   background-image: url("../assets/Background2.svg");
   height: 1035px;
   width: 100%;
-  margin-top: 80px;
   background-color: #F9F9F9;
 }
 
@@ -78,7 +77,7 @@ p {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 28px;
+  margin-top: 20px;
   color: #FFFFFF;
 }
 

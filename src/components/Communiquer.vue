@@ -61,7 +61,6 @@ export default {
   background-color: #F9F9F9;
 }
 .container-fluid {
-  margin-top: 70px;
   height: 768px;
 }
 

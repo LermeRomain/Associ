@@ -53,7 +53,6 @@ export default {
 
 
 .container-fluid {
-  margin-top: 100px;
   background-color: #F9F9F9;
   border-radius: 25px;
   padding: 58px;
