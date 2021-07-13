@@ -14,7 +14,7 @@
             La finalité étant d’aider les adolescents à se former, collaborer et trouver des moyens pour financer leur
             association.
           </p>
-          <button class="btn1">S’inscrire au webinaire</button>
+          <router-link to="#footer"><button class="btn1">S’inscrire au webinaire</button></router-link>
         </div>
         <div class="col-md-5">
           <img src="../assets/solar.svg" alt="illustrations solar associ" class="d-none d-md-block"
@@ -174,7 +174,7 @@
           <img src="../assets/Webinaire/group2.svg" alt="illustration webinaire"><br>
           <p2>Session début août</p2>
           <br>
-          <button class="btn">S’inscrire au webinaire</button>
+          <router-link to="#footer"><button class="btn">S’inscrire au webinaire</button></router-link>
         </div>
       </div>
     </div>

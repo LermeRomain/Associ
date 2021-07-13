@@ -62,19 +62,19 @@
             <h4>Assistance avancée</h4>
             <img src="../assets/Fonction/discord.svg" alt="illustraions serveur discord associ" style="margin-bottom: 50px">
             <p2>Notre équipe assure le service client 7/7, 24h-24h</p2>
-            <button class="btn2">Rester informé</button>
+            <router-link to="#footer"><button class="btn2">Rester informé</button></router-link>
           </div>
           <div class="box1 col-md-3">
             <h4>Statistiques</h4>
             <img src="../assets/Fonction/membre.svg" alt="illustraions membre associ" style="margin-bottom: 50px">
             <p2>Voyez en temps réel l’impact de votre activité</p2>
-            <button class="btn2">Rester informé</button>
+            <router-link to="#footer"><button class="btn2">Rester informé</button></router-link>
           </div>
           <div class="box1 col-md-3">
             <h4>Gestion trésorierie</h4>
             <img src="../assets/Fonction/document.svg" alt="illustraions documents associ" style="padding-right: 20px; margin-bottom: 50px">
             <p2>Un conseiller vous aide sur la partie financière</p2>
-            <button class="btn2">Rester informé</button>
+            <router-link to="#footer"><button class="btn2">Rester informé</button></router-link>
           </div>
         </div>
       </div>

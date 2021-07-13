@@ -5,7 +5,7 @@
         <h1>Conquis ?</h1>
         <p>Ne passez pas à côté de l’expérience de votre vie</p>
         <div class="row offset-md-4">
-          <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="dofollow"><button class="btn" type="button">Rejoindre la communauté</button></a>
+          <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow"><button class="btn" type="button">Rejoindre la communauté</button></a>
           <router-link to="/quizz"><button class="btn1" type="button">Démarrer le quizz</button></router-link>
         </div>
       </div>

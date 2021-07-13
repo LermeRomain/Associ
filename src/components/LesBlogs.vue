@@ -95,7 +95,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <button class="btn offset-md-8">Télécharger le guide de création</button>
+         <button onclick="window.location.href ='https://drive.google.com/file/d/1Nek3VsJNKDJ0E5xSBA9TKV8rtuXEtMbE/view?usp=sharing'"  class="btn offset-md-8">Télécharger le guide de création</button>
       </div>
     </div>
 

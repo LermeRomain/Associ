@@ -9,7 +9,7 @@
                 src="../assets/footer/insta.svg" alt="logo instagram" style="width: 20%; height: auto"></a>
             <a href="https://vm.tiktok.com/ZMdeewBJb/" target="_blank" rel="dofollow"><img
                 src="../assets/footer/tiktok.svg" alt="logo tiktok" style="width: 20%;height: auto; margin-left: 15px"></a>
-            <a href="https://discord.gg/GuSa7w7U" target="_blank" rel="dofollow"><img src="../assets/footer/discord.svg"
+            <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow"><img src="../assets/footer/discord.svg"
                                                                                       alt="logo discord"
                                                                                       style="width: 20%;height: auto; margin-left: 15px"></a>
           </div>

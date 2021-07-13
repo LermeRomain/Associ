@@ -61,7 +61,9 @@
           <br>
           <img src="../assets/6€.svg" alt="illustrations tarif 6€99">
           <br>
+          <router-link to="#footer">
           <button class="btn1">Rester informé</button>
+          </router-link>
           <br>
           <span>30 jours gratuits sans engagement</span>
         </div>
@@ -80,7 +82,8 @@
           <router-link to="/contacter">
             <button class="btn" type="button">Contactez-nous</button>
           </router-link>
-          <button class="btn" type="button">Télécharger le guide de création</button>
+          <a href="https://drive.google.com/file/d/1Nek3VsJNKDJ0E5xSBA9TKV8rtuXEtMbE/view?usp=sharing" target="_blank"
+             rel="nofollow"><button class="btn" type="button">Télécharger le guide de création</button></a>
         </div>
       </div>
     </div>
