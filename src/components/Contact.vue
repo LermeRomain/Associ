@@ -49,20 +49,21 @@ export default {
   border-radius: 25px;
   width: auto;
   height: 265px;
+  margin-top: 50px;
 }
 
 
 .container-fluid {
   background-color: #F9F9F9;
   border-radius: 25px;
-  padding: 58px;
+  padding: 20px;
 }
 
 .container {
   margin-top: 100px;
   background-color: #FFFFFF;
   border-radius: 25px;
-  padding: 58px;
+  padding: 25px;
 }
 
 h1 {
