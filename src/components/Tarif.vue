@@ -1,7 +1,7 @@
 <template>
   <div class="font">
     <div class="container-fluid background">
-      <div class="row">
+      <div class="row" style="">
         <div class="offset-md-1" style="margin-top: 10%">
           <h1>
             Bientôt disponible
@@ -16,7 +16,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 offset-md-1" style="margin-top: 50px">
+        <div class="col-md-3 offset-md-1" style="margin-top: 10%">
           <div class="list-group" id="list-tab" role="tablist">
             <a @click.prevent="nextStep1(true)" class="list-group-item list-group-item-action active" id="list-home-list"
                data-toggle="list"
@@ -29,7 +29,7 @@
                href="#list-messages" role="tab" aria-controls="messages">Calendrier</a>
           </div>
         </div>
-        <div style="margin-top: 30px">
+        <div style="margin-top: 10%">
           <img v-if="activeStep ==1" class="col-12" src="../assets/Dashboard2.svg" alt="dashboard associ" style="width: 829px;height: 585px">
           <img v-if="activeStep ==2" class="col-12" src="../assets/membres.svg" alt="dashboard membres associ" style="width: 829px;height: 585px">
           <img v-if="activeStep ==3" class="col-12" src="../assets/calendrier.svg" alt="dashboard calendrier associ" style="width: 829px;height: 585px">
