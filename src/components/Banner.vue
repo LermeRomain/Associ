@@ -7,13 +7,21 @@
           Jusqu’à 20 ans, vous aurez la possibilité avec un associé de créer votre association.<br><br>
           De l’administratif à sa gestion, nous vous accompagnerons tout au long de votre vie associative.</p>
         <div class="row" style="margin-left: 1px">
-          <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow"><button class="btn" type="button">Rejoindre la communauté</button></a>
-          <router-link to="/qui-sommes-nous"><button class="btn1" type="button" style="margin-top: 20px; background: #F9F9F9">Nous Découvrir</button></router-link>
+          <a href="https://discord.gg/VpxPH2zNmU" target="_blank" rel="dofollow">
+            <button class="btn" type="button">Rejoindre la communauté</button>
+          </a>
+          <router-link to="/qui-sommes-nous">
+            <button class="btn1" type="button" style="margin-top: 20px; background: #F9F9F9">Nous Découvrir</button>
+          </router-link>
         </div>
       </div>
       <div class="col-12 col-md-5">
-        <video src="../assets/videoCible.mp4" width=100% height=100% controls
-               title="vidéo explainer du concept Associ"></video>
+        <iframe width=100% height=400px src="https://www.youtube-nocookie.com/embed/pMqGHyCGYtM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <!--        <video src="../assets/videoCible.mp4" width=100% height=100% controls-->
+        <!--               title="vidéo explainer du concept Associ"></video>-->
       </div>
     </div>
   </div>
@@ -126,7 +134,7 @@ span {
   color: #400186;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 </style>
