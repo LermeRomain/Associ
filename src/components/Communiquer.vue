@@ -82,6 +82,12 @@ h1 {
   margin-top: 100px;
 }
 
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 45px;
+  }
+}
+
 P {
   color: #FFFFFF;
   font-size: 20px;
