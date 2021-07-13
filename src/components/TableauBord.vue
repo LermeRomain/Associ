@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="row offset-1">
-      <div class="col-12 col-md-5" style="margin-top: 14%">
-        <h2>Bientôt disponible</h2>
-        <h1>Tableau de bord</h1>
+      <div class="col-12 col-md-5">
+        <h1 style="margin-top: 25%">Bientôt disponible</h1>
+        <h2>Tableau de bord</h2>
         <p>Consultez la liste des adhérents à votre <br>association et assignez leur des tâches, des <br>rôles et bien
           plus encore !</p>
 
@@ -58,7 +58,7 @@ export default {
   background-color: #F9F9F9;
 }
 
-h1 {
+h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -115,7 +115,7 @@ img {
   border-radius: 50px;
 }
 
-h2 {
+h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -140,6 +140,12 @@ span {
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    margin-top: 25%;
+  }
 }
 
 
