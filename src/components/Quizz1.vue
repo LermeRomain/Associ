@@ -532,24 +532,16 @@ a {
   text-decoration: none;
 }
 
-.btn-circle {
-  width: 130px;
-  height: 130px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 50px;
-}
 
 .btn-circle.btn-lg {
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.33;
   border-radius: 100px;
 }
+
 
 </style>
 
