@@ -121,7 +121,7 @@ h1 {
 @media screen and (max-width: 768px) {
   h1 {
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 48px;
     font-family: Roboto;
     font-weight: bold;
     margin-top: 70px;
@@ -129,7 +129,7 @@ h1 {
 
   p {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Roboto;
     margin-top: 20px;
     margin-bottom: 50px;
