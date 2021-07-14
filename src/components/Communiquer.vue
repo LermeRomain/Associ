@@ -35,7 +35,7 @@
     <h2 class="offset-md-1">
       Dossier de presse
     </h2>
-    <div class="container-fluid background2" style="margin-top: 15% ">
+    <div class="container-fluid background2" style="margin-top: 5% ">
       <div class="row">
         <div class="col-md-5 offset-md-1">
           <img src="../assets/presse.png" alt="dossier de presse" class="d-none d-md-block"
