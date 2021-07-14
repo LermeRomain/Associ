@@ -534,8 +534,8 @@ a {
 
 
 .btn-circle.btn-lg {
-  width: 190px;
-  height: 190px;
+  width: 170px;
+  height: 170px;
   padding: 10px 16px;
   font-size: 16px;
   line-height: 1.33;
