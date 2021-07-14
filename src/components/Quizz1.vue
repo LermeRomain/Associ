@@ -4,15 +4,36 @@
     <div class="container-fluid" v-if="activeStep == 1">
       <h1 class="text-center">J'ai :</h1>
       <div class="row">
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">- de 16
-          ans
-        </button>
-        <iframe src="https://giphy.com/embed/XGijTnUuPfZyrfVEMs" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
-                frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">- de 16
+            ans
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/XGijTnUuPfZyrfVEMs"
+                  style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">- de 16
+                ans
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">+ de 16
+                ans
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">+ de 16
-          ans
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">+ de 16
+            ans
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -20,14 +41,34 @@
     <div class="container-fluid" v-if="activeStep == 2">
       <h1 class="text-center">J'apprends mieux...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">En équipe
-        </button>
-        <iframe src="https://giphy.com/embed/55gSqlQsUkQJK7kAIP" style="margin-right: auto; margin-left: auto"
-                width="480" height="270" frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">En équipe
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/55gSqlQsUkQJK7kAIP" style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">En équipe
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">En
+                autodidacte
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">En
-          autodidacte
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">En
+            autodidacte
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -35,17 +76,37 @@
     <div class="container-fluid" v-if="activeStep == 3">
       <h1 class="text-center">L'engagement pour moi, c'est...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Des
-          valeurs qui
-          me tiennent à cœur
-        </button>
-        <iframe src="https://giphy.com/embed/l0MYFebwHWySTU5Lq" style="margin-right: auto; margin-left: auto"
-                width="480" height="330" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">Des
+            valeurs qui
+            me tiennent à cœur
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/l0MYFebwHWySTU5Lq" style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Des
+                valeurs qui
+                me tiennent à cœur
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Pas ma
+                priorité, je préfère Netflix & chill
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Pas ma
-          priorité, je préfère Netflix & chill
-          <conseils></conseils>
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">Pas ma
+            priorité, je préfère Netflix & chill
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -53,17 +114,39 @@
     <div class="container-fluid" v-if="activeStep == 4">
       <h1 class="text-center">Mes besoins</h1>
       <div class="row">
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">J'ai mon
-          idée
-          d'association, je veux des membres qui me ressemblent !
-        </button>
-        <iframe src="https://giphy.com/embed/SrRnsWM8fpnfktOFRD" style="margin-right: auto; margin-left: auto"
-                width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">J'ai mon
+            idée
+            d'association, je veux des membres qui me ressemblent !
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/SrRnsWM8fpnfktOFRD" style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">J'ai mon
+                idée
+                d'association, je veux des membres qui me ressemblent !
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">J'ai
+                besoin de
+                conseils !
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">J'ai
-          besoin de
-          conseils !
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">J'ai
+            besoin de
+            conseils !
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -71,17 +154,40 @@
     <div class="container-fluid" v-if="activeStep == 5">
       <h1 class="text-center">Je créer une association, j'en parle à...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Mes amis
-          / ma
-          famille
-        </button>
-        <iframe src="https://giphy.com/embed/KCdq1IyxkmgRKj2D23" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
-                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">Mes amis
+            / ma
+            famille
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/KCdq1IyxkmgRKj2D23"
+                  style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Mes amis
+                / ma
+                famille
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Mon
+                école /
+                mon travail
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Mon
-          école /
-          mon travail
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">Mon
+            école /
+            mon travail
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -89,17 +195,40 @@
     <div class="container-fluid" v-if="activeStep == 6">
       <h1 class="text-center">Le plus contraignant pour créer mon association c'est...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Le
-          manque de
-          confiance en moi
-        </button>
-        <iframe src="https://giphy.com/embed/2zYk0N9ilSztOAPzb0" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
-                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">Le
+            manque de
+            confiance en moi
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/2zYk0N9ilSztOAPzb0"
+                  style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Le
+                manque de
+                confiance en moi
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Le
+                manque
+                d'argent
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Le
-          manque
-          d'argent
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">Le
+            manque
+            d'argent
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -108,13 +237,31 @@
     <div class="container-fluid" v-if="activeStep == 7">
       <h1 class="text-center">Je préfère...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Parler
-        </button>
-        <iframe src="https://giphy.com/embed/0WG69qNdpTEOKG0egb" style="margin-right: auto; margin-left: auto"
-                width="auto" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">Parler
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/0WG69qNdpTEOKG0egb" style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Parler
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Ecouter
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Ecouter
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">Ecouter
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -122,17 +269,39 @@
     <div class="container-fluid" v-if="activeStep == 8">
       <h1 class="text-center">Discord me sert...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">À avoir
-          cours
-          en ligne
-        </button>
-        <iframe src="https://giphy.com/embed/IgAfIrRH96pFMT3sOm" style="margin-right: auto; margin-left: auto"
-                width="480" height="336" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">À avoir
+            cours
+            en ligne
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/IgAfIrRH96pFMT3sOm" style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">À avoir
+                cours
+                en ligne
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">À
+                discuter
+                avec des gens
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">À
-          discuter
-          avec des gens
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">À
+            discuter
+            avec des gens
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -140,17 +309,40 @@
     <div class="container-fluid" v-if="activeStep == 9">
       <h1 class="text-center">Le travail en équipe pour moi c'est...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Comme un
-          jeu
-          d'enfant
-        </button>
-        <iframe src="https://giphy.com/embed/pslhvBFfstOJiyBOrs" style="margin-right: auto; margin-left: auto; height: 350px; width: auto"
-                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">Comme un
+            jeu
+            d'enfant
+          </button>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://giphy.com/embed/pslhvBFfstOJiyBOrs"
+                  style=" margin: 0 auto; height: 350px; width: 100%"
+                  frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Comme un
+                jeu
+                d'enfant
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">À
+                petites
+                doses
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">À
-          petites
-          doses
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">À
+            petites
+            doses
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -158,15 +350,35 @@
     <div class="container-fluid" v-if="activeStep == 10">
       <h1 class="text-center">Dans 3 ans tu inspires à...</h1>
       <div class="row">
-        <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-left: 150px">Mener des
-          projets associatifs
-        </button>
-        <iframe src="https://giphy.com/embed/fH985LNdqFZXOFHygK" style="margin-right: auto; margin-left: auto"
-                width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-left: 150px">Mener des
+            projets associatifs
+          </button>
+        </div>
+        <div class="col-md-5">
+        <iframe src="https://giphy.com/embed/fH985LNdqFZXOFHygK" style=" margin: 0 auto; height: 350px; width: 100%"
+                frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
+          <div class="row align-items-end d-md-none">
+            <div class="col-6">
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Mener des
+                projets associatifs
+              </button>
+            </div>
+            <div class="col-6">
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Ne rien
+                changer à ma vie
+              </button>
+            </div>
+          </div>
+        </div>
         <!--      <img src="../assets/Dashboard.svg" style="margin-right: auto; margin-left: auto">-->
-        <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button" style="margin-right: 150px">Ne rien
-          changer à ma vie
-        </button>
+        <div class="col d-none d-md-block">
+          <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button"
+                  style="margin-right: 150px">Ne rien
+            changer à ma vie
+          </button>
+        </div>
       </div>
       <p class="text-center">{{ count }}/10</p>
     </div>
@@ -316,8 +528,8 @@ span1 {
   font-family: Roboto;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 .btn-circle {
@@ -329,6 +541,7 @@ a{
   line-height: 1.428571429;
   border-radius: 50px;
 }
+
 .btn-circle.btn-lg {
   width: 200px;
   height: 200px;
