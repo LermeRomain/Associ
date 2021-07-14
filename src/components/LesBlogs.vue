@@ -162,7 +162,7 @@ h1 {
   box-sizing: border-box;
   border-radius: 25px;
   width: auto;
-  height: 432px;
+  height: 85%;
 }
 
 h2 {
