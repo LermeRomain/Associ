@@ -16,12 +16,12 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">- de 16
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">- de 16
                 ans
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">+ de 16
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">+ de 16
                 ans
               </button>
             </div>
@@ -52,11 +52,11 @@
 
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">En équipe
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">En équipe
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">En
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">En
                 autodidacte
               </button>
             </div>
@@ -88,13 +88,13 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Des
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">Des
                 valeurs qui
                 me tiennent à cœur
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Pas ma
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">Pas ma
                 priorité, je préfère Netflix & chill
               </button>
             </div>
@@ -126,13 +126,13 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">J'ai mon
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">J'ai mon
                 idée
                 d'association, je veux des membres qui me ressemblent !
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">J'ai
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">J'ai
                 besoin de
                 conseils !
               </button>
@@ -167,13 +167,13 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Mes amis
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">Mes amis
                 / ma
                 famille
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Mon
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">Mon
                 école /
                 mon travail
               </button>
@@ -208,13 +208,13 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Le
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">Le
                 manque de
                 confiance en moi
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Le
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">Le
                 manque
                 d'argent
               </button>
@@ -247,11 +247,11 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Parler
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">Parler
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Ecouter
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">Ecouter
               </button>
             </div>
           </div>
@@ -281,13 +281,13 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">À avoir
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">À avoir
                 cours
                 en ligne
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">À
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">À
                 discuter
                 avec des gens
               </button>
@@ -322,13 +322,13 @@
                   frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Comme un
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">Comme un
                 jeu
                 d'enfant
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">À
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">À
                 petites
                 doses
               </button>
@@ -361,12 +361,12 @@
                 frameBorder="0" class="giphy-embed text-center" allowFullScreen></iframe>
           <div class="row align-items-end d-md-none">
             <div class="col-6">
-              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-lg" type="button">Mener des
+              <button @click.prevent="nextStep(true)" class="btn1 btn-circle btn-primary btn-sm" type="button">Mener des
                 projets associatifs
               </button>
             </div>
             <div class="col-6">
-              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-lg" type="button">Ne rien
+              <button @click.prevent="nextStep(false)" class="btn1 btn-circle btn-primary btn-sm" type="button">Ne rien
                 changer à ma vie
               </button>
             </div>
@@ -533,11 +533,20 @@ a {
 }
 
 
-.btn-circle.btn-lg {
+.btn-circle.btn-sm {
   width: 170px;
   height: 170px;
   padding: 10px 16px;
   font-size: 16px;
+  line-height: 1.33;
+  border-radius: 100px;
+}
+
+.btn-circle.btn-lg {
+  width: 200px;
+  height: 200px;
+  padding: 10px 16px;
+  font-size: 18px;
   line-height: 1.33;
   border-radius: 100px;
 }
